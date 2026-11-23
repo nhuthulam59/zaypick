@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'Privacy Policy — ZayPick', description: 'How ZayPick handles your email, clicks and cookies. We do not sell your personal data.' };
+export const metadata: Metadata = { title: 'Privacy Policy — ZayPick', description: 'How ZayPick handles your email, clicks and cookies. We do not sell your personal data.', alternates: { canonical: 'https://zaypick.vercel.app/privacy' } };
 
 export default function PrivacyPage() {
   return (

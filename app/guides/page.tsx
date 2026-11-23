@@ -3,7 +3,7 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import { readDb } from '@/lib/db';
 
-export const metadata: Metadata = { title: 'Buying Guides — ZayPick', description: 'Simple, honest buying guides: headphones, air fryers, running shoes and more — what to check before you buy on Amazon.' };
+export const metadata: Metadata = { title: 'Buying Guides — ZayPick', description: 'Simple, honest buying guides: headphones, air fryers, running shoes and more — what to check before you buy on Amazon.', alternates: { canonical: 'https://zaypick.vercel.app/guides' } };
 
 export const dynamic = 'force-dynamic';
 

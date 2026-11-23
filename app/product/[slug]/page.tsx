@@ -13,7 +13,32 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const db = readDb();
   const product = db.products.find((p) => p.slug === params.slug);
   if (!product) return { title: 'Product — ZayPick' };
-  return { title: `${product.name} — ZayPick`, description: `${product.name} — $${product.price.toFixed(2)} on Amazon (was $${product.oldPrice.toFixed(2)}). ${product.description.slice(0, 120)}` };
+  const title = `${product.name} — ZayPick`;
+  const description = `${product.name} — $${product.price.toFixed(2)} on Amazon (was $${product.oldPrice.toFixed(2)}). ${product.description.slice(0, 120)}`;
+  const url = `https://zaypick.vercel.app/product/${product.slug}`;
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'ZayPick',
+      // Note: og:type 'product' is valid per the Open Graph protocol, but
+      // Next.js 14 rejects it at runtime, so 'website' is used here. The
+      // Product JSON-LD on the page still tells search engines this is a
+      // product.
+      type: 'website',
+      images: [{ url: product.image, alt: product.name }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [product.image],
+    },
+  };
 }
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
@@ -22,8 +47,33 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   if (!product) notFound();
   const related = db.products.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
   const pct = discountPct(product);
+  const productUrl = `https://zaypick.vercel.app/product/${product.slug}`;
+  // Structured data uses only real values from data/db.json. No brand field
+  // exists in the data, so none is claimed. Availability is shown as InStock
+  // because the product is listed as buyable on Amazon (see the Amazon page
+  // for live stock); the page itself says to check the current price on Amazon.
+  const productJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    image: product.image,
+    description: product.description,
+    url: productUrl,
+    ...(product.asin ? { sku: product.asin } : {}),
+    ...(product.rating > 0 && product.reviews > 0
+      ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: product.rating, reviewCount: product.reviews } }
+      : {}),
+    offers: {
+      '@type': 'Offer',
+      url: productUrl,
+      priceCurrency: 'USD',
+      price: product.price,
+      availability: 'https://schema.org/InStock',
+    },
+  };
   return (
     <div className="py-6">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
       <p className="truncate text-sm text-slate-500"><Link href="/" className="hover:text-brand">Home</Link> / <Link href="/shop" className="hover:text-brand">Shop</Link> / {product.name}</p>
       <div className="mt-4 grid gap-6 md:grid-cols-2 lg:gap-8">
         <div className="relative h-72 overflow-hidden rounded-3xl bg-slate-100 sm:h-96">

@@ -9,7 +9,28 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const db = readDb();
   const cat = db.categories.find((c) => c.slug === params.slug);
   if (!cat) return { title: 'Category — ZayPick' };
-  return { title: `${cat.name} Deals — ZayPick`, description: `${cat.description} Hand-picked ${cat.name} deals from Amazon.` };
+  const title = `${cat.name} Deals — ZayPick`;
+  const description = `${cat.description} Hand-picked ${cat.name} deals from Amazon.`;
+  const url = `https://zaypick.vercel.app/category/${cat.slug}`;
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'ZayPick',
+      type: 'website',
+      images: [{ url: cat.image, alt: cat.name }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [cat.image],
+    },
+  };
 }
 
 export default function CategoryPage({ params }: { params: { slug: string } }) {

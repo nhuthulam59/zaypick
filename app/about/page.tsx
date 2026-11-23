@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { readDb } from '@/lib/db';
 
-export const metadata: Metadata = { title: 'About ZayPick', description: 'ZayPick is an Amazon affiliate site that hand-picks well-reviewed deals across Electronics, Fashion, Home, Beauty and Sports.' };
+export const metadata: Metadata = { title: 'About ZayPick', description: 'ZayPick is an Amazon affiliate site that hand-picks well-reviewed deals across Electronics, Fashion, Home, Beauty and Sports.', alternates: { canonical: 'https://zaypick.vercel.app/about' } };
 
 export const dynamic = 'force-dynamic';
 

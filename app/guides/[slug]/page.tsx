@@ -11,7 +11,28 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const db = readDb();
   const guide = db.guides.find((g) => g.slug === params.slug);
   if (!guide) return { title: 'Guide — ZayPick' };
-  return { title: `${guide.title} — ZayPick`, description: guide.excerpt };
+  const title = `${guide.title} — ZayPick`;
+  const description = guide.excerpt;
+  const url = `https://zaypick.vercel.app/guides/${guide.slug}`;
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'ZayPick',
+      type: 'article',
+      images: [{ url: guide.image, alt: guide.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [guide.image],
+    },
+  };
 }
 
 function renderContent(content: string) {

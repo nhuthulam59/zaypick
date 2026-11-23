@@ -8,8 +8,24 @@ import { readDb } from '@/lib/db';
 
 export const viewport = { width: 'device-width', initialScale: 1 };
 export const metadata: Metadata = {
+  metadataBase: new URL('https://zaypick.vercel.app'),
   title: 'ZayPick — Hand-picked Amazon Deals',
   description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+  openGraph: {
+    title: 'ZayPick — Hand-picked Amazon Deals',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+    url: 'https://zaypick.vercel.app',
+    siteName: 'ZayPick',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: '/brand/zaypick-banner.webp', width: 2736, height: 912, alt: 'ZayPick — Smart Shopping, Best Deals, Every Day' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ZayPick — Hand-picked Amazon Deals',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+    images: ['/brand/zaypick-banner.webp'],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

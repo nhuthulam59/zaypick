@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'Affiliate Disclosure — ZayPick', description: 'ZayPick is a participant in the Amazon Associates Program. As an Amazon Associate I earn from qualifying purchases.' };
+export const metadata: Metadata = { title: 'Affiliate Disclosure — ZayPick', description: 'ZayPick is a participant in the Amazon Associates Program. As an Amazon Associate I earn from qualifying purchases.', alternates: { canonical: 'https://zaypick.vercel.app/disclosure' } };
 
 export default function DisclosurePage() {
   return (

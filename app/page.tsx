@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { readDb } from '@/lib/db';
@@ -6,12 +7,41 @@ import Newsletter from '@/components/Newsletter';
 
 export const dynamic = 'force-dynamic';
 
+export const metadata: Metadata = {
+  title: 'ZayPick — Hand-picked Amazon Deals',
+  description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+  alternates: { canonical: 'https://zaypick.vercel.app' },
+  openGraph: {
+    title: 'ZayPick — Hand-picked Amazon Deals',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+    url: 'https://zaypick.vercel.app',
+    siteName: 'ZayPick',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: '/brand/zaypick-banner.webp', width: 2736, height: 912, alt: 'ZayPick — Smart Shopping, Best Deals, Every Day' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ZayPick — Hand-picked Amazon Deals',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+    images: ['/brand/zaypick-banner.webp'],
+  },
+};
+
 export default function Home() {
   const db = readDb();
   const deals = [...db.products].sort((a, b) => (b.oldPrice - b.price) - (a.oldPrice - a.price)).slice(0, 8);
   const maxOff = deals.length ? Math.max(...db.products.map((p) => (p.oldPrice > p.price ? Math.round((1 - p.price / p.oldPrice) * 100) : 0))) : 0;
+  const websiteJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'ZayPick',
+    url: 'https://zaypick.vercel.app',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports.',
+  };
   return (
     <div className="space-y-12 py-6">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <section className="overflow-hidden rounded-3xl bg-gradient-to-r from-navy to-navy-light text-white">
         <div className="flex flex-col items-start gap-6 p-6 sm:p-8 md:flex-row md:items-center md:justify-between lg:p-12">
           <div>
