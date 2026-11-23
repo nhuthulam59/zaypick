@@ -9,7 +9,13 @@ export default function AdminLogin() {
   async function submit(e: React.FormEvent) {
     e.preventDefault();
     const r = await fetch('/api/admin/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password }) });
-    if (r.ok) router.push('/admin'); else setErr('ভুল পাসওয়ার্ড। আবার চেষ্টা করো।');
+    if (r.ok) router.push('/admin');
+    else {
+      // Show the server's message (e.g. password not set, or too many attempts)
+      // instead of always saying "wrong password".
+      const data = await r.json().catch(() => null);
+      setErr(data?.error || 'ভুল পাসওয়ার্ড। আবার চেষ্টা করো।');
+    }
   }
   return (
     <div className="mx-auto max-w-sm py-16">

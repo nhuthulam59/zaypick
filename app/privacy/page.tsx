@@ -10,7 +10,7 @@ export default function PrivacyPage() {
       <h2 className="mt-8 text-xl font-black text-navy">What we collect</h2>
       <ul className="mt-3 list-disc space-y-2 pl-5 leading-relaxed text-slate-700">
         <li><strong>Deal-alert email:</strong> if you sign up for deal alerts, we store only your email address and the signup date, and use it only to send deal emails. You can unsubscribe at any time.</li>
-        <li><strong>Anonymous clicks:</strong> clicks on &quot;Buy on Amazon&quot; links are counted per product so we can see which deals are popular. These counts are not linked to your identity.</li>
+        <li><strong>Visits and clicks:</strong> when you visit a page or click a &quot;Buy on Amazon&quot; link, we record the page, the time, your country and city, your device type, and a random visitor ID stored in your browser for this session, together with your IP address. This is only to count visitors, see which deals are popular, and spot abuse. It is visible only to the site admin, is never sold or shared, and is never linked to your name, email or Amazon account.</li>
         <li><strong>Nothing else:</strong> we do not ask for your name, address, payment details or phone number, and we do not run user accounts.</li>
       </ul>
       <h2 className="mt-8 text-xl font-black text-navy">Cookies and analytics</h2>

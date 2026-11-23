@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { readDb, writeDb } from '@/lib/db';
+import { requireAdmin } from '@/lib/auth';
 import type { Product } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
@@ -9,6 +10,8 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
+  const denied = requireAdmin(req);
+  if (denied) return denied;
   const body = (await req.json()) as Partial<Product>;
   const db = readDb();
   const product: Product = {
@@ -37,6 +40,8 @@ export async function POST(req: Request) {
 }
 
 export async function DELETE(req: Request) {
+  const denied = requireAdmin(req);
+  if (denied) return denied;
   const { searchParams } = new URL(req.url);
   const id = searchParams.get('id');
   const db = readDb();

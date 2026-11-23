@@ -1,11 +1,14 @@
 import { NextResponse } from 'next/server';
 import { readDb, writeDb } from '@/lib/db';
+import { requireAdmin } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() { return NextResponse.json(readDb().categories); }
 
 export async function POST(req: Request) {
+  const denied = requireAdmin(req);
+  if (denied) return denied;
   const body = await req.json();
   const db = readDb();
   const cat = {
@@ -22,6 +25,8 @@ export async function POST(req: Request) {
 }
 
 export async function DELETE(req: Request) {
+  const denied = requireAdmin(req);
+  if (denied) return denied;
   const id = new URL(req.url).searchParams.get('id');
   const db = readDb();
   db.categories = db.categories.filter((c) => c.id !== id);

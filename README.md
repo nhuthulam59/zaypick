@@ -28,10 +28,11 @@ your Amazon Associate Tag appended, records the click, and shows
 ## Admin login
 
 - URL: `/admin` (you are redirected to `/admin/login` if not logged in)
-- **Default password: `admin123`**
-- Change it before going live: set the environment variable
+- **There is no default password.** Admin login is disabled until you set
   `ADMIN_PASSWORD` to a strong password (in Vercel: Settings → Environment
   Variables), then redeploy. Never commit a real password to GitHub.
+- After 5 wrong password attempts from one IP in 15 minutes, login is
+  blocked for a while. The session lasts 12 hours.
 - Your Amazon Associate Tag is set in Admin → Settings, or in
   `.env.local` as `NEXT_PUBLIC_AMAZON_TAG` (default in the seed data is
   `zaypick-20` — replace it with your real tag).

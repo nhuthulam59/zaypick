@@ -107,7 +107,7 @@ export default function AdminPage() {
     <div className="py-6">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-3xl font-black text-navy">অ্যাডমিন — ZayPick</h1>
-        <a href="/" className="text-sm font-bold text-brand">← সাইট দেখুন</a>
+        <span className="flex gap-2"><a href="/" className="text-sm font-bold text-brand">← সাইট দেখুন</a><button onClick={async () => { await fetch('/api/admin/logout', { method: 'POST' }); window.location.href = '/admin/login'; }} className="rounded-full border border-red-300 px-3 py-1 text-sm font-bold text-red-600">লগআউট</button></span>
       </div>
       {msg && <p className="mt-3 rounded-lg bg-green-50 px-4 py-2 text-sm font-medium text-green-800">{msg}</p>}
       <div className="mt-4 flex flex-wrap gap-2">
@@ -340,6 +340,7 @@ export default function AdminPage() {
         <div className="mt-6 space-y-4 rounded-2xl border p-5">
           <h2 className="font-bold">এক্সপোর্ট / ইমপোর্ট JSON</h2>
           <p className="text-sm text-slate-600">Vercel-এ <code>data/db.json</code> স্থায়ী না — এই অ্যাডমিন প্যানেলে বদল করলে আবার ডেপ্লয় করলে সেটা হারিয়ে যেতে পারে। <strong>বদলের পর সবসময় এক্সপোর্ট করুন</strong>, ফাইলটা নিরাপদে রাখুন, তারপর আপডেট করা <code>data/db.json</code> GitHub-এ দিয়ে আবার ডেপ্লয় করুন। স্থায়ীভাবে রাখতে পরে Vercel Postgres বা KV লাগাতে হবে (README দেখুন)।</p>
+          <p className="rounded-lg bg-amber-50 p-3 text-sm">নিরাপত্তা মনে রাখবেন: অ্যাডমিন পাসওয়ার্ড কাউকে দেবেন না, আর ভিজিটরদের IP ঠিকানা কখনো শেয়ার বা প্রকাশ করবেন না — এগুলো শুধু আপনার চোখের জন্য। বদলের পর সবসময় Export JSON করে রাখুন।</p>
           <div className="flex flex-wrap gap-3">
             <button onClick={exportDb} className="rounded-full bg-navy px-5 py-2 font-bold text-white">JSON এক্সপোর্ট</button>
             <label className="cursor-pointer rounded-full border px-5 py-2 font-bold">JSON ইমপোর্ট<input type="file" accept=".json" className="hidden" onChange={importDb} /></label>
