@@ -3,6 +3,7 @@ import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import VisitTracker from '@/components/VisitTracker';
 import { readDb } from '@/lib/db';
 
 export const viewport = { width: 'device-width', initialScale: 1 };
@@ -47,6 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
+        <VisitTracker />
         <Header />
         <main className="mx-auto min-h-[60vh] w-full max-w-7xl px-3 sm:px-4">{children}</main>
         <Footer />

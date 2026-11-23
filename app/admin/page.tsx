@@ -1,8 +1,22 @@
 'use client';
 import { useEffect, useState } from 'react';
-import type { Product, Category, Guide, Settings, Click, Subscriber, Db } from '@/lib/types';
+import type { Product, Category, Guide, Settings, Click, Subscriber, Db, Visit, ClickEvent } from '@/lib/types';
 
-type Tab = 'dashboard' | 'products' | 'categories' | 'guides' | 'settings' | 'subscribers' | 'backup';
+type Tab = 'dashboard' | 'products' | 'categories' | 'guides' | 'settings' | 'subscribers' | 'backup' | 'visitors';
+
+interface VisitStats {
+  totalPageviews: number;
+  totalVisitors: number;
+  todayPageviews: number;
+  todayVisitors: number;
+  last7Days: { date: string; views: number; visitors: number }[];
+  topPages: { path: string; views: number }[];
+  topCountries: { country: string; visitors: number }[];
+  deviceSplit: { device: string; views: number }[];
+  topSources: { source: string; visitors: number }[];
+  clickEvents: ClickEvent[];
+  recent: Visit[];
+}
 
 const emptyProduct: Product = { id: '', slug: '', name: '', category: 'electronics', price: 0, oldPrice: 0, rating: 4.5, reviews: 0, badge: '', image: '', asin: '', description: '', highlights: [], pros: [], cons: [], amazonUrl: '', priceAsOf: new Date().toISOString().slice(0, 10) };
 
@@ -14,21 +28,23 @@ export default function AdminPage() {
   const [settings, setSettings] = useState<Settings | null>(null);
   const [clicks, setClicks] = useState<Click[]>([]);
   const [subs, setSubs] = useState<Subscriber[]>([]);
+  const [stats, setStats] = useState<VisitStats | null>(null);
   const [msg, setMsg] = useState('');
   const [editing, setEditing] = useState<Product | null>(null);
   const [editingCat, setEditingCat] = useState<Category | null>(null);
   const [editingGuide, setEditingGuide] = useState<Guide | null>(null);
 
   async function load() {
-    const [p, c, g, s, k, u] = await Promise.all([
+    const [p, c, g, s, k, u, v] = await Promise.all([
       fetch('/api/products').then((r) => r.json()),
       fetch('/api/categories').then((r) => r.json()),
       fetch('/api/guides').then((r) => r.json()),
       fetch('/api/settings').then((r) => r.json()),
       fetch('/api/clicks').then((r) => r.json()),
       fetch('/api/subscribers').then((r) => r.json()),
+      fetch('/api/visits').then((r) => r.json()).catch(() => null),
     ]);
-    setProducts(p); setCategories(c); setGuides(g); setSettings(s); setClicks(k); setSubs(u);
+    setProducts(p); setCategories(c); setGuides(g); setSettings(s); setClicks(k); setSubs(u); setStats(v);
   }
   useEffect(() => { load(); }, []);
 
@@ -65,7 +81,26 @@ export default function AdminPage() {
   }
 
   const totalClicks = clicks.reduce((s, c) => s + c.count, 0);
-  const tabs: [Tab, string][] = [['dashboard', 'ড্যাশবোর্ড'], ['products', 'প্রোডাক্ট'], ['categories', 'ক্যাটাগরি'], ['guides', 'গাইড'], ['settings', 'সেটিংস'], ['subscribers', 'সাবস্ক্রাইবার'], ['backup', 'এক্সপোর্ট / ইমপোর্ট']];
+  const tabs: [Tab, string][] = [['dashboard', 'ড্যাশবোর্ড'], ['visitors', 'রিপোর্ট'], ['products', 'প্রোডাক্ট'], ['categories', 'ক্যাটাগরি'], ['guides', 'গাইড'], ['settings', 'সেটিংস'], ['subscribers', 'সাবস্ক্রাইবার'], ['backup', 'এক্সপোর্ট / ইমপোর্ট']];
+  const ctr = stats && stats.totalPageviews > 0 ? ((totalClicks / stats.totalPageviews) * 100).toFixed(1) : '0.0';
+  const maxDayViews = stats ? Math.max(1, ...stats.last7Days.map((d) => d.views)) : 1;
+  // Group the newest visits + all click events by visitor, newest visitor first.
+  const visitorRows = (() => {
+    if (!stats) return [];
+    const all = new Map<string, { visits: Visit[]; clicks: ClickEvent[] }>();
+    for (const v of stats.recent) {
+      if (!all.has(v.visitorId)) all.set(v.visitorId, { visits: [], clicks: [] });
+      all.get(v.visitorId)!.visits.push(v);
+    }
+    for (const c of stats.clickEvents || []) {
+      if (!all.has(c.visitorId)) all.set(c.visitorId, { visits: [], clicks: [] });
+      all.get(c.visitorId)!.clicks.push(c);
+    }
+    return [...all.values()]
+      .map((g) => ({ ...g, latest: g.visits.length ? g.visits[g.visits.length - 1] : undefined }))
+      .sort((a, b) => (b.latest?.time || '').localeCompare(a.latest?.time || ''))
+      .slice(0, 20);
+  })();
   const input = 'w-full rounded-lg border px-3 py-2';
 
   return (
@@ -100,6 +135,112 @@ export default function AdminPage() {
             <p className="mt-2 text-sm">সেটিংসে Amazon API key: <strong>{settings?.amazonApiKey ? 'দেওয়া আছে' : 'দেওয়া নেই'}</strong></p>
             <button onClick={() => setMsg(settings?.amazonApiKey ? 'Amazon API এখনো কানেক্ট হয়নি — PA-API অনুমোদন না হওয়া পর্যন্ত অটো আপডেট বন্ধ থাকবে।' : 'Amazon API key দেওয়া নেই। সেটিংসে key না বসানো পর্যন্ত দাম আপডেট বন্ধ থাকবে।')} className="mt-3 rounded-full bg-navy px-5 py-2 text-sm font-bold text-white">দাম আপডেট করুন</button>
           </div>
+        </div>
+      )}
+
+      {tab === 'visitors' && (
+        <div className="mt-6 space-y-6">
+          <div className="rounded-2xl border border-amber-300 bg-amber-50 p-5">
+            <h2 className="font-bold">ভিজিটর রিপোর্ট — একটা জরুরি কথা</h2>
+            <p className="mt-1 text-sm text-slate-600">এই ট্র্যাকার শুধু <strong>এই ডেপ্লয় থেকে</strong> গোনা শুরু করেছে — এর আগের ভিজিটরদের (আর Google Analytics-এর আগের ডেটাও) এখানে দেখা যাবে না। নাম, ফোন নম্বর বা ঠিকানা সংরক্ষণ করা হয় না — শুধু দেশ/শহর, ডিভাইস আর কোন পেজ দেখেছে সেটা থাকে।</p>
+            <p className="mt-1 text-sm text-slate-600">Vercel-এ <code>data/db.json</code> স্থায়ী না — এই ডেটা হারিয়ে যাওয়ার আগেই <strong>এক্সপোর্ট / ইমপোর্ট ট্যাব থেকে JSON এক্সপোর্ট</strong> করে রাখুন।</p>
+            <p className="mt-1 text-sm font-bold text-red-700">IP ঠিকানা শুধু অ্যাডমিন (আপনি) দেখতে পারবেন — এটা কারো সাথে শেয়ার করবেন না, কোথাও পাবলিশ করবেন না।</p>
+          </div>
+          {!stats ? (
+            <p className="rounded-2xl border p-5 text-sm text-slate-500">রিপোর্ট লোড হচ্ছে…</p>
+          ) : (
+            <>
+              <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
+                {[
+                  ['মোট ভিজিটর', stats.totalVisitors],
+                  ['আজকের ভিজিটর', stats.todayVisitors],
+                  ['মোট পেজ ভিউ', stats.totalPageviews],
+                  ['আজকের পেজ ভিউ', stats.todayPageviews],
+                  ['মোট Buy ক্লিক', totalClicks],
+                  ['ক্লিকের হার', `${ctr}%`],
+                ].map(([label, v]) => (
+                  <div key={label as string} className="rounded-2xl border p-5 text-center"><p className="text-3xl font-black text-navy">{v}</p><p className="text-sm text-slate-500">{label}</p></div>
+                ))}
+              </div>
+
+              <div className="rounded-2xl border p-5">
+                <h2 className="font-bold">শেষ ৭ দিন — পেজ ভিউ</h2>
+                {stats.last7Days.every((d) => d.views === 0) ? (
+                  <p className="mt-2 text-sm text-slate-500">শেষ ৭ দিনে এখনো কোনো ভিজিট রেকর্ড হয়নি — ডেপ্লয়ের পর সাইটে কেউ ঢুকলেই এখানে দেখাবে।</p>
+                ) : (
+                  <div className="mt-4 flex items-end gap-2" style={{ height: 140 }}>
+                    {stats.last7Days.map((d) => (
+                      <div key={d.date} className="flex flex-1 flex-col items-center gap-1">
+                        <span className="text-xs font-bold">{d.views}</span>
+                        <div className="w-full max-w-[48px] rounded-t-lg bg-brand" style={{ height: `${Math.max(4, (d.views / maxDayViews) * 100)}px` }} />
+                        <span className="text-[11px] text-slate-500">{d.date.slice(5)}</span>
+                        <span className="text-[11px] text-slate-400">{d.visitors} জন</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <div className="rounded-2xl border p-5">
+                  <h2 className="font-bold">সবচেয়ে দেখা পেজ</h2>
+                  {stats.topPages.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
+                    <table className="mt-3 w-full text-sm"><tbody>{stats.topPages.map((p) => (<tr key={p.path} className="border-t"><td className="break-all py-2">{p.path}</td><td className="py-2 text-right font-bold">{p.views}</td></tr>))}</tbody></table>
+                  )}
+                </div>
+                <div className="rounded-2xl border p-5">
+                  <h2 className="font-bold">দেশ অনুযায়ী ভিজিটর</h2>
+                  {stats.topCountries.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
+                    <table className="mt-3 w-full text-sm"><tbody>{stats.topCountries.map((c) => (<tr key={c.country} className="border-t"><td className="py-2">{c.country}</td><td className="py-2 text-right font-bold">{c.visitors} জন</td></tr>))}</tbody></table>
+                  )}
+                </div>
+                <div className="rounded-2xl border p-5">
+                  <h2 className="font-bold">ডিভাইস</h2>
+                  {stats.deviceSplit.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
+                    <table className="mt-3 w-full text-sm"><tbody>{stats.deviceSplit.map((d) => (<tr key={d.device} className="border-t"><td className="py-2">{d.device === 'mobile' ? 'মোবাইল' : 'ডেস্কটপ'}</td><td className="py-2 text-right font-bold">{d.views}</td></tr>))}</tbody></table>
+                  )}
+                </div>
+                <div className="rounded-2xl border p-5">
+                  <h2 className="font-bold">কোথা থেকে এসেছে</h2>
+                  {stats.topSources.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
+                    <table className="mt-3 w-full text-sm"><tbody>{stats.topSources.map((s) => (<tr key={s.source} className="border-t"><td className="py-2">{s.source === 'Direct' ? 'সরাসরি (Direct)' : s.source}</td><td className="py-2 text-right font-bold">{s.visitors} জন</td></tr>))}</tbody></table>
+                  )}
+                </div>
+              </div>
+
+              <div className="rounded-2xl border p-5">
+                <h2 className="font-bold">সাম্প্রতিক ভিজিটর — প্রতিজন কী দেখেছে, কী ক্লিক করেছে</h2>
+                {visitorRows.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিটর নেই।</p> : (
+                  <div className="mt-3 space-y-3">
+                    {visitorRows.map((g, i) => {
+                      const latest = g.latest;
+                      const pages = [...new Set(g.visits.map((v) => v.path))];
+                      return (
+                        <div key={latest?.visitorId || i} className="rounded-xl border px-4 py-3 text-sm">
+                          <div className="flex flex-wrap gap-x-4 gap-y-1">
+                            <span><strong>{latest?.country || 'Unknown'}</strong>{latest?.city && latest.city !== 'Unknown' ? `, ${latest.city}` : ''}</span>
+                            <span className="font-mono text-xs">IP: {latest?.ip || 'Unknown'}</span>
+                            <span>এসেছে: {latest?.source || 'Direct'}</span>
+                            <span>ডিভাইস: {latest?.device === 'mobile' ? 'মোবাইল' : 'ডেস্কটপ'}</span>
+                            <span className="text-slate-500">{latest ? new Date(latest.time).toLocaleString() : ''}</span>
+                          </div>
+                          <p className="mt-1"><strong>দেখা পেজ ({g.visits.length}):</strong> {pages.join(', ')}</p>
+                          <p className="mt-1"><strong>Buy ক্লিক ({g.clicks.length}):</strong> {g.clicks.length === 0 ? 'কোনো ক্লিক হয়নি' : g.clicks.map((c) => c.productName).join(', ')}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+
+              <div className="rounded-2xl border p-5">
+                <h2 className="font-bold">সাম্প্রতিক ভিজিট (শেষ ২০টি পেজ ভিউ)</h2>
+                {stats.recent.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
+                  <div className="overflow-x-auto"><table className="mt-3 w-full min-w-[560px] text-sm"><thead><tr className="text-left text-slate-500"><th className="py-2">সময়</th><th className="py-2">পেজ</th><th className="py-2">দেশ / শহর</th><th className="py-2">ডিভাইস</th><th className="py-2">এসেছে</th></tr></thead><tbody>{stats.recent.map((v) => (<tr key={v.id} className="border-t"><td className="py-2">{new Date(v.time).toLocaleString()}</td><td className="break-all py-2">{v.path}</td><td className="py-2">{v.country}{v.city && v.city !== 'Unknown' ? ` / ${v.city}` : ''}</td><td className="py-2">{v.device === 'mobile' ? 'মোবাইল' : 'ডেস্কটপ'}</td><td className="py-2">{v.source}</td></tr>))}</tbody></table></div>
+                )}
+              </div>
+            </>
+          )}
         </div>
       )}
 

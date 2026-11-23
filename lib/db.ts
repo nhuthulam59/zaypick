@@ -31,6 +31,8 @@ export function readDb(): Db {
       },
       clicks: [],
       subscribers: [],
+      visits: [],
+      clickEvents: [],
     };
   }
 }

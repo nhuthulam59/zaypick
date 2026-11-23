@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { readDb } from '@/lib/db';
 import ProductCard, { Stars } from '@/components/ProductCard';
+import BuyButton from '@/components/BuyButton';
 import { amazonLink, discountPct } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
@@ -36,7 +37,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <p className="mt-4"><span className="text-3xl font-black">${product.price.toFixed(2)}</span>{product.oldPrice > product.price && <span className="ml-3 text-lg text-slate-400 line-through">${product.oldPrice.toFixed(2)}</span>}</p>
           <p className="text-sm text-slate-400">Price as of {product.priceAsOf} — check current price on Amazon</p>
           <p className="mt-2 text-xs text-slate-500">As an Amazon Associate I earn from qualifying purchases.</p>
-          <a href={amazonLink(product.amazonUrl, db.settings.amazonTag)} target="_blank" rel="sponsored nofollow noopener" className="mt-5 block rounded-full bg-brand px-6 py-3.5 text-center text-lg font-bold text-white transition hover:bg-brand-dark">Buy on Amazon →</a>
+          <BuyButton productId={product.id} href={amazonLink(product.amazonUrl, db.settings.amazonTag)} className="mt-5 block rounded-full bg-brand px-6 py-3.5 text-center text-lg font-bold text-white transition hover:bg-brand-dark" />
           <p className="mt-2 text-sm text-slate-500">ASIN: <span className="font-mono">{product.asin}</span> · Sold and shipped by Amazon (see Amazon page for details).</p>
           <h2 className="mt-6 font-bold">Highlights</h2>
           <ul className="mt-2 list-disc space-y-1 pl-5 text-slate-600">{product.highlights.map((h) => <li key={h}>{h}</li>)}</ul>

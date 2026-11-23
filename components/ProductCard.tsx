@@ -32,7 +32,7 @@ export default function ProductCard({ product, tag }: { product: Product; tag: s
           {product.oldPrice > product.price && <span className="ml-2 text-sm text-slate-400 line-through">${product.oldPrice.toFixed(2)}</span>}
         </p>
         <p className="text-xs text-slate-400">Price as of {product.priceAsOf} — check current price on Amazon</p>
-        <a href={amazonUrl} target="_blank" rel="sponsored nofollow noopener" onClick={() => { fetch('/api/clicks', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ productId: product.id }) }).catch(() => {}); }} className="mt-3 rounded-full bg-brand px-4 py-2 text-center text-sm font-bold text-white transition hover:bg-brand-dark sm:py-2.5">
+        <a href={amazonUrl} target="_blank" rel="sponsored nofollow noopener" onClick={() => { try { const visitorId = sessionStorage.getItem('zaypick_vid') || ''; fetch('/api/clicks', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ productId: product.id, visitorId }) }).catch(() => {}); } catch {} }} className="mt-3 rounded-full bg-brand px-4 py-2 text-center text-sm font-bold text-white transition hover:bg-brand-dark sm:py-2.5">
           Buy on Amazon →
         </a>
       </div>

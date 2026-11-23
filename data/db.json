@@ -602,5 +602,7 @@
       "date": "2026-11-23",
       "email": "example@example.com"
     }
-  ]
+  ],
+  "visits": [],
+  "clickEvents": []
 }

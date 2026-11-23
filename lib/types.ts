@@ -52,6 +52,29 @@ export interface Settings {
 export interface Click { productId: string; productName: string; count: number; lastClicked?: string }
 export interface Subscriber { email: string; date: string }
 
+export interface Visit {
+  id: string;
+  visitorId: string;
+  date: string; // YYYY-MM-DD
+  time: string; // ISO
+  path: string;
+  referrer: string;
+  country: string;
+  city: string;
+  ip: string; // shown only inside the password-protected admin panel
+  device: 'mobile' | 'desktop' | 'tablet';
+  source: string;
+}
+
+export interface ClickEvent {
+  visitorId: string;
+  productId: string;
+  productName: string;
+  time: string; // ISO
+  ip?: string;
+  country?: string;
+}
+
 export interface Db {
   products: Product[];
   categories: Category[];
@@ -59,6 +82,8 @@ export interface Db {
   settings: Settings;
   clicks: Click[];
   subscribers: Subscriber[];
+  visits: Visit[];
+  clickEvents: ClickEvent[];
 }
 
 export const CATEGORY_NAMES: Record<string, string> = {
