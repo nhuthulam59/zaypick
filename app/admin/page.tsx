@@ -30,6 +30,7 @@ export default function AdminPage() {
   const [subs, setSubs] = useState<Subscriber[]>([]);
   const [stats, setStats] = useState<VisitStats | null>(null);
   const [msg, setMsg] = useState('');
+  const [menuOpen, setMenuOpen] = useState(false);
   const [editing, setEditing] = useState<Product | null>(null);
   const [editingCat, setEditingCat] = useState<Category | null>(null);
   const [editingGuide, setEditingGuide] = useState<Guide | null>(null);
@@ -82,6 +83,17 @@ export default function AdminPage() {
 
   const totalClicks = clicks.reduce((s, c) => s + c.count, 0);
   const tabs: [Tab, string][] = [['dashboard', 'ড্যাশবোর্ড'], ['visitors', 'রিপোর্ট'], ['products', 'প্রোডাক্ট'], ['categories', 'ক্যাটাগরি'], ['guides', 'গাইড'], ['settings', 'সেটিংস'], ['subscribers', 'সাবস্ক্রাইবার'], ['backup', 'এক্সপোর্ট / ইমপোর্ট']];
+  const tabMeta: Record<Tab, string> = {
+    dashboard: 'এক নজরে পুরো দোকানের হিসাব',
+    visitors: 'কে আসছে, কোথা থেকে আসছে, কী ক্লিক করছে — সব আসল ডেটা',
+    products: 'প্রোডাক্ট যোগ, এডিট আর ডিলিট করুন',
+    categories: 'সাইটের ক্যাটাগরি সাজান',
+    guides: 'বায়িং গাইড লিখুন আর সাজান',
+    settings: 'সাইটের নাম, ট্যাগলাইন আর Amazon সেটিংস',
+    subscribers: 'ডিল অ্যালার্টে যারা সাইন আপ করেছে',
+    backup: 'ডেটা নিরাপদে রাখুন — এক্সপোর্ট আর ইমপোর্ট',
+  };
+  const navCount: Partial<Record<Tab, number>> = { products: products.length, categories: categories.length, guides: guides.length, subscribers: subs.length };
   const ctr = stats && stats.totalPageviews > 0 ? ((totalClicks / stats.totalPageviews) * 100).toFixed(1) : '0.0';
   const maxDayViews = stats ? Math.max(1, ...stats.last7Days.map((d) => d.views)) : 1;
   // Group the newest visits + all click events by visitor, newest visitor first.
@@ -101,36 +113,73 @@ export default function AdminPage() {
       .sort((a, b) => (b.latest?.time || '').localeCompare(a.latest?.time || ''))
       .slice(0, 20);
   })();
-  const input = 'w-full rounded-lg border px-3 py-2';
+  const input = 'w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-base shadow-sm outline-none focus:border-brand focus:ring-2 focus:ring-orange-100';
 
+  const currentLabel = tabs.find(([t]) => t === tab)?.[1] || 'অ্যাডমিন';
+  const logout = async () => { await fetch('/api/admin/logout', { method: 'POST' }); window.location.href = '/admin/login'; };
   return (
-    <div className="py-6">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <h1 className="text-3xl font-black text-navy">অ্যাডমিন — ZayPick</h1>
-        <span className="flex gap-2"><a href="/" className="text-sm font-bold text-brand">← সাইট দেখুন</a><button onClick={async () => { await fetch('/api/admin/logout', { method: 'POST' }); window.location.href = '/admin/login'; }} className="rounded-full border border-red-300 px-3 py-1 text-sm font-bold text-red-600">লগআউট</button></span>
+    <div className="flex min-h-screen bg-slate-100 text-[17px] leading-relaxed text-slate-800">
+      {/* Mobile top bar */}
+      <div className="fixed inset-x-0 top-0 z-40 flex items-center justify-between bg-navy px-4 py-3 text-white md:hidden">
+        <button onClick={() => setMenuOpen(true)} aria-label="মেনু খুলুন" className="rounded-lg border border-white/30 px-3 py-1 text-xl font-bold leading-none">☰</button>
+        <span className="text-lg font-bold">ZayPick অ্যাডমিন</span>
+        <a href="/" className="text-sm font-bold text-orange-300">সাইট দেখুন →</a>
       </div>
-      {msg && <p className="mt-3 rounded-lg bg-green-50 px-4 py-2 text-sm font-medium text-green-800">{msg}</p>}
-      <div className="mt-4 flex flex-wrap gap-2">
-        {tabs.map(([t, label]) => (
-          <button key={t} onClick={() => setTab(t)} className={`rounded-full px-4 py-2 text-sm font-bold ${tab === t ? 'bg-navy text-white' : 'border hover:bg-slate-50'}`}>{label}</button>
-        ))}
-      </div>
+      {menuOpen && <button aria-label="মেনু বন্ধ করুন" onClick={() => setMenuOpen(false)} className="fixed inset-0 z-40 bg-black/50 md:hidden" />}
+      {/* LEFT SIDEBAR — all admin sections */}
+      <aside className={`fixed inset-y-0 left-0 z-50 flex w-72 flex-col bg-navy text-white shadow-2xl transition-transform duration-200 md:sticky md:top-0 md:z-auto md:h-screen md:w-64 md:shrink-0 md:translate-x-0 ${menuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+        <div className="border-b border-white/10 px-5 pb-5 pt-6">
+          <p className="text-3xl font-bold leading-none tracking-tight">ZayPick</p>
+          <p className="mt-2 text-base font-bold text-orange-300">অ্যাডমিন প্যানেল</p>
+          <p className="mt-1 text-sm text-white/60">স্মার্ট শপিং, সেরা ডিল</p>
+        </div>
+        <nav className="flex-1 overflow-y-auto px-3 py-4">
+          <p className="px-3 pb-2 text-sm font-bold uppercase tracking-wider text-white/50">সব সেকশন</p>
+          {tabs.map(([t, label]) => (
+            <button key={t} onClick={() => { setTab(t); setMenuOpen(false); }} className={`mb-1 flex w-full items-center gap-3 rounded-xl px-3 py-3 text-left text-lg font-bold transition ${tab === t ? 'bg-brand text-white shadow-lg' : 'text-white/85 hover:bg-white/10'}`}>
+              <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-lg font-bold ${tab === t ? 'bg-white/20 text-white' : 'bg-white/10 text-orange-300'}`}>{label.charAt(0)}</span>
+              <span className="flex-1">{label}</span>
+              {navCount[t] !== undefined && <span className={`rounded-full px-2.5 py-0.5 text-sm font-bold ${tab === t ? 'bg-white/20 text-white' : 'bg-white/10 text-white/80'}`}>{navCount[t]}</span>}
+            </button>
+          ))}
+        </nav>
+        <div className="border-t border-white/10 p-4">
+          <a href="/" className="mb-2 block rounded-xl px-3 py-2.5 text-base font-bold text-white/85 hover:bg-white/10">← সাইট দেখুন</a>
+          <button onClick={logout} className="w-full rounded-xl bg-red-500/90 px-3 py-2.5 text-base font-bold text-white hover:bg-red-500">লগআউট</button>
+        </div>
+      </aside>
+      {/* RIGHT SIDE — main content area */}
+      <div className="min-w-0 flex-1 pt-14 md:pt-0">
+        <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 px-4 py-5 shadow-sm backdrop-blur sm:px-6 lg:px-8">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <h1 className="text-2xl font-bold text-navy sm:text-3xl">{currentLabel}</h1>
+              <p className="mt-1 text-base text-slate-500">{tabMeta[tab]}</p>
+            </div>
+            <span className="hidden gap-2 md:flex">
+              <a href="/" className="rounded-full border border-slate-300 px-4 py-2 text-base font-bold text-navy hover:bg-slate-50">← সাইট দেখুন</a>
+              <button onClick={logout} className="rounded-full border border-red-300 px-4 py-2 text-base font-bold text-red-600 hover:bg-red-50">লগআউট</button>
+            </span>
+          </div>
+        </header>
+        <main className="mx-auto w-full max-w-5xl px-4 py-6 sm:px-6 lg:px-8">
+          {msg && <p className="rounded-xl bg-green-50 px-4 py-3 text-base font-bold text-green-800 shadow-sm">{msg}</p>}
 
       {tab === 'dashboard' && (
         <div className="mt-6 space-y-6">
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             {[['প্রোডাক্ট', products.length], ['ক্যাটাগরি', categories.length], ['মোট Buy ক্লিক', totalClicks], ['সাবস্ক্রাইবার', subs.length]].map(([label, v]) => (
-              <div key={label as string} className="rounded-2xl border p-5 text-center"><p className="text-3xl font-black text-navy">{v}</p><p className="text-sm text-slate-500">{label}</p></div>
+              <div key={label as string} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6 text-center"><p className="text-4xl font-bold text-navy">{v}</p><p className="text-sm text-slate-500">{label}</p></div>
             ))}
           </div>
-          <div className="rounded-2xl border p-5">
-            <h2 className="font-bold">ক্লিকের হিসাব — প্রতি প্রোডাক্টে Buy on Amazon ক্লিক</h2>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+            <h2 className="text-xl font-bold text-navy">ক্লিকের হিসাব — প্রতি প্রোডাক্টে Buy on Amazon ক্লিক</h2>
             {clicks.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ক্লিক হয়নি।</p> : (
               <div className="overflow-x-auto"><table className="mt-3 w-full min-w-[320px] text-sm"><tbody>{[...clicks].sort((a, b) => b.count - a.count).map((c) => (<tr key={c.productId} className="border-t"><td className="py-2">{c.productName}</td><td className="py-2 text-right font-bold">{c.count}</td></tr>))}</tbody></table></div>
             )}
           </div>
           <div className="rounded-2xl border border-amber-300 bg-amber-50 p-5">
-            <h2 className="font-bold">Amazon দাম অটো আপডেট — কানেক্ট হয়নি</h2>
+            <h2 className="text-xl font-bold text-navy">Amazon দাম অটো আপডেট — কানেক্ট হয়নি</h2>
             <p className="mt-1 text-sm text-slate-600">দামের অটো আপডেট <strong>এখনো বানানো হয়নি</strong>, তুমি যেমন বলেছিলে। এটার জন্য Amazon Product Advertising API লাগবে, যেটা Amazon দেয় তোমার Associates অ্যাকাউন্টে বিক্রি হওয়ার পর। আপাতত দাম হাতে বদলাতে হবে, প্রোডাক্ট থেকে।</p>
             <p className="mt-2 text-sm">সেটিংসে Amazon API key: <strong>{settings?.amazonApiKey ? 'দেওয়া আছে' : 'দেওয়া নেই'}</strong></p>
             <button onClick={() => setMsg(settings?.amazonApiKey ? 'Amazon API এখনো কানেক্ট হয়নি — PA-API অনুমোদন না হওয়া পর্যন্ত অটো আপডেট বন্ধ থাকবে।' : 'Amazon API key দেওয়া নেই। সেটিংসে key না বসানো পর্যন্ত দাম আপডেট বন্ধ থাকবে।')} className="mt-3 rounded-full bg-navy px-5 py-2 text-sm font-bold text-white">দাম আপডেট করুন</button>
@@ -141,13 +190,13 @@ export default function AdminPage() {
       {tab === 'visitors' && (
         <div className="mt-6 space-y-6">
           <div className="rounded-2xl border border-amber-300 bg-amber-50 p-5">
-            <h2 className="font-bold">ভিজিটর রিপোর্ট — একটা জরুরি কথা</h2>
+            <h2 className="text-xl font-bold text-navy">ভিজিটর রিপোর্ট — একটা জরুরি কথা</h2>
             <p className="mt-1 text-sm text-slate-600">এই ট্র্যাকার শুধু <strong>এই ডেপ্লয় থেকে</strong> গোনা শুরু করেছে — এর আগের ভিজিটরদের (আর Google Analytics-এর আগের ডেটাও) এখানে দেখা যাবে না। নাম, ফোন নম্বর বা ঠিকানা সংরক্ষণ করা হয় না — শুধু দেশ/শহর, ডিভাইস আর কোন পেজ দেখেছে সেটা থাকে।</p>
             <p className="mt-1 text-sm text-slate-600">Vercel-এ <code>data/db.json</code> স্থায়ী না — এই ডেটা হারিয়ে যাওয়ার আগেই <strong>এক্সপোর্ট / ইমপোর্ট ট্যাব থেকে JSON এক্সপোর্ট</strong> করে রাখুন।</p>
             <p className="mt-1 text-sm font-bold text-red-700">IP ঠিকানা শুধু অ্যাডমিন (আপনি) দেখতে পারবেন — এটা কারো সাথে শেয়ার করবেন না, কোথাও পাবলিশ করবেন না।</p>
           </div>
           {!stats ? (
-            <p className="rounded-2xl border p-5 text-sm text-slate-500">রিপোর্ট লোড হচ্ছে…</p>
+            <p className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6 text-sm text-slate-500">রিপোর্ট লোড হচ্ছে…</p>
           ) : (
             <>
               <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
@@ -159,12 +208,12 @@ export default function AdminPage() {
                   ['মোট Buy ক্লিক', totalClicks],
                   ['ক্লিকের হার', `${ctr}%`],
                 ].map(([label, v]) => (
-                  <div key={label as string} className="rounded-2xl border p-5 text-center"><p className="text-3xl font-black text-navy">{v}</p><p className="text-sm text-slate-500">{label}</p></div>
+                  <div key={label as string} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6 text-center"><p className="text-4xl font-bold text-navy">{v}</p><p className="text-sm text-slate-500">{label}</p></div>
                 ))}
               </div>
 
-              <div className="rounded-2xl border p-5">
-                <h2 className="font-bold">শেষ ৭ দিন — পেজ ভিউ</h2>
+              <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+                <h2 className="text-xl font-bold text-navy">শেষ ৭ দিন — পেজ ভিউ</h2>
                 {stats.last7Days.every((d) => d.views === 0) ? (
                   <p className="mt-2 text-sm text-slate-500">শেষ ৭ দিনে এখনো কোনো ভিজিট রেকর্ড হয়নি — ডেপ্লয়ের পর সাইটে কেউ ঢুকলেই এখানে দেখাবে।</p>
                 ) : (
@@ -172,7 +221,7 @@ export default function AdminPage() {
                     {stats.last7Days.map((d) => (
                       <div key={d.date} className="flex flex-1 flex-col items-center gap-1">
                         <span className="text-xs font-bold">{d.views}</span>
-                        <div className="w-full max-w-[48px] rounded-t-lg bg-brand" style={{ height: `${Math.max(4, (d.views / maxDayViews) * 100)}px` }} />
+                        <div className="w-full max-w-[48px] rounded-t-lg bg-brand" style={{ height: `${Math.max(6, (d.views / maxDayViews) * 110)}px` }} />
                         <span className="text-[11px] text-slate-500">{d.date.slice(5)}</span>
                         <span className="text-[11px] text-slate-400">{d.visitors} জন</span>
                       </div>
@@ -182,41 +231,41 @@ export default function AdminPage() {
               </div>
 
               <div className="grid gap-4 md:grid-cols-2">
-                <div className="rounded-2xl border p-5">
-                  <h2 className="font-bold">সবচেয়ে দেখা পেজ</h2>
+                <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+                  <h2 className="text-xl font-bold text-navy">সবচেয়ে দেখা পেজ</h2>
                   {stats.topPages.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
                     <table className="mt-3 w-full text-sm"><tbody>{stats.topPages.map((p) => (<tr key={p.path} className="border-t"><td className="break-all py-2">{p.path}</td><td className="py-2 text-right font-bold">{p.views}</td></tr>))}</tbody></table>
                   )}
                 </div>
-                <div className="rounded-2xl border p-5">
-                  <h2 className="font-bold">দেশ অনুযায়ী ভিজিটর</h2>
+                <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+                  <h2 className="text-xl font-bold text-navy">দেশ অনুযায়ী ভিজিটর</h2>
                   {stats.topCountries.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
                     <table className="mt-3 w-full text-sm"><tbody>{stats.topCountries.map((c) => (<tr key={c.country} className="border-t"><td className="py-2">{c.country}</td><td className="py-2 text-right font-bold">{c.visitors} জন</td></tr>))}</tbody></table>
                   )}
                 </div>
-                <div className="rounded-2xl border p-5">
-                  <h2 className="font-bold">ডিভাইস</h2>
+                <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+                  <h2 className="text-xl font-bold text-navy">ডিভাইস</h2>
                   {stats.deviceSplit.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
                     <table className="mt-3 w-full text-sm"><tbody>{stats.deviceSplit.map((d) => (<tr key={d.device} className="border-t"><td className="py-2">{d.device === 'mobile' ? 'মোবাইল' : 'ডেস্কটপ'}</td><td className="py-2 text-right font-bold">{d.views}</td></tr>))}</tbody></table>
                   )}
                 </div>
-                <div className="rounded-2xl border p-5">
-                  <h2 className="font-bold">কোথা থেকে এসেছে</h2>
+                <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+                  <h2 className="text-xl font-bold text-navy">কোথা থেকে এসেছে</h2>
                   {stats.topSources.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
                     <table className="mt-3 w-full text-sm"><tbody>{stats.topSources.map((s) => (<tr key={s.source} className="border-t"><td className="py-2">{s.source === 'Direct' ? 'সরাসরি (Direct)' : s.source}</td><td className="py-2 text-right font-bold">{s.visitors} জন</td></tr>))}</tbody></table>
                   )}
                 </div>
               </div>
 
-              <div className="rounded-2xl border p-5">
-                <h2 className="font-bold">সাম্প্রতিক ভিজিটর — প্রতিজন কী দেখেছে, কী ক্লিক করেছে</h2>
+              <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+                <h2 className="text-xl font-bold text-navy">সাম্প্রতিক ভিজিটর — প্রতিজন কী দেখেছে, কী ক্লিক করেছে</h2>
                 {visitorRows.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিটর নেই।</p> : (
                   <div className="mt-3 space-y-3">
                     {visitorRows.map((g, i) => {
                       const latest = g.latest;
                       const pages = [...new Set(g.visits.map((v) => v.path))];
                       return (
-                        <div key={latest?.visitorId || i} className="rounded-xl border px-4 py-3 text-sm">
+                        <div key={latest?.visitorId || i} className="rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm text-sm">
                           <div className="flex flex-wrap gap-x-4 gap-y-1">
                             <span><strong>{latest?.country || 'Unknown'}</strong>{latest?.city && latest.city !== 'Unknown' ? `, ${latest.city}` : ''}</span>
                             <span className="font-mono text-xs">IP: {latest?.ip || 'Unknown'}</span>
@@ -233,8 +282,8 @@ export default function AdminPage() {
                 )}
               </div>
 
-              <div className="rounded-2xl border p-5">
-                <h2 className="font-bold">সাম্প্রতিক ভিজিট (শেষ ২০টি পেজ ভিউ)</h2>
+              <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+                <h2 className="text-xl font-bold text-navy">সাম্প্রতিক ভিজিট (শেষ ২০টি পেজ ভিউ)</h2>
                 {stats.recent.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ভিজিট হয়নি।</p> : (
                   <div className="overflow-x-auto"><table className="mt-3 w-full min-w-[560px] text-sm"><thead><tr className="text-left text-slate-500"><th className="py-2">সময়</th><th className="py-2">পেজ</th><th className="py-2">দেশ / শহর</th><th className="py-2">ডিভাইস</th><th className="py-2">এসেছে</th></tr></thead><tbody>{stats.recent.map((v) => (<tr key={v.id} className="border-t"><td className="py-2">{new Date(v.time).toLocaleString()}</td><td className="break-all py-2">{v.path}</td><td className="py-2">{v.country}{v.city && v.city !== 'Unknown' ? ` / ${v.city}` : ''}</td><td className="py-2">{v.device === 'mobile' ? 'মোবাইল' : 'ডেস্কটপ'}</td><td className="py-2">{v.source}</td></tr>))}</tbody></table></div>
                 )}
@@ -248,7 +297,7 @@ export default function AdminPage() {
         <div className="mt-6">
           <button onClick={() => setEditing({ ...emptyProduct, id: `p${Date.now()}` })} className="rounded-full bg-brand px-5 py-2 font-bold text-white">+ প্রোডাক্ট যোগ করুন</button>
           {editing && (
-            <form onSubmit={saveProduct} className="mt-4 grid gap-3 rounded-2xl border p-5 md:grid-cols-2">
+            <form onSubmit={saveProduct} className="mt-4 grid gap-3 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6 md:grid-cols-2">
               <input className={input} placeholder="প্রোডাক্টের নাম" value={editing.name} onChange={(e) => setEditing({ ...editing, name: e.target.value })} required />
               <input className={input} placeholder="Slug (যেমন wireless-headphones)" value={editing.slug} onChange={(e) => setEditing({ ...editing, slug: e.target.value })} />
               <select className={input} value={editing.category} onChange={(e) => setEditing({ ...editing, category: e.target.value })}>{categories.map((c) => <option key={c.id} value={c.slug}>{c.name}</option>)}</select>
@@ -270,7 +319,7 @@ export default function AdminPage() {
           )}
           <div className="mt-4 space-y-2">
             {products.map((p) => (
-              <div key={p.id} className="flex flex-wrap items-center justify-between gap-2 rounded-xl border px-4 py-3">
+              <div key={p.id} className="flex flex-wrap items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm">
                 <span><strong>{p.name}</strong> <span className="text-sm text-slate-500">· {p.category} · ${p.price.toFixed(2)} · ★{p.rating}</span></span>
                 <span className="flex gap-2"><button onClick={() => setEditing(p)} className="rounded-full border px-3 py-1 text-sm font-bold">এডিট</button><button onClick={() => deleteProduct(p.id)} className="rounded-full border border-red-300 px-3 py-1 text-sm font-bold text-red-600">ডিলিট</button></span>
               </div>
@@ -283,7 +332,7 @@ export default function AdminPage() {
         <div className="mt-6">
           <button onClick={() => setEditingCat({ id: `c${Date.now()}`, slug: '', name: '', image: '', description: '' })} className="rounded-full bg-brand px-5 py-2 font-bold text-white">+ ক্যাটাগরি যোগ করুন</button>
           {editingCat && (
-            <form onSubmit={async (e) => { e.preventDefault(); await fetch('/api/categories', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(editingCat) }); setEditingCat(null); load(); }} className="mt-4 grid gap-3 rounded-2xl border p-5">
+            <form onSubmit={async (e) => { e.preventDefault(); await fetch('/api/categories', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(editingCat) }); setEditingCat(null); load(); }} className="mt-4 grid gap-3 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
               <input className={input} placeholder="প্রোডাক্টের নাম" value={editingCat.name} onChange={(e) => setEditingCat({ ...editingCat, name: e.target.value })} required />
               <input className={input} placeholder="Slug" value={editingCat.slug} onChange={(e) => setEditingCat({ ...editingCat, slug: e.target.value })} />
               <input className={input} placeholder="ছবির লিংক (URL)" value={editingCat.image} onChange={(e) => setEditingCat({ ...editingCat, image: e.target.value })} />
@@ -291,7 +340,7 @@ export default function AdminPage() {
               <button className="rounded-full bg-navy px-6 py-2 font-bold text-white">ক্যাটাগরি সেভ করুন</button>
             </form>
           )}
-          <div className="mt-4 space-y-2">{categories.map((c) => (<div key={c.id} className="flex items-center justify-between rounded-xl border px-4 py-3"><span><strong>{c.name}</strong> <span className="text-sm text-slate-500">· /{c.slug}</span></span><span className="flex gap-2"><button onClick={() => setEditingCat(c)} className="rounded-full border px-3 py-1 text-sm font-bold">এডিট</button><button onClick={async () => { if (confirm('এই ক্যাটাগরিটা ডিলিট করবেন?')) { await fetch(`/api/categories?id=${c.id}`, { method: 'DELETE' }); load(); } }} className="rounded-full border border-red-300 px-3 py-1 text-sm font-bold text-red-600">ডিলিট</button></span></div>))}</div>
+          <div className="mt-4 space-y-2">{categories.map((c) => (<div key={c.id} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm"><span><strong>{c.name}</strong> <span className="text-sm text-slate-500">· /{c.slug}</span></span><span className="flex gap-2"><button onClick={() => setEditingCat(c)} className="rounded-full border px-3 py-1 text-sm font-bold">এডিট</button><button onClick={async () => { if (confirm('এই ক্যাটাগরিটা ডিলিট করবেন?')) { await fetch(`/api/categories?id=${c.id}`, { method: 'DELETE' }); load(); } }} className="rounded-full border border-red-300 px-3 py-1 text-sm font-bold text-red-600">ডিলিট</button></span></div>))}</div>
         </div>
       )}
 
@@ -299,7 +348,7 @@ export default function AdminPage() {
         <div className="mt-6">
           <button onClick={() => setEditingGuide({ id: `g${Date.now()}`, slug: '', title: '', excerpt: '', category: 'Electronics', date: new Date().toISOString().slice(0, 10), image: '', content: '' })} className="rounded-full bg-brand px-5 py-2 font-bold text-white">+ গাইড যোগ করুন</button>
           {editingGuide && (
-            <form onSubmit={async (e) => { e.preventDefault(); await fetch('/api/guides', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(editingGuide) }); setEditingGuide(null); load(); }} className="mt-4 grid gap-3 rounded-2xl border p-5">
+            <form onSubmit={async (e) => { e.preventDefault(); await fetch('/api/guides', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(editingGuide) }); setEditingGuide(null); load(); }} className="mt-4 grid gap-3 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
               <input className={input} placeholder="শিরোনাম" value={editingGuide.title} onChange={(e) => setEditingGuide({ ...editingGuide, title: e.target.value })} required />
               <input className={input} placeholder="Slug" value={editingGuide.slug} onChange={(e) => setEditingGuide({ ...editingGuide, slug: e.target.value })} />
               <input className={input} placeholder="ছবির লিংক (URL)" value={editingGuide.image} onChange={(e) => setEditingGuide({ ...editingGuide, image: e.target.value })} />
@@ -308,28 +357,28 @@ export default function AdminPage() {
               <button className="rounded-full bg-navy px-6 py-2 font-bold text-white">গাইড সেভ করুন</button>
             </form>
           )}
-          <div className="mt-4 space-y-2">{guides.map((g) => (<div key={g.id} className="flex items-center justify-between rounded-xl border px-4 py-3"><span><strong>{g.title}</strong></span><span className="flex gap-2"><button onClick={() => setEditingGuide(g)} className="rounded-full border px-3 py-1 text-sm font-bold">এডিট</button><button onClick={async () => { if (confirm('এই গাইডটা ডিলিট করবেন?')) { await fetch(`/api/guides?id=${g.id}`, { method: 'DELETE' }); load(); } }} className="rounded-full border border-red-300 px-3 py-1 text-sm font-bold text-red-600">ডিলিট</button></span></div>))}</div>
+          <div className="mt-4 space-y-2">{guides.map((g) => (<div key={g.id} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm"><span><strong>{g.title}</strong></span><span className="flex gap-2"><button onClick={() => setEditingGuide(g)} className="rounded-full border px-3 py-1 text-sm font-bold">এডিট</button><button onClick={async () => { if (confirm('এই গাইডটা ডিলিট করবেন?')) { await fetch(`/api/guides?id=${g.id}`, { method: 'DELETE' }); load(); } }} className="rounded-full border border-red-300 px-3 py-1 text-sm font-bold text-red-600">ডিলিট</button></span></div>))}</div>
         </div>
       )}
 
       {tab === 'settings' && settings && (
         <form onSubmit={saveSettings} className="mt-6 grid max-w-2xl gap-3">
-          <label className="text-sm font-bold">সাইটের নাম<input className={input} value={settings.siteName} onChange={(e) => setSettings({ ...settings, siteName: e.target.value })} /></label>
-          <label className="text-sm font-bold">ট্যাগলাইন<input className={input} value={settings.tagline} onChange={(e) => setSettings({ ...settings, tagline: e.target.value })} /></label>
-          <label className="text-sm font-bold">Amazon Associate Tag<input className={input} value={settings.amazonTag} onChange={(e) => setSettings({ ...settings, amazonTag: e.target.value })} /></label>
-          <label className="text-sm font-bold">হিরো শিরোনাম<input className={input} value={settings.heroTitle} onChange={(e) => setSettings({ ...settings, heroTitle: e.target.value })} /></label>
-          <label className="text-sm font-bold">হিরো সাবটাইটেল<input className={input} value={settings.heroSubtitle} onChange={(e) => setSettings({ ...settings, heroSubtitle: e.target.value })} /></label>
-          <label className="text-sm font-bold">হিরো ব্যাজ<input className={input} value={settings.heroBadge} onChange={(e) => setSettings({ ...settings, heroBadge: e.target.value })} /></label>
-          <label className="text-sm font-bold">যোগাযোগের ইমেইল<input className={input} value={settings.contactEmail} onChange={(e) => setSettings({ ...settings, contactEmail: e.target.value })} /></label>
-          <label className="text-sm font-bold">Amazon API key (ঐচ্ছিক — PA-API অনুমোদন না হওয়া পর্যন্ত ফাঁকা রাখুন)<input className={input} value={settings.amazonApiKey} onChange={(e) => setSettings({ ...settings, amazonApiKey: e.target.value })} placeholder="কানেক্ট হয়নি" /></label>
+          <label className="text-base font-bold text-navy">সাইটের নাম<input className={input} value={settings.siteName} onChange={(e) => setSettings({ ...settings, siteName: e.target.value })} /></label>
+          <label className="text-base font-bold text-navy">ট্যাগলাইন<input className={input} value={settings.tagline} onChange={(e) => setSettings({ ...settings, tagline: e.target.value })} /></label>
+          <label className="text-base font-bold text-navy">Amazon Associate Tag<input className={input} value={settings.amazonTag} onChange={(e) => setSettings({ ...settings, amazonTag: e.target.value })} /></label>
+          <label className="text-base font-bold text-navy">হিরো শিরোনাম<input className={input} value={settings.heroTitle} onChange={(e) => setSettings({ ...settings, heroTitle: e.target.value })} /></label>
+          <label className="text-base font-bold text-navy">হিরো সাবটাইটেল<input className={input} value={settings.heroSubtitle} onChange={(e) => setSettings({ ...settings, heroSubtitle: e.target.value })} /></label>
+          <label className="text-base font-bold text-navy">হিরো ব্যাজ<input className={input} value={settings.heroBadge} onChange={(e) => setSettings({ ...settings, heroBadge: e.target.value })} /></label>
+          <label className="text-base font-bold text-navy">যোগাযোগের ইমেইল<input className={input} value={settings.contactEmail} onChange={(e) => setSettings({ ...settings, contactEmail: e.target.value })} /></label>
+          <label className="text-base font-bold text-navy">Amazon API key (ঐচ্ছিক — PA-API অনুমোদন না হওয়া পর্যন্ত ফাঁকা রাখুন)<input className={input} value={settings.amazonApiKey} onChange={(e) => setSettings({ ...settings, amazonApiKey: e.target.value })} placeholder="কানেক্ট হয়নি" /></label>
           <p className="rounded-lg bg-amber-50 p-3 text-sm">অ্যাডমিন পাসওয়ার্ড এখান থেকে বদলানো যাবে <strong>না</strong> — Vercel → Settings → Environment Variables-এ ADMIN_PASSWORD বসিয়ে আবার ডেপ্লয় করুন। ডিফল্ট পাসওয়ার্ড বদলে ফেলো, নইলে যে কেউ ঢুকে পড়তে পারে।</p>
           <button className="rounded-full bg-navy px-6 py-2.5 font-bold text-white">সেটিংস সেভ করুন</button>
         </form>
       )}
 
       {tab === 'subscribers' && (
-        <div className="mt-6 rounded-2xl border p-5">
-          <h2 className="font-bold">ডিল অ্যালার্ট সাবস্ক্রাইবার ({subs.length})</h2>
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+          <h2 className="text-xl font-bold text-navy">ডিল অ্যালার্ট সাবস্ক্রাইবার ({subs.length})</h2>
           {subs.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কেউ সাবস্ক্রাইব করেনি।</p> : (
             <div className="overflow-x-auto"><table className="mt-3 w-full min-w-[320px] text-sm"><thead><tr className="text-left text-slate-500"><th className="py-2">ইমেইল</th><th className="py-2 text-right">সাইনআপের তারিখ</th></tr></thead><tbody>{subs.map((s) => (<tr key={s.email} className="border-t"><td className="py-2">{s.email}</td><td className="py-2 text-right">{s.date}</td></tr>))}</tbody></table></div>
           )}
@@ -337,8 +386,8 @@ export default function AdminPage() {
       )}
 
       {tab === 'backup' && (
-        <div className="mt-6 space-y-4 rounded-2xl border p-5">
-          <h2 className="font-bold">এক্সপোর্ট / ইমপোর্ট JSON</h2>
+        <div className="mt-6 space-y-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+          <h2 className="text-xl font-bold text-navy">এক্সপোর্ট / ইমপোর্ট JSON</h2>
           <p className="text-sm text-slate-600">Vercel-এ <code>data/db.json</code> স্থায়ী না — এই অ্যাডমিন প্যানেলে বদল করলে আবার ডেপ্লয় করলে সেটা হারিয়ে যেতে পারে। <strong>বদলের পর সবসময় এক্সপোর্ট করুন</strong>, ফাইলটা নিরাপদে রাখুন, তারপর আপডেট করা <code>data/db.json</code> GitHub-এ দিয়ে আবার ডেপ্লয় করুন। স্থায়ীভাবে রাখতে পরে Vercel Postgres বা KV লাগাতে হবে (README দেখুন)।</p>
           <p className="rounded-lg bg-amber-50 p-3 text-sm">নিরাপত্তা মনে রাখবেন: অ্যাডমিন পাসওয়ার্ড কাউকে দেবেন না, আর ভিজিটরদের IP ঠিকানা কখনো শেয়ার বা প্রকাশ করবেন না — এগুলো শুধু আপনার চোখের জন্য। বদলের পর সবসময় Export JSON করে রাখুন।</p>
           <div className="flex flex-wrap gap-3">
@@ -347,6 +396,8 @@ export default function AdminPage() {
           </div>
         </div>
       )}
+        </main>
+      </div>
     </div>
   );
 }
