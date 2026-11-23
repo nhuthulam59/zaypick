@@ -33,10 +33,10 @@ function ShopInner() {
 
   return (
     <div className="py-6">
-      <h1 className="text-3xl font-black text-navy">Shop All Products</h1>
+      <h1 className="text-2xl font-black text-navy sm:text-3xl">Shop All Products</h1>
       {q && <p className="text-slate-500">Results for “{q}”</p>}
-      <div className="mt-6 grid gap-6 md:grid-cols-[240px_1fr]">
-        <aside className="space-y-5 rounded-2xl border p-5 h-fit">
+      <div className="mt-6 grid gap-6 lg:grid-cols-[240px_1fr]">
+        <aside className="grid grid-cols-1 gap-5 rounded-2xl border p-5 sm:grid-cols-2 lg:block lg:h-fit lg:space-y-5">
           <div><p className="font-bold">Department</p>
             <select value={cat} onChange={(e) => setCat(e.target.value)} className="mt-2 w-full rounded-lg border px-3 py-2">
               <option value="">All Departments</option>
@@ -61,7 +61,7 @@ function ShopInner() {
         <div>
           <p className="text-sm text-slate-500">{products.length} product(s) found</p>
           {products.length === 0 ? <p className="mt-8 rounded-2xl border p-8 text-center text-slate-500">No products match these filters. Try clearing a filter.</p> : (
-            <div className="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-4 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
               {products.map((p) => <ProductCard key={p.id} product={p} tag={(db.settings as { amazonTag: string }).amazonTag} />)}
             </div>
           )}

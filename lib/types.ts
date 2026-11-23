@@ -35,6 +35,7 @@ export interface Guide {
   date: string;
   image: string;
   content: string;
+  relatedProductSlug?: string;
 }
 
 export interface Settings {

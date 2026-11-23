@@ -11,12 +11,12 @@ export default function Newsletter() {
     if (r.ok) setEmail('');
   }
   return (
-    <section className="rounded-3xl bg-amber-50 p-8 text-center">
+    <section className="rounded-3xl bg-amber-50 p-6 text-center sm:p-8">
       <h2 className="text-2xl font-black text-navy">Never miss a deal</h2>
       <p className="mt-1 text-slate-600">Get the best Amazon deals in your inbox. No spam, unsubscribe anytime.</p>
-      <form onSubmit={submit} className="mx-auto mt-4 flex max-w-md gap-2">
+      <form onSubmit={submit} className="mx-auto mt-4 flex max-w-md flex-col gap-2 sm:flex-row">
         <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Your email address" className="w-full rounded-full border px-4 py-2.5 outline-none focus:border-brand" />
-        <button className="shrink-0 rounded-full bg-brand px-5 py-2.5 font-bold text-white hover:bg-brand-dark">Sign up</button>
+        <button className="w-full shrink-0 rounded-full bg-brand px-5 py-2.5 font-bold text-white hover:bg-brand-dark sm:w-auto">Sign up</button>
       </form>
       {msg && <p className="mt-3 text-sm font-medium text-green-700">{msg}</p>}
     </section>

@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body { overflow-x: clip; }
 body { @apply bg-white text-slate-800 antialiased; }
+img, video { max-width: 100%; height: auto; }

@@ -91,7 +91,7 @@ export default function AdminPage() {
           <div className="rounded-2xl border p-5">
             <h2 className="font-bold">ক্লিকের হিসাব — প্রতি প্রোডাক্টে Buy on Amazon ক্লিক</h2>
             {clicks.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কোনো ক্লিক হয়নি।</p> : (
-              <table className="mt-3 w-full text-sm"><tbody>{[...clicks].sort((a, b) => b.count - a.count).map((c) => (<tr key={c.productId} className="border-t"><td className="py-2">{c.productName}</td><td className="py-2 text-right font-bold">{c.count}</td></tr>))}</tbody></table>
+              <div className="overflow-x-auto"><table className="mt-3 w-full min-w-[320px] text-sm"><tbody>{[...clicks].sort((a, b) => b.count - a.count).map((c) => (<tr key={c.productId} className="border-t"><td className="py-2">{c.productName}</td><td className="py-2 text-right font-bold">{c.count}</td></tr>))}</tbody></table></div>
             )}
           </div>
           <div className="rounded-2xl border border-amber-300 bg-amber-50 p-5">
@@ -181,7 +181,7 @@ export default function AdminPage() {
           <label className="text-sm font-bold">হিরো ব্যাজ<input className={input} value={settings.heroBadge} onChange={(e) => setSettings({ ...settings, heroBadge: e.target.value })} /></label>
           <label className="text-sm font-bold">যোগাযোগের ইমেইল<input className={input} value={settings.contactEmail} onChange={(e) => setSettings({ ...settings, contactEmail: e.target.value })} /></label>
           <label className="text-sm font-bold">Amazon API key (ঐচ্ছিক — PA-API অনুমোদন না হওয়া পর্যন্ত ফাঁকা রাখুন)<input className={input} value={settings.amazonApiKey} onChange={(e) => setSettings({ ...settings, amazonApiKey: e.target.value })} placeholder="কানেক্ট হয়নি" /></label>
-          <p className="rounded-lg bg-amber-50 p-3 text-sm">অ্যাডমিন পাসওয়ার্ড এখান থেকে বদলানো যাবে <strong>না</strong> — Vercel → Settings → Environment Variables-এ ADMIN_PASSWORD বসিয়ে আবার ডেপ্লয় করুন।</p>
+          <p className="rounded-lg bg-amber-50 p-3 text-sm">অ্যাডমিন পাসওয়ার্ড এখান থেকে বদলানো যাবে <strong>না</strong> — Vercel → Settings → Environment Variables-এ ADMIN_PASSWORD বসিয়ে আবার ডেপ্লয় করুন। ডিফল্ট পাসওয়ার্ড বদলে ফেলো, নইলে যে কেউ ঢুকে পড়তে পারে।</p>
           <button className="rounded-full bg-navy px-6 py-2.5 font-bold text-white">সেটিংস সেভ করুন</button>
         </form>
       )}
@@ -190,7 +190,7 @@ export default function AdminPage() {
         <div className="mt-6 rounded-2xl border p-5">
           <h2 className="font-bold">ডিল অ্যালার্ট সাবস্ক্রাইবার ({subs.length})</h2>
           {subs.length === 0 ? <p className="mt-2 text-sm text-slate-500">এখনো কেউ সাবস্ক্রাইব করেনি।</p> : (
-            <table className="mt-3 w-full text-sm"><thead><tr className="text-left text-slate-500"><th className="py-2">ইমেইল</th><th className="py-2 text-right">সাইনআপের তারিখ</th></tr></thead><tbody>{subs.map((s) => (<tr key={s.email} className="border-t"><td className="py-2">{s.email}</td><td className="py-2 text-right">{s.date}</td></tr>))}</tbody></table>
+            <div className="overflow-x-auto"><table className="mt-3 w-full min-w-[320px] text-sm"><thead><tr className="text-left text-slate-500"><th className="py-2">ইমেইল</th><th className="py-2 text-right">সাইনআপের তারিখ</th></tr></thead><tbody>{subs.map((s) => (<tr key={s.email} className="border-t"><td className="py-2">{s.email}</td><td className="py-2 text-right">{s.date}</td></tr>))}</tbody></table></div>
           )}
         </div>
       )}

@@ -5,8 +5,8 @@ export default function Footer() {
   const db = readDb();
   return (
     <footer className="mt-16 bg-navy-dark text-slate-300">
-      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 md:grid-cols-4">
-        <div>
+      <div className="mx-auto grid w-full max-w-7xl grid-cols-2 gap-8 px-4 py-10 sm:py-12 lg:grid-cols-4">
+        <div className="col-span-2 lg:col-span-1">
           <p className="text-xl font-black text-white">{db.settings.siteName}.</p>
           <p className="mt-2 text-sm">{db.settings.tagline}. We find the best Amazon deals across every category, so you do not have to.</p>
           <p className="mt-3 text-xs text-slate-400">As an Amazon Associate I earn from qualifying purchases.</p>
