@@ -1,11 +1,16 @@
 import Link from 'next/link';
 import { readDb } from '@/lib/db';
+import MobileMenu from '@/components/MobileMenu';
 
 export default function Header() {
   const db = readDb();
   return (
     <header className="sticky top-0 z-40 bg-navy text-white shadow-md">
-      <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center gap-x-3 gap-y-2 px-3 py-3 sm:px-4">
+      {/* Mobile: one row — hamburger, logo, search button. Menu + search open below it. */}
+      <MobileMenu siteName={db.settings.siteName} categories={db.categories} />
+
+      {/* Desktop: logo, search bar, All Departments, nav — unchanged */}
+      <div className="mx-auto hidden w-full max-w-7xl flex-wrap items-center gap-x-3 gap-y-2 px-3 py-3 sm:px-4 md:flex">
         <Link href="/" className="order-1 shrink-0 text-xl font-black tracking-tight sm:text-2xl">
           {db.settings.siteName}<span className="text-brand">.</span>
         </Link>
