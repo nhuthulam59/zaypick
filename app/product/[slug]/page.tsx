@@ -14,7 +14,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const product = db.products.find((p) => p.slug === params.slug);
   if (!product) return { title: 'Product — ZayPick' };
   const title = `${product.name} — ZayPick`;
-  const description = `${product.name} — $${product.price.toFixed(2)} on Amazon (was $${product.oldPrice.toFixed(2)}). ${product.description.slice(0, 120)}`;
+  // Only mention the old price when there really is a discount; several
+  // products have oldPrice == price, and "(was $X)" would be false there.
+  const was = product.oldPrice > product.price ? ` (was $${product.oldPrice.toFixed(2)})` : '';
+  const description = `${product.name} — $${product.price.toFixed(2)} on Amazon${was}. ${product.description.slice(0, 120)}`;
   const url = `https://zaypick.vercel.app/product/${product.slug}`;
   return {
     title,
@@ -49,9 +52,8 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   const pct = discountPct(product);
   const productUrl = `https://zaypick.vercel.app/product/${product.slug}`;
   // Structured data uses only real values from data/db.json. No brand field
-  // exists in the data, so none is claimed. Availability is shown as InStock
-  // because the product is listed as buyable on Amazon (see the Amazon page
-  // for live stock); the page itself says to check the current price on Amazon.
+  // exists in the data, so none is claimed. Availability is NOT claimed
+  // either: live Amazon stock is not checked, so no InStock is asserted.
   const productJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -68,12 +70,21 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
       url: productUrl,
       priceCurrency: 'USD',
       price: product.price,
-      availability: 'https://schema.org/InStock',
     },
+  };
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://zaypick.vercel.app' },
+      { '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://zaypick.vercel.app/shop' },
+      { '@type': 'ListItem', position: 3, name: product.name, item: productUrl },
+    ],
   };
   return (
     <div className="py-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <p className="truncate text-sm text-slate-500"><Link href="/" className="hover:text-brand">Home</Link> / <Link href="/shop" className="hover:text-brand">Shop</Link> / {product.name}</p>
       <div className="mt-4 grid gap-6 md:grid-cols-2 lg:gap-8">
         <div className="relative h-72 overflow-hidden rounded-3xl bg-slate-100 sm:h-96">

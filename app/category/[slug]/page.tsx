@@ -12,10 +12,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const title = `${cat.name} Deals — ZayPick`;
   const description = `${cat.description} Hand-picked ${cat.name} deals from Amazon.`;
   const url = `https://zaypick.vercel.app/category/${cat.slug}`;
+  const hasProducts = db.products.some((p) => p.category === cat.slug);
   return {
     title,
     description,
     alternates: { canonical: url },
+    // Empty category: a thin page Google should not index yet. This lifts
+    // automatically once the first product is added to the category.
+    ...(hasProducts ? {} : { robots: { index: false, follow: true } }),
     openGraph: {
       title,
       description,

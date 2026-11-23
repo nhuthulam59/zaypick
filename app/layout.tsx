@@ -7,6 +7,16 @@ import VisitTracker from '@/components/VisitTracker';
 import { readDb } from '@/lib/db';
 
 export const viewport = { width: 'device-width', initialScale: 1 };
+
+// Fallback share image: the hero photo already used on the homepage.
+// The original brand banner (/brand/zaypick-banner.webp) is NOT in the
+// GitHub repo (it was never uploaded — binary files cannot go through the
+// push tool), so pointing OG/Twitter at it gave a 404 share preview.
+// To restore the original banner, upload the 3 webp files to
+// public/brand/ in GitHub and point these images back at
+// /brand/zaypick-banner.webp.
+const OG_IMAGE = 'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80';
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://zaypick.vercel.app'),
   title: 'ZayPick — Hand-picked Amazon Deals',
@@ -18,13 +28,13 @@ export const metadata: Metadata = {
     siteName: 'ZayPick',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: '/brand/zaypick-banner.webp', width: 2736, height: 912, alt: 'ZayPick — Smart Shopping, Best Deals, Every Day' }],
+    images: [{ url: OG_IMAGE, alt: 'ZayPick — Hand-picked Amazon deals' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ZayPick — Hand-picked Amazon Deals',
     description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
-    images: ['/brand/zaypick-banner.webp'],
+    images: [OG_IMAGE],
   },
 };
 

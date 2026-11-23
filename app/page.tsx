@@ -18,13 +18,15 @@ export const metadata: Metadata = {
     siteName: 'ZayPick',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: '/brand/zaypick-banner.webp', width: 2736, height: 912, alt: 'ZayPick — Smart Shopping, Best Deals, Every Day' }],
+    // Fallback share image (see app/layout.tsx): the brand banner webp is
+    // not in the GitHub repo, so this hero photo is used instead.
+    images: [{ url: 'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80', alt: 'ZayPick — Hand-picked Amazon deals' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ZayPick — Hand-picked Amazon Deals',
     description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
-    images: ['/brand/zaypick-banner.webp'],
+    images: ['https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80'],
   },
 };
 
@@ -38,6 +40,11 @@ export default function Home() {
     name: 'ZayPick',
     url: 'https://zaypick.vercel.app',
     description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://zaypick.vercel.app/shop?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
   };
   return (
     <div className="space-y-12 py-6">
@@ -51,7 +58,7 @@ export default function Home() {
             <Link href="/shop" className="mt-6 inline-block w-full rounded-full bg-brand px-7 py-3 text-center font-bold text-white transition hover:-translate-y-0.5 hover:bg-brand-dark sm:w-auto">Shop Best Deals →</Link>
           </div>
           <div className="relative h-44 w-full overflow-hidden rounded-2xl sm:h-48 md:h-56 md:max-w-sm">
-            <Image src="https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80" alt="Seasonal savings" fill priority className="object-cover" />
+            <Image src="https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80" alt="Seasonal savings — hand-picked Amazon deals on electronics, home, fashion, beauty and sports" fill priority className="object-cover" />
           </div>
         </div>
       </section>
