@@ -1,0 +1,104 @@
+# ZayPick — Full Site Reference for AI Assistants
+
+> ZayPick (https://zaypick.vercel.app/) is a hand-picked Amazon deals site.
+> It lists the best Amazon deals across Electronics, Fashion, Home, Beauty
+> and Sports, with real prices, ratings and review counts. ZayPick does NOT
+> sell or ship anything — every "Buy on Amazon" button goes to Amazon, where
+> the purchase, shipping and returns are handled by Amazon.
+> Contact: hello@zaypick.com
+> Prices shown are as of 2026-11-23. Prices change on Amazon — always check
+> the current price on Amazon before buying.
+> Disclosure: As an Amazon Associate, ZayPick earns from qualifying
+> purchases. This costs the buyer nothing extra.
+
+## Site map
+
+- Home: https://zaypick.vercel.app/
+- Shop (all deals): https://zaypick.vercel.app/shop
+- Categories: https://zaypick.vercel.app/category/electronics,
+  https://zaypick.vercel.app/category/fashion,
+  https://zaypick.vercel.app/category/home,
+  https://zaypick.vercel.app/category/beauty,
+  https://zaypick.vercel.app/category/sports
+- Buying guides: https://zaypick.vercel.app/guides
+- About: https://zaypick.vercel.app/about
+- Contact: https://zaypick.vercel.app/contact
+- Privacy: https://zaypick.vercel.app/privacy
+- Affiliate disclosure: https://zaypick.vercel.app/disclosure
+- Sitemap: https://zaypick.vercel.app/sitemap.xml
+
+## Frequently asked questions
+
+- What is ZayPick? A hand-picked Amazon deals site. The ZayPick team finds
+  well-reviewed Amazon products with real discounts and lists them in one place.
+- Does ZayPick sell products? No. ZayPick does not sell, ship or handle
+  returns. Clicking "Buy on Amazon" takes you to Amazon to complete the purchase.
+- How do prices work? The price shown is the Amazon price as of 2026-11-23,
+  with the old price where there is a real discount. Prices change on Amazon,
+  so check the current price there before buying.
+- Does ZayPick earn money? Yes — as an Amazon Associate, ZayPick earns from
+  qualifying purchases, at no extra cost to the buyer.
+- Who handles shipping and returns? Amazon does, under Amazon's own shipping
+  and return policy. Prime eligibility is shown on Amazon.
+- How are products chosen? Hand-picked by the ZayPick team: well-reviewed
+  products (ratings and review counts are shown) with genuine discounts.
+
+## Buying guides
+
+- How to Choose Wireless Earbuds in 2026 (Electronics, 2026-11-23):
+  https://zaypick.vercel.app/guides/how-to-choose-wireless-earbuds
+  Our pick: Apple AirPods Pro 3, $150 (was $249), ASIN B0FQFB8FMG.
+- How to Choose a Streaming Stick for Your TV (Electronics, 2026-11-23):
+  https://zaypick.vercel.app/guides/how-to-choose-a-streaming-stick
+  Our pick: Amazon Fire TV Stick 4K Plus, $29.99 (was $49.99), ASIN B0F7Z4QZTT.
+- How to Choose an Insulated Water Bottle or Tumbler (Home, 2026-11-23):
+  https://zaypick.vercel.app/guides/how-to-choose-insulated-water-bottle-tumbler
+  Our pick: STANLEY Quencher H2.0 Tumbler 40 oz, $22.50 (was $45.00), ASIN B0CP9Z56SW.
+
+## All products (30, prices as of 2026-11-23)
+
+### Electronics (15)
+
+- Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation — $150 (was $249), 4.4 stars, 18,255 reviews, ASIN B0FQFB8FMG — https://zaypick.vercel.app/product/apple-airpods-pro-3-wireless-earbuds-anc
+- Beats Solo 4 On-Ear Headphones, Metallic Pink — $79.99 (was $199.95), 4.6 stars, 29,366 reviews, ASIN B0FHLPS8ZF — https://zaypick.vercel.app/product/beats-solo-4-on-ear-headphones-metallic-pink
+- Roku Streaming Stick HD with Voice Remote — $19 (was $39.99), 4.6 stars, 26,566 reviews, ASIN B0DXXYS4BJ — https://zaypick.vercel.app/product/roku-streaming-stick-hd-2025-voice-remote
+- Amazon Echo Dot, Charcoal — $39.99 (was $80), 4.7 stars, 199,932 reviews, ASIN B09B8V1LZ3 — https://zaypick.vercel.app/product/amazon-echo-dot-newest-model-charcoal
+- Apple EarPods Headphones with USB-C Plug — $19, 4.5 stars, 19,954 reviews, ASIN B0DCH8VDXF — https://zaypick.vercel.app/product/apple-earpods-headphones-usb-c-plug
+- Apple AirTag (2nd Generation) — $23 (was $29), 4.6 stars, 13,459 reviews, ASIN B0GJTFXNRX — https://zaypick.vercel.app/product/apple-airtag-2nd-generation
+- Amazon Echo Spot, Black — $44.99 (was $109.99), 4.5 stars, 47,324 reviews, ASIN B0BFC7WQ6R — https://zaypick.vercel.app/product/amazon-echo-spot-2024-black
+- Amazon Fire TV Stick 4K Plus — $29.99 (was $49.99), 4.6 stars, 116,771 reviews, ASIN B0F7Z4QZTT — https://zaypick.vercel.app/product/amazon-fire-tv-stick-4k-plus
+- Amazon Kindle Paperwhite 16GB (2024 model), Black — $129.99 (was $199.99), 4.6 stars, 23,085 reviews, ASIN B0CFPJYX7P — https://zaypick.vercel.app/product/amazon-kindle-paperwhite-16gb-2024-black
+- Apple iPad 11-inch A16 128GB, Blue — $399 (was $449), 4.7 stars, 24,622 reviews, ASIN B0DZ75TN5F — https://zaypick.vercel.app/product/apple-ipad-11-inch-a16-128gb-blue
+- Apple AirPods 5 Wireless Earbuds with Active Noise Cancellation — $129, 4.4 stars, 246 reviews, ASIN B0HJB69GJL — https://zaypick.vercel.app/product/apple-airpods-5-anc-usb-c
+- JBL Go 4 Bluetooth Speaker, Black — $31.95 (was $49.95), 4.7 stars, 18,656 reviews, ASIN B0CTNWKGM2 — https://zaypick.vercel.app/product/jbl-go-4-bluetooth-speaker-black
+- Amazon Fire TV Stick HD (newest model) — $15.99 (was $39.99), 4.2 stars, 8,172 reviews, ASIN B0DJGDC3BD — https://zaypick.vercel.app/product/amazon-fire-tv-stick-hd-2026
+- Nex Playground Active Play System — $209 (was $299), 4.2 stars, 2,245 reviews, ASIN B0D2JGYX3F — https://zaypick.vercel.app/product/nex-playground-active-play-system
+- AstroAI L7 Tire Inflator Portable Air Compressor, 150 PSI — $21.83 (was $39.99), 4.3 stars, 20,896 reviews, ASIN B0CS3B7MD8 — https://zaypick.vercel.app/product/astroai-l7-tire-inflator-portable-air-compressor-150psi
+
+### Fashion (5)
+
+- Carhartt Men's Iconic K288 Logo Sweatshirt, Black, X-Small — $44.99 (was $59.99), 4.8 stars, 52,345 reviews, ASIN B00WSWRVAA — https://zaypick.vercel.app/product/carhartt-mens-iconic-k288-logo-sweatshirt-black-xs
+- Hanes Men's Pullover EcoSmart Hooded Sweatshirt, Black, Small — $16.56 (was $27), 4.5 stars, 172,878 reviews, ASIN B00JUM2V5G — https://zaypick.vercel.app/product/hanes-mens-ecosmart-hooded-sweatshirt-black-small
+- Champion Men's Powerblend Fleece Pullover Hoodie, Classic Script Logo, Manhattan Mist Heather, Large — $18.04 (was $50), 4.7 stars, 67,000 reviews, ASIN B078HHDSDJ — https://zaypick.vercel.app/product/champion-mens-powerblend-fleece-hoodie-classic-script-manhattan-mist-heather-large
+- Champion Men's Powerblend Fleece Pullover Hoodie, C Logo, Black, XX-Large — $25.66 (was $50), 4.7 stars, 35,862 reviews, ASIN B01HIUTE1U — https://zaypick.vercel.app/product/champion-mens-powerblend-fleece-hoodie-c-logo-black-xxl
+- Hanes Men's Ultimate Cotton Heavyweight Pullover Hoodie, Black, Large — $20 (was $33), 4.5 stars, 51,509 reviews, ASIN B08HZHVPKV — https://zaypick.vercel.app/product/hanes-mens-ultimate-cotton-heavyweight-hoodie-black-large
+
+### Home (9)
+
+- STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0 — $22.50 (was $45), 4.7 stars, 208,034 reviews, ASIN B0CP9Z56SW — https://zaypick.vercel.app/product/stanley-quencher-h2-0-tumbler-40oz-rose-quartz
+- Owala FreeSip Insulated Stainless Steel Water Bottle, 24 oz, Shy Marshmallow — $22.79 (was $29.99), 4.6 stars, 145,692 reviews, ASIN B085DV8T75 — https://zaypick.vercel.app/product/owala-freesip-insulated-water-bottle-24oz-shy-marshmallow
+- bella Fits-Anywhere 2-Slice Slim Toaster, Oatmilk — $24.98, 4.2 stars, 22,779 reviews, ASIN B0CYJBB2JQ — https://zaypick.vercel.app/product/bella-fits-anywhere-2-slice-slim-toaster-oatmilk
+- HydroJug Traveler 32oz Insulated Water Bottle with Handle — $39.99, 4.6 stars, 20,828 reviews, ASIN B0H139RH5T — https://zaypick.vercel.app/product/hydrojug-traveler-32oz-insulated-water-bottle-with-handle
+- Drift Car Air Freshener, Teak Scent Starter Kit — $12.95, 3.8 stars, 16,500 reviews, ASIN B0C1HJV7BJ — https://zaypick.vercel.app/product/drift-car-air-freshener-wood-teak-scent-starter-kit
+- USANOOKS Microfiber Cleaning Cloth Grey, 12 Pcs — $6.98, 4.6 stars, 19,827 reviews, ASIN B08BRJHJF9 — https://zaypick.vercel.app/product/usanooks-microfiber-cleaning-cloth-grey-12-pcs
+- AstroAI Windshield Cleaner Tool, 21 in — $15.98 (was $22.99), 4.4 stars, 26,042 reviews, ASIN B08C7K99WW — https://zaypick.vercel.app/product/astroai-windshield-cleaner-tool-car-interior-detailing-kit
+- Valvoline Advanced Full Synthetic SAE 5W-30 Motor Oil 5 QT — $26.97, 4.8 stars, 24,795 reviews, ASIN B00GZKC6DS — https://zaypick.vercel.app/product/valvoline-advanced-full-synthetic-5w-30-motor-oil-5qt
+- Mobil 1 Advanced Fuel Economy Full Synthetic Motor Oil 0W-20, 5 Quart — $31.97, 4.8 stars, 51,353 reviews, ASIN B00J00X5YO — https://zaypick.vercel.app/product/mobil-1-advanced-fuel-economy-0w-20-motor-oil-5qt
+
+### Beauty (1)
+
+- BIODANCE Bio-Collagen Real Deep Mask (4ea) — $19, 4.5 stars, 52,317 reviews, ASIN B0B2RM68G2 — https://zaypick.vercel.app/product/biodance-bio-collagen-real-deep-mask-4ea
+
+### Sports (0)
+
+- No products in this category yet.

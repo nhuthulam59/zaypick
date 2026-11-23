@@ -1,0 +1,48 @@
+# ZayPick
+
+> ZayPick is a hand-picked Amazon deals site. It lists the best Amazon deals
+> across Electronics, Fashion, Home, Beauty and Sports, with real prices,
+> ratings and review counts. ZayPick does NOT sell or ship anything — every
+> "Buy on Amazon" button goes to Amazon, where the purchase, shipping and
+> returns are handled by Amazon.
+
+- Site: https://zaypick.vercel.app/
+- Contact: hello@zaypick.com
+- Prices shown are as of 2026-11-23. Prices change on Amazon — always check the current price on Amazon before buying.
+- Disclosure: As an Amazon Associate, ZayPick earns from qualifying purchases. This costs the buyer nothing extra.
+
+## How to find products
+
+- All deals: https://zaypick.vercel.app/shop
+- By category: https://zaypick.vercel.app/category/electronics
+  https://zaypick.vercel.app/category/fashion
+  https://zaypick.vercel.app/category/home
+  https://zaypick.vercel.app/category/beauty
+  https://zaypick.vercel.app/category/sports
+- Single product: https://zaypick.vercel.app/product/<product-slug>
+- Buying guides: https://zaypick.vercel.app/guides
+- Sitemap: https://zaypick.vercel.app/sitemap.xml
+
+## Categories (30 products as of 2026-11-23)
+
+- Electronics (15 products): earbuds, headphones, streaming sticks, smart speakers, tablets, e-readers, trackers, smart home
+- Fashion (5 products): sweatshirts and hoodies
+- Home (9 products): tumblers, water bottles, kitchen, car care, motor oil
+- Beauty (1 product): face masks / skin care
+- Sports (0 products yet)
+
+## Top deals (prices as of 2026-11-23)
+
+- STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0 — $22.50 (was $45.00), 4.7 stars, 208,034 reviews, ASIN B0CP9Z56SW
+- Apple AirPods Pro 3 — $150 (was $249), 4.4 stars, 18,255 reviews, ASIN B0FQFB8FMG
+- Apple iPad 11-inch A16 128GB, Blue — $399 (was $449), 4.7 stars, 24,622 reviews, ASIN B0DZ75TN5F
+- Amazon Echo Dot, Charcoal — $39.99 (was $80), 4.7 stars, 199,932 reviews, ASIN B09B8V1LZ3
+- Amazon Fire TV Stick 4K Plus — $29.99 (was $49.99), 4.6 stars, 116,771 reviews, ASIN B0F7Z4QZTT
+- Beats Solo 4, Metallic Pink — $79.99 (was $199.95), 4.6 stars, 29,366 reviews, ASIN B0FHLPS8ZF
+- Owala FreeSip Water Bottle, 24 oz, Shy Marshmallow — $22.79 (was $29.99), 4.6 stars, 145,692 reviews, ASIN B085DV8T75
+
+## Buying guides
+
+- How to Choose Wireless Earbuds in 2026: https://zaypick.vercel.app/guides/how-to-choose-wireless-earbuds
+- How to Choose a Streaming Stick for Your TV: https://zaypick.vercel.app/guides/how-to-choose-a-streaming-stick
+- How to Choose an Insulated Water Bottle or Tumbler: https://zaypick.vercel.app/guides/how-to-choose-insulated-water-bottle-tumbler

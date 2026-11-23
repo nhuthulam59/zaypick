@@ -29,6 +29,33 @@ export const metadata: Metadata = {
   },
 };
 
+const FAQS = [
+  {
+    q: 'What is ZayPick?',
+    a: 'ZayPick is a hand-picked Amazon deals site. The ZayPick team finds well-reviewed Amazon products with real discounts across Electronics, Fashion, Home, Beauty and Sports, and lists them in one place.',
+  },
+  {
+    q: 'Does ZayPick sell products?',
+    a: 'No. ZayPick does not sell, ship or handle returns. Clicking "Buy on Amazon" takes you to Amazon, where you complete the purchase on Amazon.',
+  },
+  {
+    q: 'How do prices work on ZayPick?',
+    a: 'The price shown is the Amazon price as of the date on the product page (for example 2026-11-23), with the old price where there is a real discount. Prices change on Amazon, so always check the current price on Amazon before you buy.',
+  },
+  {
+    q: 'Does ZayPick earn money from my purchase?',
+    a: 'Yes. As an Amazon Associate, ZayPick earns from qualifying purchases. This costs you nothing extra.',
+  },
+  {
+    q: 'Who handles shipping and returns?',
+    a: 'Amazon does. Shipping, delivery and returns follow Amazon\u2019s own policy, and Prime eligibility is shown on Amazon.',
+  },
+  {
+    q: 'How are products chosen?',
+    a: 'Products are hand-picked by the ZayPick team: well-reviewed products with genuine discounts. The rating and review count for every product are shown on its page.',
+  },
+];
+
 export default function Home() {
   const db = readDb();
   const deals = [...db.products].sort((a, b) => (b.oldPrice - b.price) - (a.oldPrice - a.price)).slice(0, 8);
@@ -45,9 +72,19 @@ export default function Home() {
       'query-input': 'required name=search_term_string',
     },
   };
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: FAQS.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
   return (
     <div className="space-y-12 py-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <section className="overflow-hidden rounded-3xl bg-gradient-to-r from-navy to-navy-light text-white">
         <div className="flex flex-col items-start gap-6 p-6 sm:p-8 md:flex-row md:items-center md:justify-between lg:p-12">
           <div>
@@ -132,6 +169,19 @@ export default function Home() {
               <div className="relative h-40 overflow-hidden"><Image src={g.image} alt={g.title} fill className="object-cover transition group-hover:scale-105" /></div>
               <div className="p-4"><p className="text-xs font-bold uppercase text-brand">{g.category}</p><h3 className="mt-1 font-bold group-hover:text-blue-700">{g.title}</h3><p className="mt-1 text-sm text-slate-500">{g.excerpt}</p></div>
             </Link>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-black text-navy sm:text-2xl">Frequently Asked Questions</h2>
+        <p className="mt-1 text-sm text-slate-500">Quick answers about how ZayPick works.</p>
+        <div className="mt-4 space-y-3">
+          {FAQS.map((f) => (
+            <div key={f.q} className="rounded-2xl border p-5">
+              <p className="font-bold text-navy">{f.q}</p>
+              <p className="mt-1 text-sm leading-relaxed text-slate-600">{f.a}</p>
+            </div>
           ))}
         </div>
       </section>
