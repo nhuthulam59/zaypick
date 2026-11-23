@@ -553,13 +553,45 @@
       "rating": 4.8,
       "reviews": 6210,
       "slug": "insulated-water-bottle-1l"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0CP9Z56SW",
+      "asin": "B0CP9Z56SW",
+      "badge": "50% Off",
+      "category": "home",
+      "cons": [
+        "Not leak-proof when tipped over",
+        "40 oz is heavy when full"
+      ],
+      "description": "40 oz insulated stainless steel tumbler with handle, straw and 3-position FlowState lid. Keeps drinks cold for 11 hours, hot for 7 hours and iced for 2 days. Fits most car cup holders. BPA-free, made from 90% recycled stainless steel.",
+      "highlights": [
+        "40 oz capacity — fewer refills",
+        "Double-wall vacuum insulation",
+        "FlowState 3-position lid with reusable straw",
+        "Comfort handle, cup-holder compatible",
+        "90% recycled BPA-free stainless steel"
+      ],
+      "id": "p16",
+      "image": "https://m.media-amazon.com/images/I/312RAhrhXrL._SR600%2c315_PIWhiteStrip.jpg",
+      "name": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0",
+      "oldPrice": 45.0,
+      "price": 22.5,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Keeps ice for up to 2 days",
+        "Best Seller — 200K+ reviews",
+        "Fits car cup holders"
+      ],
+      "rating": 4.7,
+      "reviews": 208034,
+      "slug": "stanley-quencher-h2-0-tumbler-40oz-rose-quartz"
     }
   ],
   "settings": {
     "amazonApiKey": "",
     "amazonTag": "zaypick-20",
     "contactEmail": "hello@zaypick.com",
-    "heroBadge": "Up to 42% Off",
+    "heroBadge": "Up to 50% Off",
     "heroSubtitle": "Big discounts on top picks across Electronics, Fashion, Home, Beauty & Sports",
     "heroTitle": "Seasonal Savings",
     "siteName": "ZayPick",
