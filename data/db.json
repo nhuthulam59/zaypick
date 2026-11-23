@@ -86,6 +86,97 @@
       "rating": 4.7,
       "reviews": 208034,
       "slug": "stanley-quencher-h2-0-tumbler-40oz-rose-quartz"
+    },
+    {
+      "id": "p17",
+      "slug": "owala-freesip-insulated-water-bottle-24oz-shy-marshmallow",
+      "name": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, 24 oz, Shy Marshmallow",
+      "category": "home",
+      "price": 22.79,
+      "oldPrice": 29.99,
+      "rating": 4.6,
+      "reviews": 145692,
+      "badge": "24% Off",
+      "image": "https://www.yeswellness.com/cdn/shop/files/Owala-FreeSip-Insulated-Stainless-Steel-Water-Bottle-Blue-Oasis-32oz_46a2606c-aee8-4a10-ba85-66e99838c910.jpg?v=1715891721",
+      "asin": "B085DV8T75",
+      "description": "24 oz insulated stainless steel water bottle with the FreeSip spout — sip through the straw or swig through the wide opening. Triple-wall vacuum insulation keeps drinks cold up to 24 hours. Locking push-button lid is leak-proof, BPA-free, and fits most car cup holders.",
+      "highlights": [
+        "24 oz capacity with FreeSip 2-in-1 sip-or-swig spout",
+        "Triple-wall vacuum insulation — cold up to 24 hours",
+        "Locking push-button lid, leak-proof",
+        "BPA-free stainless steel, fits car cup holders"
+      ],
+      "pros": [
+        "Best Seller #1 in Kitchen & Dining on Amazon",
+        "4.6 stars from 145K+ ratings",
+        "Leak-proof locking lid"
+      ],
+      "cons": [
+        "Price varies by color",
+        "24 oz may be small for all-day use"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B085DV8T75",
+      "priceAsOf": "2026-11-23"
+    },
+    {
+      "id": "p18",
+      "slug": "bella-fits-anywhere-2-slice-slim-toaster-oatmilk",
+      "name": "bella Fits-Anywhere 2-Slice Slim Toaster, Long Slot, Oatmilk",
+      "category": "home",
+      "price": 24.98,
+      "oldPrice": 24.98,
+      "rating": 4.2,
+      "reviews": 22779,
+      "image": "https://images.ctfassets.net/ysk73m19lyh8/7kmvFKp7vt3tC3RcBiQtOn/35b1d3799199f18899ce12b7d0c5b8e0/90231_BellaPro_2SL_Toaster_Oatmilk_11.jpg",
+      "asin": "B0CYJBB2JQ",
+      "description": "Slim 2-slice toaster with a 10-inch long slot that fits sourdough and long artisan slices. 6-setting shade control with reheat and cancel buttons, anti-jam and auto shutoff, 900 watts. Fits-anywhere slim design for small kitchens.",
+      "highlights": [
+        "10-inch long slot — fits sourdough and long slices",
+        "6-setting shade control with reheat & cancel",
+        "Anti-jam and auto shutoff, 900 watts",
+        "Slim fits-anywhere design, Oatmilk color"
+      ],
+      "pros": [
+        "Fits long sourdough slices other toasters cannot",
+        "4.2 stars from 22K+ ratings",
+        "Slim profile saves counter space"
+      ],
+      "cons": [
+        "Price changes often on Amazon",
+        "Only 2 slices at a time"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0CYJBB2JQ",
+      "priceAsOf": "2026-11-23"
+    },
+    {
+      "id": "p19",
+      "slug": "hydrojug-traveler-32oz-insulated-water-bottle-with-handle",
+      "name": "HydroJug Traveler 32oz, Insulated Water Bottle with Handle",
+      "category": "home",
+      "price": 39.99,
+      "oldPrice": 39.99,
+      "rating": 4.6,
+      "reviews": 20828,
+      "image": "https://hydrojug.myshopify.com/cdn/shop/files/TRVL32-Merlot1-WPI.png?v=1755797641&width=2048",
+      "asin": "B0H139RH5T",
+      "description": "32 oz insulated stainless steel tumbler with a comfortable handle and flip straw lid. Triple-wall insulation, leak-resistant with the straw down, cup-holder friendly, BPA-free and dishwasher safe.",
+      "highlights": [
+        "32 oz capacity with handle and flip straw lid",
+        "Leak-resistant with straw down, cup-holder friendly",
+        "Triple-wall insulated stainless steel",
+        "BPA-free, dishwasher safe"
+      ],
+      "pros": [
+        "Amazon Best Seller #3 in Kitchen & Dining",
+        "4.6 stars from 20K+ ratings",
+        "Handle and flip straw make it easy to carry"
+      ],
+      "cons": [
+        "Price varies by color",
+        "32 oz is heavy when full"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0H139RH5T",
+      "priceAsOf": "2026-11-23"
     }
   ],
   "settings": {
