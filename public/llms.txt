@@ -24,11 +24,11 @@
 - Buying guides: https://zaypick.vercel.app/guides
 - Sitemap: https://zaypick.vercel.app/sitemap.xml
 
-## Categories (31 products as of 2026-11-23)
+## Categories (35 products as of 2026-11-23)
 
-- Electronics (15 products): earbuds, headphones, streaming sticks, smart speakers, tablets, e-readers, trackers, smart home
+- Electronics (16 products): earbuds, headphones, streaming sticks, smart speakers, tablets, e-readers, trackers, smart home, smart displays
 - Fashion (5 products): sweatshirts and hoodies
-- Home (9 products): tumblers, water bottles, kitchen, car care, motor oil
+- Home (12 products): tumblers, water bottles, kitchen, car care, motor oil, bed sheets, hangers
 - Beauty (1 product): face masks / skin care
 - Sports (0 products yet)
 - Toys (1 product): action figures
@@ -42,6 +42,7 @@
 - Amazon Fire TV Stick 4K Plus — $29.99 (was $49.99), 4.6 stars, 116,771 reviews, ASIN B0F7Z4QZTT
 - Beats Solo 4, Metallic Pink — $79.99 (was $199.95), 4.6 stars, 29,366 reviews, ASIN B0FHLPS8ZF
 - Owala FreeSip Water Bottle, 24 oz, Shy Marshmallow — $22.79 (was $29.99), 4.6 stars, 145,692 reviews, ASIN B085DV8T75
+- Amazon Echo Show 5 (newest model), Charcoal — $54.99 (was $99.99), 4.2 stars, 74,393 reviews, ASIN B09B2SBHQK
 
 ## Buying guides
 

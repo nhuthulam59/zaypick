@@ -56,9 +56,9 @@
   https://zaypick.vercel.app/guides/how-to-choose-insulated-water-bottle-tumbler
   Our pick: STANLEY Quencher H2.0 Tumbler 40 oz, $22.50 (was $45.00), ASIN B0CP9Z56SW.
 
-## All products (31, prices as of 2026-11-23)
+## All products (35, prices as of 2026-11-23)
 
-### Electronics (15)
+### Electronics (16)
 
 - Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation — $150 (was $249), 4.4 stars, 18,255 reviews, ASIN B0FQFB8FMG — https://zaypick.vercel.app/product/apple-airpods-pro-3-wireless-earbuds-anc
 - Beats Solo 4 On-Ear Headphones, Metallic Pink — $79.99 (was $199.95), 4.6 stars, 29,366 reviews, ASIN B0FHLPS8ZF — https://zaypick.vercel.app/product/beats-solo-4-on-ear-headphones-metallic-pink
@@ -75,6 +75,7 @@
 - Amazon Fire TV Stick HD (newest model) — $15.99 (was $39.99), 4.2 stars, 8,172 reviews, ASIN B0DJGDC3BD — https://zaypick.vercel.app/product/amazon-fire-tv-stick-hd-2026
 - Nex Playground Active Play System — $209 (was $299), 4.2 stars, 2,245 reviews, ASIN B0D2JGYX3F — https://zaypick.vercel.app/product/nex-playground-active-play-system
 - AstroAI L7 Tire Inflator Portable Air Compressor, 150 PSI — $21.83 (was $39.99), 4.3 stars, 20,896 reviews, ASIN B0CS3B7MD8 — https://zaypick.vercel.app/product/astroai-l7-tire-inflator-portable-air-compressor-150psi
+- Amazon Echo Show 5 (newest model), Charcoal — $54.99 (was $99.99), 4.2 stars, 74,393 reviews, ASIN B09B2SBHQK — https://zaypick.vercel.app/product/amazon-echo-show-5-newest-model-charcoal
 
 ### Fashion (5)
 
@@ -84,7 +85,7 @@
 - Champion Men's Powerblend Fleece Pullover Hoodie, C Logo, Black, XX-Large — $25.66 (was $50), 4.7 stars, 35,862 reviews, ASIN B01HIUTE1U — https://zaypick.vercel.app/product/champion-mens-powerblend-fleece-hoodie-c-logo-black-xxl
 - Hanes Men's Ultimate Cotton Heavyweight Pullover Hoodie, Black, Large — $20 (was $33), 4.5 stars, 51,509 reviews, ASIN B08HZHVPKV — https://zaypick.vercel.app/product/hanes-mens-ultimate-cotton-heavyweight-hoodie-black-large
 
-### Home (9)
+### Home (12)
 
 - STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0 — $22.50 (was $45), 4.7 stars, 208,034 reviews, ASIN B0CP9Z56SW — https://zaypick.vercel.app/product/stanley-quencher-h2-0-tumbler-40oz-rose-quartz
 - Owala FreeSip Insulated Stainless Steel Water Bottle, 24 oz, Shy Marshmallow — $22.79 (was $29.99), 4.6 stars, 145,692 reviews, ASIN B085DV8T75 — https://zaypick.vercel.app/product/owala-freesip-insulated-water-bottle-24oz-shy-marshmallow
@@ -95,6 +96,9 @@
 - AstroAI Windshield Cleaner Tool, 21 in — $15.98 (was $22.99), 4.4 stars, 26,042 reviews, ASIN B08C7K99WW — https://zaypick.vercel.app/product/astroai-windshield-cleaner-tool-car-interior-detailing-kit
 - Valvoline Advanced Full Synthetic SAE 5W-30 Motor Oil 5 QT — $26.97, 4.8 stars, 24,795 reviews, ASIN B00GZKC6DS — https://zaypick.vercel.app/product/valvoline-advanced-full-synthetic-5w-30-motor-oil-5qt
 - Mobil 1 Advanced Fuel Economy Full Synthetic Motor Oil 0W-20, 5 Quart — $31.97, 4.8 stars, 51,353 reviews, ASIN B00J00X5YO — https://zaypick.vercel.app/product/mobil-1-advanced-fuel-economy-0w-20-motor-oil-5qt
+- Queen Size 4 Piece Sheet Set, Comfy Breathable & Cooling Sheets, White — $17.49, 4.5 stars, 465,393 reviews, ASIN B01M16WBW1 — https://zaypick.vercel.app/product/queen-size-4-piece-sheet-set-white
+- Amazon Basics Slim Velvet Non-Slip Hangers, 30-Pack, Black/Silver — $12.88, 4.8 stars, 239,835 reviews, ASIN B00FXNABPI — https://zaypick.vercel.app/product/amazon-basics-slim-velvet-hangers-30-pack
+- Zober Black Velvet Hangers, 50 Pack, Black — $28.99, 4.8 stars, 93,948 reviews, ASIN B01IRHUV6A — https://zaypick.vercel.app/product/zober-black-velvet-hangers-50-pack
 
 ### Beauty (1)
 

@@ -1,1093 +1,1214 @@
 {
-  "categories": [
-    {
-      "description": "Headphones, smartwatches, earbuds and gadgets.",
-      "id": "c1",
-      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800&q=80",
-      "name": "Electronics",
-      "slug": "electronics"
-    },
-    {
-      "description": "Shoes, clothing, bags and everyday style.",
-      "id": "c2",
-      "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800&q=80",
-      "name": "Fashion",
-      "slug": "fashion"
-    },
-    {
-      "description": "Kitchen, lighting, bedding and home essentials.",
-      "id": "c3",
-      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
-      "name": "Home",
-      "slug": "home"
-    },
-    {
-      "description": "Skincare, hair care and beauty tools.",
-      "id": "c4",
-      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80",
-      "name": "Beauty",
-      "slug": "beauty"
-    },
-    {
-      "description": "Running, yoga, gym and outdoor gear.",
-      "id": "c5",
-      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80",
-      "name": "Sports",
-      "slug": "sports"
-    },
-    {
-      "description": "Action figures, dolls, games and playtime favourites.",
-      "id": "c6",
-      "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=800&q=80",
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
-  "clicks": [
-    {
-      "count": 12,
-      "productId": "p01",
-      "productName": "Wireless Noise-Cancelling Over-Ear Headphones"
-    },
-    {
-      "count": 9,
-      "productId": "p10",
-      "productName": "Vitamin C Face Serum — Brightening & Hydrating (30ml)"
-    },
-    {
-      "count": 7,
-      "productId": "p07",
-      "productName": "5L Air Fryer with Digital Touchscreen — 8 Presets"
-    }
-  ],
-  "guides": [
-    {
-      "id": "g1",
-      "slug": "how-to-choose-wireless-earbuds",
-      "title": "How to Choose Wireless Earbuds in 2026",
-      "excerpt": "ANC, battery life, fit and price — what actually matters when buying wireless earbuds on Amazon, with our pick from the ZayPick catalog.",
-      "category": "Electronics",
-      "date": "2026-11-23",
-      "image": "https://m.media-amazon.com/images/I/218Mmzk0EaL._AC_SL1500_.jpg",
-      "content": "Wireless earbuds all look similar in photos, but four things decide whether you will actually enjoy them: noise cancellation, fit, battery life and price. This guide explains each one in plain language, using real products from the ZayPick catalog.\n\n## Noise cancellation (ANC)\n\nActive noise cancellation uses microphones to cancel low, steady sounds such as bus engines and office hum. It helps a lot on flights and commutes, but it cannot silence sudden loud sounds. If you mostly listen at home, good passive sealing from the ear tips may be enough, and you can save money.\n\n## Fit matters more than brand\n\nEarbuds that fall out are useless, whatever the brand. Look for multiple ear-tip sizes in the box and a shape that suits your ears. In-ear buds with silicone tips seal better and give stronger bass; open-ear buds feel lighter and let in more outside sound.\n\n## Battery life to check\n\n- Earbuds alone: 5 to 8 hours per charge is normal for ANC earbuds.\n- Case total: 24 to 30 hours with the charging case is good.\n- Fast charging: a 5-minute charge giving 1 hour of playback is a useful bonus, not a must-have.\n\n## What to check before you buy\n\n- Rating and review count on Amazon — a 4.4-star product with 18,000+ reviews is a safer bet than a 5-star product with 50 reviews.\n- Bluetooth version and codec support for your phone.\n- Water resistance (IPX4 or better) if you run or work out.\n- Whether the price is a real discount — compare the price with the old price shown on the product page.\n\n## Our pick\n\nThe Apple AirPods Pro 3 (ASIN B0FQFB8FMG) are our pick from this guide: $150, was $249, 4.4 stars from 18,255 reviews (price as of 2026-11-23). They offer up to 2x more noise cancellation than AirPods Pro 2, Live Translation, heart-rate sensing, up to 8 hours of listening with ANC on, IP57 sweat and rain resistance, and 5 ear-tip sizes. If you want a cheaper on-ear option, the Beats Solo 4 (ASIN B0FHLPS8ZF) is $79.99, was $199.95, 4.6 stars from 29,366 reviews, with up to 50 hours of battery life. Prices change on Amazon — check the current price before you buy.",
-      "relatedProductSlug": "apple-airpods-pro-3-wireless-earbuds-anc"
-    },
-    {
-      "id": "g2",
-      "slug": "how-to-choose-a-streaming-stick",
-      "title": "How to Choose a Streaming Stick for Your TV",
-      "excerpt": "HD vs 4K, Wi-Fi, voice remote and price — how to pick the right streaming stick for your TV without paying for features you will not use.",
-      "category": "Electronics",
-      "date": "2026-11-23",
-      "image": "https://m.media-amazon.com/images/I/31vGhsksTCL._SL500_.jpg",
-      "content": "A streaming stick turns an old TV into a smart TV for the price of a dinner out. The choice is simpler than it looks: match the stick to your TV and your internet, then pick the cheapest one that covers both.\n\n## HD or 4K?\n\n- Your TV is 1080p only: an HD stick is enough. A 4K stick will still work, but you will not see the extra resolution.\n- Your TV is 4K: buy a 4K stick with HDR (Dolby Vision or HDR10+) so films look their best.\n- You mostly watch free and live TV: any modern stick covers that.\n\n## Wi-Fi and speed\n\nStreaming sticks need stable Wi-Fi more than raw speed. Wi-Fi 6 helps in busy homes with many devices. If your TV is far from the router, a stick with long-range Wi-Fi or an Ethernet adapter option is worth it.\n\n## Voice remote and interface\n\n- A voice remote saves a lot of typing when searching for shows.\n- Check that your favourite apps (Netflix, Disney+, Prime Video, Hulu, Apple TV) are supported — most sticks support all of them.\n- Some interfaces show more ads than others; that is a fair trade for a lower price.\n\n## What to check before you buy\n\n- Resolution of your TV (1080p vs 4K).\n- Storage: 8 GB is standard and fine for streaming apps.\n- Rating and review count — the Fire TV Stick 4K Plus has 4.6 stars from 116,771 reviews, which is a strong signal.\n- Price vs old price: streaming sticks go on deep sale often, so do not pay full price if you can wait for a deal.\n\n## Our pick\n\nThe Amazon Fire TV Stick 4K Plus (ASIN B0F7Z4QZTT) is our pick from this guide: $29.99, was $49.99, 4.6 stars from 116,771 reviews (price as of 2026-11-23). It streams 4K Ultra HD with Dolby Vision, HDR10+ and Dolby Atmos, has Wi-Fi 6, AI-powered Fire TV Search, and an Alexa Voice Remote. If your TV is only 1080p, the Roku Streaming Stick HD (ASIN B0DXXYS4BJ) is $19, was $39.99, 4.6 stars from 26,566 reviews, and the Fire TV Stick HD (ASIN B0DJGDC3BD) is $15.99, was $39.99, 4.2 stars from 8,172 reviews. Prices change on Amazon — check the current price before you buy.",
-      "relatedProductSlug": "amazon-fire-tv-stick-4k-plus"
-    },
-    {
-      "id": "g3",
-      "slug": "how-to-choose-insulated-water-bottle-tumbler",
-      "title": "How to Choose an Insulated Water Bottle or Tumbler",
-      "excerpt": "Size, lid, insulation and cup-holder fit — what to check before buying an insulated bottle or tumbler on Amazon.",
-      "category": "Home",
-      "date": "2026-11-23",
-      "image": "https://m.media-amazon.com/images/I/312RAhrhXrL._SR600%2c315_PIWhiteStrip.jpg",
-      "content": "A good insulated bottle keeps drinks cold for hours and does not leak in your bag. The right size depends on where you use it most: desk, car, gym or hiking.\n\n## Size first\n\n- 24 oz is light and fits most cup holders — good for a desk or a short trip.\n- 32 oz is the sweet spot for most people: enough water for hours without being too heavy.\n- 40 oz is best for long days and workouts, but it is heavy when full and does not fit every cup holder.\n\n## Lid and leak test\n\n- A straw lid is best for sipping while driving or working.\n- A flip-straw or screw cap is better for tossing the bottle in a bag.\n- Check the reviews for leak reports — a bottle that leaks is useless, however good its insulation is.\n\n## Insulation and material\n\n- Double-wall or triple-wall vacuum insulation keeps drinks cold for 12 to 24 hours.\n- Stainless steel lasts longer than plastic and does not hold flavours.\n- BPA-free matters if you drink from it every day.\n- Dishwasher-safe saves time; hand-wash-only bottles get dirty fast.\n\n## What to check before you buy\n\n- Capacity in ounces, and whether it fits your car cup holder.\n- Rating and review count — the STANLEY Quencher has 4.7 stars from 208,034 reviews.\n- Price vs old price, and whether the price changes by color.\n- Whether a handle is included — a 32 oz or 40 oz bottle without a handle is hard to carry.\n\n## Our pick\n\nThe STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0 (ASIN B0CP9Z56SW) is our pick from this guide: $22.50, was $45.00, 4.7 stars from 208,034 reviews (price as of 2026-11-23). It keeps drinks cold for 11 hours, hot for 7 hours and iced for 2 days, has a FlowState 3-position lid with a reusable straw, a comfort handle, and fits most car cup holders. If you want something lighter, the Owala FreeSip 24 oz (ASIN B085DV8T75) is $22.79, was $29.99, 4.6 stars from 145,692 reviews, and the HydroJug Traveler 32 oz (ASIN B0H139RH5T) is $39.99, 4.6 stars from 20,828 reviews. Prices change on Amazon — check the current price before you buy.",
-      "relatedProductSlug": "stanley-quencher-h2-0-tumbler-40oz-rose-quartz"
-    }
-  ],
-  "products": [
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0CP9Z56SW",
-      "asin": "B0CP9Z56SW",
-      "badge": "50% Off",
-      "category": "home",
-      "cons": [
-        "Not leak-proof when tipped over",
-        "40 oz is heavy when full"
-      ],
-      "description": "40 oz insulated stainless steel tumbler with handle, straw and 3-position FlowState lid. Keeps drinks cold for 11 hours, hot for 7 hours and iced for 2 days. Fits most car cup holders. BPA-free, made from 90% recycled stainless steel.",
-      "highlights": [
-        "40 oz capacity — fewer refills",
-        "Double-wall vacuum insulation",
-        "FlowState 3-position lid with reusable straw",
-        "Comfort handle, cup-holder compatible",
-        "90% recycled BPA-free stainless steel"
-      ],
-      "id": "p16",
-      "image": "https://m.media-amazon.com/images/I/312RAhrhXrL._SR600%2c315_PIWhiteStrip.jpg",
-      "name": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0",
-      "oldPrice": 45.0,
-      "price": 22.5,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Keeps ice for up to 2 days",
-        "Best Seller — 200K+ reviews",
-        "Fits car cup holders"
-      ],
-      "rating": 4.7,
-      "reviews": 208034,
-      "slug": "stanley-quencher-h2-0-tumbler-40oz-rose-quartz"
-    },
-    {
-      "id": "p17",
-      "slug": "owala-freesip-insulated-water-bottle-24oz-shy-marshmallow",
-      "name": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, 24 oz, Shy Marshmallow",
-      "category": "home",
-      "price": 22.79,
-      "oldPrice": 29.99,
-      "rating": 4.6,
-      "reviews": 145692,
-      "badge": "24% Off",
-      "image": "https://www.yeswellness.com/cdn/shop/files/Owala-FreeSip-Insulated-Stainless-Steel-Water-Bottle-Blue-Oasis-32oz_46a2606c-aee8-4a10-ba85-66e99838c910.jpg?v=1715891721",
-      "asin": "B085DV8T75",
-      "description": "24 oz insulated stainless steel water bottle with the FreeSip spout — sip through the straw or swig through the wide opening. Triple-wall vacuum insulation keeps drinks cold up to 24 hours. Locking push-button lid is leak-proof, BPA-free, and fits most car cup holders.",
-      "highlights": [
-        "24 oz capacity with FreeSip 2-in-1 sip-or-swig spout",
-        "Triple-wall vacuum insulation — cold up to 24 hours",
-        "Locking push-button lid, leak-proof",
-        "BPA-free stainless steel, fits car cup holders"
-      ],
-      "pros": [
-        "Best Seller #1 in Kitchen & Dining on Amazon",
-        "4.6 stars from 145K+ ratings",
-        "Leak-proof locking lid"
-      ],
-      "cons": [
-        "Price varies by color",
-        "24 oz may be small for all-day use"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B085DV8T75",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "id": "p18",
-      "slug": "bella-fits-anywhere-2-slice-slim-toaster-oatmilk",
-      "name": "bella Fits-Anywhere 2-Slice Slim Toaster, Long Slot, Oatmilk",
-      "category": "home",
-      "price": 24.98,
-      "oldPrice": 24.98,
-      "rating": 4.2,
-      "reviews": 22779,
-      "image": "https://images.ctfassets.net/ysk73m19lyh8/7kmvFKp7vt3tC3RcBiQtOn/35b1d3799199f18899ce12b7d0c5b8e0/90231_BellaPro_2SL_Toaster_Oatmilk_11.jpg",
-      "asin": "B0CYJBB2JQ",
-      "description": "Slim 2-slice toaster with a 10-inch long slot that fits sourdough and long artisan slices. 6-setting shade control with reheat and cancel buttons, anti-jam and auto shutoff, 900 watts. Fits-anywhere slim design for small kitchens.",
-      "highlights": [
-        "10-inch long slot — fits sourdough and long slices",
-        "6-setting shade control with reheat & cancel",
-        "Anti-jam and auto shutoff, 900 watts",
-        "Slim fits-anywhere design, Oatmilk color"
-      ],
-      "pros": [
-        "Fits long sourdough slices other toasters cannot",
-        "4.2 stars from 22K+ ratings",
-        "Slim profile saves counter space"
-      ],
-      "cons": [
-        "Price changes often on Amazon",
-        "Only 2 slices at a time"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B0CYJBB2JQ",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "id": "p19",
-      "slug": "hydrojug-traveler-32oz-insulated-water-bottle-with-handle",
-      "name": "HydroJug Traveler 32oz, Insulated Water Bottle with Handle",
-      "category": "home",
-      "price": 39.99,
-      "oldPrice": 39.99,
-      "rating": 4.6,
-      "reviews": 20828,
-      "image": "https://hydrojug.myshopify.com/cdn/shop/files/TRVL32-Merlot1-WPI.png?v=1755797641&width=2048",
-      "asin": "B0H139RH5T",
-      "description": "32 oz insulated stainless steel tumbler with a comfortable handle and flip straw lid. Triple-wall insulation, leak-resistant with the straw down, cup-holder friendly, BPA-free and dishwasher safe.",
-      "highlights": [
-        "32 oz capacity with handle and flip straw lid",
-        "Leak-resistant with straw down, cup-holder friendly",
-        "Triple-wall insulated stainless steel",
-        "BPA-free, dishwasher safe"
-      ],
-      "pros": [
-        "Amazon Best Seller #3 in Kitchen & Dining",
-        "4.6 stars from 20K+ ratings",
-        "Handle and flip straw make it easy to carry"
-      ],
-      "cons": [
-        "Price varies by color",
-        "32 oz is heavy when full"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B0H139RH5T",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "id": "p20",
-      "slug": "drift-car-air-freshener-wood-teak-scent-starter-kit",
-      "name": "Drift Car Air Freshener - Wood Air Freshener, Car Odor Eliminator, Teak Scent Starter Kit",
-      "category": "home",
-      "price": 12.95,
-      "oldPrice": 12.95,
-      "rating": 3.8,
-      "reviews": 16500,
-      "image": "https://m.media-amazon.com/images/I/31i99JTYWHL._SR600%2c315_PIWhiteStrip.jpg",
-      "asin": "B0C1HJV7BJ",
-      "description": "Sustainably sourced wood block infused with natural essential oils in a teak scent, with a metal visor clip. Passive, leak-free fragrance for about 30 days, with no synthetic sprays or liquids.",
-      "highlights": [
-        "Teak scent wood block with essential oils",
-        "Metal visor clip included in the starter kit",
-        "Lasts about 30 days per block",
-        "No liquids, no spills, no residue",
-        "#1 Best Seller in Automotive Air Fresheners"
-      ],
-      "pros": [
-        "Natural, cologne-like teak scent",
-        "Clean, minimal look in the car",
-        "Best Seller with 16K+ ratings"
-      ],
-      "cons": [
-        "Scent can fade faster in hot cars",
-        "3.8-star rating - scent strength divides buyers"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B0C1HJV7BJ",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "id": "p21",
-      "slug": "astroai-l7-tire-inflator-portable-air-compressor-150psi",
-      "name": "AstroAI L7 Tire Inflator Portable Air Compressor, 150 PSI Cordless Bike Pump | For Car Tires, Bikes, Motorcycles and Balls; Auto Shut-off, Digital Display Pressure Gauge, Fast Inflation, LED Light",
-      "category": "electronics",
-      "price": 21.83,
-      "oldPrice": 39.99,
-      "rating": 4.3,
-      "reviews": 20896,
-      "badge": "45% Off",
-      "image": "https://m.media-amazon.com/images/I/41LjHi8ozxL._SR600%2c315_PIWhiteStrip.jpg",
-      "asin": "B0CS3B7MD8",
-      "description": "Cordless portable tire inflator with 150 PSI max, 17 L/min airflow, digital pressure gauge with auto shut-off, and LED light. Small enough for a glove box, for car and bike tires, motorcycles and balls.",
-      "highlights": [
-        "150 PSI max, 17 L/min airflow",
-        "Cordless with built-in rechargeable battery",
-        "Digital display with auto shut-off at your set pressure",
-        "LED light for night use",
-        "#1 Best Seller in Wheel & Tire Air Compressors"
-      ],
-      "pros": [
-        "Pocket-size and cordless - lives in the glove box",
-        "4.3 stars from 20K+ ratings",
-        "Fast top-ups for car and bike tires"
-      ],
-      "cons": [
-        "Not for heavy-duty truck or trailer tires",
-        "Battery drains on repeated large fills"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B0CS3B7MD8",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "id": "p22",
-      "slug": "usanooks-microfiber-cleaning-cloth-grey-12-pcs",
-      "name": "USANOOKS Microfiber Cleaning Cloth Grey - 12 Pcs (12.5\"x12.5\") - High Performance - 1200 Washes, Ultra Absorbent Microfiber Towel Weave Grime & Liquid for Streak-Free Mirror Shine - Car Washing Cloth",
-      "category": "home",
-      "price": 6.98,
-      "oldPrice": 6.98,
-      "rating": 4.6,
-      "reviews": 19827,
-      "image": "https://m.media-amazon.com/images/I/51aW21SrP3S._SR600%2c315_PIWhiteStrip.jpg",
-      "asin": "B08BRJHJF9",
-      "description": "Pack of 12 grey microfiber cleaning cloths, 12.5 x 12.5 inches, with a Grip-Root weave that traps grime and liquid. Ultra absorbent, lint-free and streak-free for cars, mirrors, glass, kitchen and bathroom, and washable up to 1200 times.",
-      "highlights": [
-        "12 pcs, 12.5 x 12.5 inches, grey",
-        "Grip-Root weave - absorbs up to 8-10x its weight",
-        "300 GSM, lint-free and streak-free",
-        "Reusable - up to 1200 washes",
-        "Amazon's Choice"
-      ],
-      "pros": [
-        "4.6 stars from 19K+ ratings",
-        "Very cheap per cloth - under $0.60 each",
-        "Works on car, glass, kitchen and bathroom"
-      ],
-      "cons": [
-        "Some buyers find them thinner than expected",
-        "Size can feel small for large jobs"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B08BRJHJF9",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "id": "p23",
-      "slug": "astroai-windshield-cleaner-tool-car-interior-detailing-kit",
-      "name": "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in | Non-Magnetic, Extra-Long Extendable Handle, 4 Reusable Microfiber Pads, Streak-free, Auto Glass Wiper Brush for Car & Home",
-      "category": "home",
-      "price": 15.98,
-      "oldPrice": 22.99,
-      "rating": 4.4,
-      "reviews": 26042,
-      "badge": "30% Off",
-      "image": "https://m.media-amazon.com/images/I/51rgrLc7yjL._SR600%2c315_PIWhiteStrip.jpg",
-      "asin": "B08C7K99WW",
-      "description": "Extendable windshield cleaning tool with a 21-inch handle, 180-degree pivoting head and 4 reusable microfiber pads. Reaches the bottom of the windshield without stretching, for streak-free interior and exterior glass.",
-      "highlights": [
-        "Extendable handle up to 21 inches",
-        "180-degree pivoting triangular head",
-        "4 reusable, washable microfiber pads",
-        "Streak-free on interior and exterior glass",
-        "#1 Best Seller in windshield cleaner kits"
-      ],
-      "pros": [
-        "4.4 stars from 26K+ ratings",
-        "Reaches hard-to-reach lower windshield",
-        "10K+ bought in the past month"
-      ],
-      "cons": [
-        "Handle lock can slip under heavy pressure",
-        "Replacement pads sold separately"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B08C7K99WW",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "id": "p24",
-      "slug": "valvoline-advanced-full-synthetic-5w-30-motor-oil-5qt",
-      "name": "Valvoline Advanced Full Synthetic SAE 5W-30 Motor Oil 5 QT | Proven to maximize engine life, 40% stronger wear protection, 15% better deposit defense, up to 2.5X better heat protection",
-      "category": "home",
-      "price": 26.97,
-      "oldPrice": 26.97,
-      "rating": 4.8,
-      "reviews": 24795,
-      "image": "https://m.media-amazon.com/images/I/41L0fHEOTaL._SR600%2c315_PIWhiteStrip.jpg",
-      "asin": "B00GZKC6DS",
-      "description": "5-quart jug of Valvoline Advanced Full Synthetic SAE 5W-30 motor oil. Full-synthetic protection against wear, friction, heat and deposits, meeting ILSAC GF-6A, API SP and GM dexos 1 Gen 3.",
-      "highlights": [
-        "5 QT full-synthetic SAE 5W-30",
-        "40% stronger wear protection than industry standards",
-        "15% better deposit defense",
-        "Up to 2.5X better heat protection",
-        "Meets ILSAC GF-6A, API SP, dexos 1 Gen 3"
-      ],
-      "pros": [
-        "4.8 stars from 24K+ ratings",
-        "#1 Best Seller in Oils & Fluids",
-        "Trusted brand, made in the USA"
-      ],
-      "cons": [
-        "Higher price than conventional oil",
-        "Check your manual - only for cars/trucks needing 5W-30"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B00GZKC6DS",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "id": "p25",
-      "slug": "mobil-1-advanced-fuel-economy-0w-20-motor-oil-5qt",
-      "name": "Mobil 1 Advanced Fuel Economy Full Synthetic Motor Oil 0W-20, 5 Quart | Enhanced Fuel Economy | 10,000-Mile Protection | Triple Action Formula",
-      "category": "home",
-      "price": 31.97,
-      "oldPrice": 31.97,
-      "rating": 4.8,
-      "reviews": 51353,
-      "image": "https://m.media-amazon.com/images/I/41HLkXaWqSL._SR600%2c315_PIWhiteStrip.jpg",
-      "asin": "B00J00X5YO",
-      "description": "5-quart jug of Mobil 1 Advanced Fuel Economy Full Synthetic 0W-20 motor oil with Triple Action Formula. Helps improve fuel economy and extend engine life, with 10,000-mile protection for gasoline and hybrid engines.",
-      "highlights": [
-        "5 QT full-synthetic 0W-20",
-        "Triple Action Formula - performance, protection, cleanliness",
-        "10,000-mile protection",
-        "Helps improve fuel economy",
-        "#1 Best Seller in Motor Oils"
-      ],
-      "pros": [
-        "4.8 stars from 51K+ ratings",
-        "#1 Best Seller in Motor Oils",
-        "10K+ bought in the past month"
-      ],
-      "cons": [
-        "Only for vehicles specifying 0W-20",
-        "Pricier than conventional oil"
-      ],
-      "amazonUrl": "https://www.amazon.com/dp/B00J00X5YO",
-      "priceAsOf": "2026-11-23"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0FQFB8FMG",
-      "asin": "B0FQFB8FMG",
-      "badge": "40% Off",
-      "category": "electronics",
-      "cons": [
-        "Durability drew mixed buyer feedback",
-        "Premium price even on sale"
-      ],
-      "description": "Apple's latest Pro earbuds with up to 2x more noise cancellation than AirPods Pro 2, Live Translation, heart-rate sensing and a hearing-aid feature. Up to 8 hours of listening with ANC on, IP57 sweat and rain resistance, and 5 ear-tip sizes for a secure fit.",
-      "highlights": [
-        "Up to 2x more noise cancellation than AirPods Pro 2",
-        "Live Translation and heart-rate sensing during workouts",
-        "Up to 8 hrs listening with ANC on (10 hrs Transparency)",
-        "IP57 sweat and rain resistant",
-        "5 ear-tip sizes; 2nd-gen Ultra Wideband chip for Precision Finding"
-      ],
-      "id": "p26",
-      "image": "https://m.media-amazon.com/images/I/218Mmzk0EaL._AC_SL1500_.jpg",
-      "name": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging",
-      "oldPrice": 249.0,
-      "price": 150.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Best-in-class ANC and sound for in-ear buds",
-        "Comfortable, secure fit with 5 tip sizes",
-        "Strong battery life"
-      ],
-      "rating": 4.4,
-      "reviews": 18255,
-      "slug": "apple-airpods-pro-3-wireless-earbuds-anc"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0FHLPS8ZF",
-      "asin": "B0FHLPS8ZF",
-      "badge": "60% Off",
-      "category": "electronics",
-      "cons": [
-        "On-ear fit can press on ears over long sessions",
-        "No active noise cancellation"
-      ],
-      "description": "On-ear headphones with up to 50 hours of battery life, Spatial Audio with dynamic head tracking and USB-C Fast Fuel charging — 5 minutes gives 5 hours of playback. Rich, bass-forward sound that works with Apple and Android.",
-      "highlights": [
-        "Up to 50 hours battery life",
-        "Spatial Audio with dynamic head tracking",
-        "USB-C Fast Fuel (5-min charge = 5 hrs playback)",
-        "Lossless audio over USB-C",
-        "Folds flat for travel; 217 g lightweight on-ear design"
-      ],
-      "id": "p27",
-      "image": "https://m.media-amazon.com/images/I/31uXWkeELxL._AC_SL1500_.jpg",
-      "name": "Beats Solo 4 On-Ear Headphones, 50 Hours Battery Life - Metallic Pink | Rich, Bass-Forward Sound Quality, Spatial Audio, USB-C Fast Fuel Charging, Compatible with Apple & Android Devices",
-      "oldPrice": 199.95,
-      "price": 79.99,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Marathon 50-hour battery",
-        "Big bass-forward sound for the price",
-        "Works with Apple & Android"
-      ],
-      "rating": 4.6,
-      "reviews": 29366,
-      "slug": "beats-solo-4-on-ear-headphones-metallic-pink"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0DXXYS4BJ",
-      "asin": "B0DXXYS4BJ",
-      "badge": "52% Off",
-      "category": "electronics",
-      "cons": [
-        "HD only — no 4K",
-        "Some buyers report occasional disconnects"
-      ],
-      "description": "Turns any HDMI TV into a smart TV with 1080p HD streaming, a Roku Voice Remote with TV controls and long-range Wi-Fi. Free and live TV plus Netflix, Disney+, Prime Video, Apple TV and Hulu in a compact stick that hides behind the TV.",
-      "highlights": [
-        "Turns any HDMI TV into a smart TV (1080p HD)",
-        "Roku Voice Remote with TV controls",
-        "Long-range Wi-Fi",
-        "Free & live TV, Netflix, Disney+, Prime Video, Apple TV, Hulu",
-        "Compact stick hides behind the TV"
-      ],
-      "id": "p28",
-      "image": "https://m.media-amazon.com/images/I/41e-agPzh7L._AC_SL1500_.jpg",
-      "name": "Roku Streaming Stick HD with Voice Remote | Compact HD Streaming Device for TV with Roku Voice Remote & Long-Range Wi-Fi - Free & Live Local News, Sports",
-      "oldPrice": 39.99,
-      "price": 19.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Cheapest way to revive an old TV",
-        "Simple, fast Roku interface",
-        "Voice remote included"
-      ],
-      "rating": 4.6,
-      "reviews": 26566,
-      "slug": "roku-streaming-stick-hd-2025-voice-remote"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B09B8V1LZ3",
-      "asin": "B09B8V1LZ3",
-      "badge": "50% Off",
-      "category": "electronics",
-      "cons": [
-        "Sound still can't match a larger speaker",
-        "Alexa+ features need a compatible setup/account"
-      ],
-      "description": "Vibrant, room-filling sound from a compact speaker with built-in Alexa+. Voice control for music, smart home, timers and routines, plus a temperature sensor, motion detection and Wi-Fi extender built in.",
-      "highlights": [
-        "Vibrant, room-filling sound from a compact speaker",
-        "Built-in Alexa+",
-        "Voice control for music, smart home, timers and routines",
-        "Temperature sensor, motion detection and Wi-Fi extender built in",
-        "Ideal for bedrooms and offices"
-      ],
-      "id": "p29",
-      "image": "https://m.media-amazon.com/images/I/315PBUzfZiL._AC_SL1500_.jpg",
-      "name": "Amazon Echo Dot - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Charcoal",
-      "oldPrice": 80.0,
-      "price": 39.99,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Excellent sound for its size",
-        "Huge Alexa smart-home ecosystem",
-        "Very cheap on sale"
-      ],
-      "rating": 4.7,
-      "reviews": 199932,
-      "slug": "amazon-echo-dot-newest-model-charcoal"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0DCH8VDXF",
-      "asin": "B0DCH8VDXF",
-      "category": "electronics",
-      "cons": [
-        "Hard one-size shape doesn't fit every ear",
-        "No noise isolation"
-      ],
-      "description": "Wired USB-C earbuds — no charging or pairing. Built-in remote for music, calls and volume, built-in microphone, and works with iPhone 15 and later, iPad and Mac with USB-C.",
-      "highlights": [
-        "Wired USB-C earbuds — no charging or pairing",
-        "Built-in remote for music, calls and volume",
-        "Built-in microphone",
-        "Works with iPhone 15 and later, iPad and Mac with USB-C"
-      ],
-      "id": "p30",
-      "image": "https://m.media-amazon.com/images/I/21irBFnTYoL._AC_SL1500_.jpg",
-      "name": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
-      "oldPrice": 19.0,
-      "price": 19.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Zero latency, lossless audio",
-        "Excellent call quality",
-        "Never needs charging"
-      ],
-      "rating": 4.5,
-      "reviews": 19954,
-      "slug": "apple-earpods-headphones-usb-c-plug"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0GJTFXNRX",
-      "asin": "B0GJTFXNRX",
-      "badge": "21% Off",
-      "category": "electronics",
-      "cons": [
-        "iPhone/iPad required — no Android setup",
-        "No keyring hole, holder sold separately"
-      ],
-      "description": "2nd-generation AirTag with an Ultra Wideband chip for up to 1.5x Precision Finding range, a speaker 50% louder than the original, longer Bluetooth range and a user-replaceable CR2032 battery lasting over a year.",
-      "highlights": [
-        "2nd-gen Ultra Wideband chip, up to 1.5x Precision Finding range",
-        "Speaker 50% louder than the original",
-        "Longer Bluetooth range",
-        "User-replaceable CR2032 battery (1+ year)",
-        "IP67 water and dust resistant; one-tap setup with iPhone/iPad"
-      ],
-      "id": "p31",
-      "image": "https://m.media-amazon.com/images/I/31q7ggp%2B2rL._AC_SL1500_.jpg",
-      "name": "Apple AirTag (2nd Generation): Tracker for Keychain, Wallet, and More; Locator with Sound; Simple One-Tap Setup with iPhone or iPad; Key Finder with up to 1.5X Precision Finding Range",
-      "oldPrice": 29.0,
-      "price": 23.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Best-in-class finding via the Apple Find My network",
-        "Easy setup",
-        "Loud speaker, long battery life"
-      ],
-      "rating": 4.6,
-      "reviews": 13459,
-      "slug": "apple-airtag-2nd-generation"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0BFC7WQ6R",
-      "asin": "B0BFC7WQ6R",
-      "badge": "59% Off",
-      "category": "electronics",
-      "cons": [
-        "No video calling (no camera)",
-        "Viewing angles are weak from the side"
-      ],
-      "description": "Smart alarm clock with a 2.83-inch touchscreen — time, weather and reminders at a glance — plus vibrant sound, Alexa+ voice control and smart-home hub features, with no camera for bedroom privacy.",
-      "highlights": [
-        "Smart alarm clock with 2.83-inch touchscreen",
-        "Time, weather, reminders at a glance",
-        "Vibrant sound from a compact speaker",
-        "Alexa+ voice control and smart-home hub features",
-        "No camera (bedroom privacy); display auto-dims at night"
-      ],
-      "id": "p32",
-      "image": "https://m.media-amazon.com/images/I/31LkHmcbu6L._AC_SL1500_.jpg",
-      "name": "Amazon Echo Spot, Great for nightstands, offices and kitchens, Smart alarm clock, Designed for Alexa+, Black",
-      "oldPrice": 109.99,
-      "price": 44.99,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Perfect bedside size",
-        "Great sound for its size",
-        "No camera pointed at the bed"
-      ],
-      "rating": 4.5,
-      "reviews": 47324,
-      "slug": "amazon-echo-spot-2024-black"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0F7Z4QZTT",
-      "asin": "B0F7Z4QZTT",
-      "badge": "40% Off",
-      "category": "electronics",
-      "cons": [
-        "8GB storage is partly used by the OS",
-        "Fire TV home screen is ad-heavy"
-      ],
-      "description": "4K Ultra HD streaming stick with Dolby Vision, HDR10+ and Dolby Atmos, Wi-Fi 6 for smooth streaming, and AI-powered Fire TV Search that finds shows by actor, plot or quote. Alexa Voice Remote included.",
-      "highlights": [
-        "4K Ultra HD with Dolby Vision, HDR10+ and Dolby Atmos",
-        "Wi-Fi 6 for smooth streaming",
-        "AI-powered Fire TV Search finds shows by actor, plot or quote",
-        "Alexa Voice Remote included",
-        "8GB storage"
-      ],
-      "id": "p33",
-      "image": "https://m.media-amazon.com/images/I/31vGhsksTCL._SL500_.jpg",
-      "name": "Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search, Wi-Fi 6, stream hundreds of thousands of movies and shows, free & live TV, find shows faster with Alexa+",
-      "oldPrice": 49.99,
-      "price": 29.99,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Best-value 4K stick at Black Friday pricing",
-        "Fast app launches and responsive navigation",
-        "Huge app/content catalogue (1.8M+ titles)"
-      ],
-      "rating": 4.6,
-      "reviews": 116771,
-      "slug": "amazon-fire-tv-stick-4k-plus"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0CFPJYX7P",
-      "asin": "B0CFPJYX7P",
-      "badge": "35% Off",
-      "category": "electronics",
-      "cons": [
-        "Black-and-white screen only",
-        "No auto-brightness or wireless charging on this base model"
-      ],
-      "description": "7-inch 300 ppi glare-free display with adjustable warm light, IPX8 waterproofing and up to 12 weeks of battery life. 16GB storage and USB-C in a slim, lightweight reader.",
-      "highlights": [
-        "7-inch 300 ppi glare-free display with adjustable warm light",
-        "IPX8 waterproof (2 m fresh water, 60 min)",
-        "Up to 12 weeks of battery life",
-        "16GB storage",
-        "USB-C"
-      ],
-      "id": "p34",
-      "image": "https://m.media-amazon.com/images/I/31NUBsiULnL._SL500_.jpg",
-      "name": "Amazon Kindle Paperwhite 16GB (2024 model) – 7-inch glare-free display and weeks of battery life – Black",
-      "oldPrice": 199.99,
-      "price": 129.99,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Paper-like screen that's easy on the eyes at night",
-        "Waterproof for bath/beach",
-        "Weeks-long battery"
-      ],
-      "rating": 4.6,
-      "reviews": 23085,
-      "slug": "amazon-kindle-paperwhite-16gb-2024-black"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0DZ75TN5F",
-      "asin": "B0DZ75TN5F",
-      "badge": "11% Off",
-      "category": "electronics",
-      "cons": [
-        "128GB base storage with no expansion",
-        "Some buyers report battery life shorter than expected"
-      ],
-      "description": "11-inch iPad with the A16 chip, Liquid Retina display, 128GB storage, Wi-Fi 6, Touch ID and all-day battery life. 12MP front (Center Stage) and rear cameras for calls, photos and video.",
-      "highlights": [
-        "A16 chip for fast everyday performance",
-        "11-inch Liquid Retina display",
-        "128GB storage",
-        "Wi-Fi 6",
-        "Touch ID; 12MP front (Center Stage) and rear cameras; all-day battery life"
-      ],
-      "id": "p35",
-      "image": "https://m.media-amazon.com/images/I/31TwHPMMl-L._SL500_.jpg",
-      "name": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, All-Day Battery Life — Blue",
-      "oldPrice": 449.0,
-      "price": 399.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Great everyday tablet for school, streaming and browsing",
-        "Bright, sharp display",
-        "Easy setup and migration from an old iPad"
-      ],
-      "rating": 4.7,
-      "reviews": 24622,
-      "slug": "apple-ipad-11-inch-a16-128gb-blue"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0HJB69GJL",
-      "asin": "B0HJB69GJL",
-      "category": "electronics",
-      "cons": [
-        "Open-ear ANC can't match sealed in-ear buds in loud places",
-        "Battery life is modest with ANC on"
-      ],
-      "description": "Apple's open-ear earbuds with Active Noise Cancellation, Adaptive Audio and Transparency mode, powered by the H2 chip. Live Translation, Personalized Spatial Audio and a USB-C charging case with up to 30 hours total listening time.",
-      "highlights": [
-        "Active Noise Cancellation with Adaptive Audio and Transparency mode",
-        "Apple H2 chip",
-        "Live Translation via Apple Intelligence",
-        "Personalized Spatial Audio with dynamic head tracking",
-        "USB-C charging case; up to 5 hrs listening per charge (30 hrs total with case)"
-      ],
-      "id": "p36",
-      "image": "https://m.media-amazon.com/images/I/21t-HZ1n8UL._SL500_.jpg",
-      "name": "Apple AirPods 5 Wireless Earbuds with Active Noise Cancellation | Bluetooth Headphones, Personalized Spatial Audio, Live Translation, USB-C Charging Case, H2 Chip",
-      "oldPrice": 129.0,
-      "price": 129.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "ANC on Apple's open-ear design — no silicone tips needed",
-        "Excellent sound and call quality for the size",
-        "Seamless Apple device switching"
-      ],
-      "rating": 4.4,
-      "reviews": 246,
-      "slug": "apple-airpods-5-anc-usb-c"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0CTNWKGM2",
-      "asin": "B0CTNWKGM2",
-      "badge": "36% Off",
-      "category": "electronics",
-      "cons": [
-        "Small size limits bass and maximum volume",
-        "7-hour battery is modest next to larger speakers"
-      ],
-      "description": "Ultra-portable palm-sized Bluetooth speaker with JBL Pro Sound and punchy bass. IP67 waterproof and dustproof with up to 7 hours of playtime, Bluetooth 5.3 and USB-C charging.",
-      "highlights": [
-        "Ultra-portable palm-sized speaker with carry loop",
-        "IP67 waterproof and dustproof",
-        "Up to 7 hours playtime (Playtime Boost adds 2 more)",
-        "JBL Pro Sound with punchy bass",
-        "Bluetooth 5.3 and USB-C charging"
-      ],
-      "id": "p37",
-      "image": "https://m.media-amazon.com/images/I/41GTcsw-oFL._SL500_.jpg",
-      "name": "JBL Go 4 - Ultra-Portable, Waterproof and Dustproof Bluetooth Speaker, Big JBL Pro Sound with Punchy bass, 7-Hour Built-in Battery, Made in Part with Recycled Materials (Black)",
-      "oldPrice": 49.95,
-      "price": 31.95,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Tiny enough for a pocket or bike basket",
-        "Genuinely waterproof for pool/beach",
-        "Big sound for its size at a Black Friday low"
-      ],
-      "rating": 4.7,
-      "reviews": 18656,
-      "slug": "jbl-go-4-bluetooth-speaker-black"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0DJGDC3BD",
-      "asin": "B0DJGDC3BD",
-      "badge": "60% Off",
-      "category": "electronics",
-      "cons": [
-        "1080p only — no 4K or Dolby Vision",
-        "Modest 1GB RAM / 8GB storage"
-      ],
-      "description": "The newest Fire TV Stick HD with full HD 1080p streaming, Wi-Fi 6 and the new Vega OS with Alexa+ built in. Powered directly from the TV's USB port — no wall adapter — with an Alexa Voice Remote included.",
-      "highlights": [
-        "Full HD 1080p streaming",
-        "Wi-Fi 6",
-        "New Vega OS with redesigned Fire TV interface and Alexa+ built in",
-        "Powered directly from the TV's USB port (no wall adapter)",
-        "Alexa Voice Remote with TV power/volume controls"
-      ],
-      "id": "p38",
-      "image": "https://m.media-amazon.com/images/I/313YUMUXo8L._SL500_.jpg",
-      "name": "Amazon Fire TV Stick HD (newest model), free & live TV, Alexa Voice Remote, powered by the TV, effortless setup, find shows faster with Alexa+",
-      "oldPrice": 39.99,
-      "price": 15.99,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Cheapest way to make an old 1080p TV smart",
-        "Simple plug-in setup",
-        "Voice search and smart-home control from the remote"
-      ],
-      "rating": 4.2,
-      "reviews": 8172,
-      "slug": "amazon-fire-tv-stick-hd-2026"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0D2JGYX3F",
-      "asin": "B0D2JGYX3F",
-      "badge": "30% Off",
-      "category": "electronics",
-      "cons": [
-        "Full game catalogue needs a separate Play Pass subscription",
-        "Only 5 games included without it"
-      ],
-      "description": "AI motion-tracking console that gets kids moving indoors — no controllers, up to 4 players, with 5 starter games included (Fruit Ninja, Starri, Whac-a-Mole, Go Keeper, Party Fowl). Ages 5+, kidSAFE+ / COPPA certified with no ads or in-app purchases.",
-      "highlights": [
-        "AI motion-tracking console — no controllers, up to 4 players",
-        "5 starter games included (Fruit Ninja, Starri, Whac-a-Mole, Go Keeper, Party Fowl)",
-        "Ages 5+",
-        "kidSAFE+ / COPPA certified with no ads or in-app purchases"
-      ],
-      "id": "p39",
-      "image": "https://m.media-amazon.com/images/I/31HNx5am69L._SL500_.jpg",
-      "name": "Nex Playground - The Active Play System for Kids & Families Where Indoor Physical Activity Meets Interactive Family Fun and is Great for Gaming Nights, Parties and Playdates",
-      "oldPrice": 299.0,
-      "price": 209.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Gets kids moving indoors instead of sitting",
-        "Great for family game nights and parties",
-        "Easy plug-and-play setup"
-      ],
-      "rating": 4.2,
-      "reviews": 2245,
-      "slug": "nex-playground-active-play-system"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B00WSWRVAA",
-      "asin": "B00WSWRVAA",
-      "badge": "25% Off",
-      "category": "fashion",
-      "cons": [
-        "Sizing runs large",
-        "Black Friday price may rise after the sale"
-      ],
-      "description": "Carhartt's iconic midweight fleece sweatshirt with the K288 logo, adjustable hood and kangaroo pocket. Triple-stitched seams and rib-knit cuffs and waistband make it a durable workwear staple.",
-      "highlights": [
-        "10.5 oz cotton-poly midweight fleece",
-        "Loose fit for layering",
-        "Triple-stitched seams",
-        "Rib-knit cuffs and waistband",
-        "Adjustable hood with kangaroo pocket"
-      ],
-      "id": "p40",
-      "image": "https://m.media-amazon.com/images/I/31oFG8yJj6L.jpg",
-      "name": "Carhartt Men's Iconic K288 Logo Sweatshirt, Black, X-Small",
-      "oldPrice": 59.99,
-      "price": 44.99,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Very durable workwear staple",
-        "Holds shape after many washes",
-        "Warm and comfortable for cold mornings"
-      ],
-      "rating": 4.8,
-      "reviews": 52345,
-      "slug": "carhartt-mens-iconic-k288-logo-sweatshirt-black-xs"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B00JUM2V5G",
-      "asin": "B00JUM2V5G",
-      "badge": "39% Off",
-      "category": "fashion",
-      "cons": [
-        "Runs slightly small through the neck — reviewers advise sizing up",
-        "Price varies a lot by color/size"
-      ],
-      "description": "Midweight 7.8 oz EcoSmart fleece hoodie with a kangaroo pocket, ribbed cuffs and hem, and cotton sourced from American farms with up to 5% recycled polyester. One of Amazon's most-reviewed hoodies.",
-      "highlights": [
-        "Midweight 7.8 oz EcoSmart fleece",
-        "Cotton sourced from American farms, up to 5% recycled polyester",
-        "Kangaroo pocket",
-        "Ribbed cuffs and hem",
-        "30+ colors, XS–6XL"
-      ],
-      "id": "p41",
-      "image": "https://m.media-amazon.com/images/I/31ymtc9vu4L.jpg",
-      "name": "Hanes Men's Pullover EcoSmart Hooded Sweatshirt, Black, Small",
-      "oldPrice": 27.0,
-      "price": 16.56,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "One of Amazon's most-reviewed hoodies (170k+ reviews)",
-        "Very cheap",
-        "Holds its shape through washes"
-      ],
-      "rating": 4.5,
-      "reviews": 172878,
-      "slug": "hanes-mens-ecosmart-hooded-sweatshirt-black-small"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B078HHDSDJ",
-      "asin": "B078HHDSDJ",
-      "badge": "64% Off",
-      "category": "fashion",
-      "cons": [
-        "Logo is printed, not embroidered",
-        "Price varies sharply by size/color"
-      ],
-      "description": "Midweight 9 oz Powerblend fleece hoodie (50% cotton / 50% polyester) with a brushed interior, jersey-lined hood, kangaroo pocket and classic script logo. Soft, durable everyday hoodie at a deep Black Friday discount.",
-      "highlights": [
-        "Midweight 9 oz Powerblend fleece (50% cotton / 50% polyester)",
-        "Brushed interior",
-        "Jersey-lined hood",
-        "Kangaroo pocket",
-        "Classic script logo"
-      ],
-      "id": "p42",
-      "image": "https://m.media-amazon.com/images/I/31hXiDby2SL.jpg",
-      "name": "Champion Men's Powerblend Fleece Pullover Hoodie, Classic Script Logo — New Manhattan Mist Heather, Large",
-      "oldPrice": 50.0,
-      "price": 18.04,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Soft, durable everyday hoodie",
-        "67k+ reviews at 4.7 stars",
-        "Deep Black Friday discount"
-      ],
-      "rating": 4.7,
-      "reviews": 67000,
-      "slug": "champion-mens-powerblend-fleece-hoodie-classic-script-manhattan-mist-heather-large"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B01HIUTE1U",
-      "asin": "B01HIUTE1U",
-      "badge": "49% Off",
-      "category": "fashion",
-      "cons": [
-        "Price varies by size/color (XXL often costs more)"
-      ],
-      "description": "Midweight 9 oz Powerblend fleece hoodie with a brushed interior, embroidered C logo on the chest, double-lined drawcord hood and kangaroo pocket. Regular and Big & Tall sizing available.",
-      "highlights": [
-        "Midweight 9 oz Powerblend fleece",
-        "Brushed interior for warmth without bulk",
-        "Embroidered C logo on chest",
-        "Double-lined drawcord hood",
-        "Kangaroo pocket"
-      ],
-      "id": "p43",
-      "image": "https://m.media-amazon.com/images/I/41roYdxr29L.jpg",
-      "name": "Champion Men's Powerblend Fleece Pullover Hoodie, C Logo — Original Black, XX-Large",
-      "oldPrice": 50.0,
-      "price": 25.66,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Embroidered (not printed) logo",
-        "35k+ reviews",
-        "Regular and Big & Tall sizing available"
-      ],
-      "rating": 4.7,
-      "reviews": 35862,
-      "slug": "champion-mens-powerblend-fleece-hoodie-c-logo-black-xxl"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B08HZHVPKV",
-      "asin": "B08HZHVPKV",
-      "badge": "39% Off",
-      "category": "fashion",
-      "cons": [
-        "Some reviewers report shrinkage and a scratchy feel",
-        "Price fluctuates ($14–$22 range seen in Nov 2026)"
-      ],
-      "description": "Heavyweight 9.7 oz cotton-rich fleece hoodie (90% cotton / 10% polyester) with a jersey-lined hood, drawcord, roomy kangaroo pocket and ribbed cuffs and hem. Hanes' warmest fleece hoodie.",
-      "highlights": [
-        "Heavyweight 9.7 oz cotton-rich fleece (90% cotton / 10% polyester)",
-        "Jersey-lined hood with drawcord",
-        "Roomy kangaroo pocket",
-        "Ribbed cuffs and hem"
-      ],
-      "id": "p44",
-      "image": "https://m.media-amazon.com/images/I/41Xu41FiK3L.jpg",
-      "name": "Hanes Men's Ultimate Cotton Heavyweight Pullover Hoodie Sweatshirt, Black, Large",
-      "oldPrice": 33.0,
-      "price": 20.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Hanes' warmest fleece hoodie",
-        "51k+ reviews",
-        "Good winter layering piece"
-      ],
-      "rating": 4.5,
-      "reviews": 51509,
-      "slug": "hanes-mens-ultimate-cotton-heavyweight-hoodie-black-large"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0B2RM68G2",
-      "asin": "B0B2RM68G2",
-      "category": "beauty",
-      "cons": [
-        "Can slide off the face overnight",
-        "Some users report breakouts"
-      ],
-      "description": "Overnight hydrogel mask with ultra-low molecular collagen and oligo-hyaluronic acid for hydration, plumping and pore tightening. Each sheet holds 34 g of essence that turns transparent as it absorbs — wear 3–4+ hours or overnight.",
-      "highlights": [
-        "Overnight hydrogel mask — 34 g essence solidified per sheet",
-        "Ultra-low molecular collagen + oligo-hyaluronic acid",
-        "Pore tightening and elasticity",
-        "Turns transparent as it absorbs (wear 3–4+ hours or overnight)"
-      ],
-      "id": "p45",
-      "image": "https://m.media-amazon.com/images/I/41tWrXK7Z8L.jpg",
-      "name": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Hydrating Face Masks, Glass Skin, Korean Skin Care",
-      "oldPrice": 19.0,
-      "price": 19.0,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "#1 in Facial Masks on Amazon",
-        "52k+ reviews at 4.5 stars",
-        "Viral glass skin product, strong gift angle"
-      ],
-      "rating": 4.5,
-      "reviews": 52317,
-      "slug": "biodance-bio-collagen-real-deep-mask-4ea"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B07PQFT83F",
-      "asin": "B07PQFT83F",
-      "category": "toys",
-      "cons": [
-        "Some buyers report durability issues with the laser and lights",
-        "Batteries included, but replacements are AAA"
-      ],
-      "description": "Official Disney Store Buzz Lightyear talking action figure from Toy Story, 12 inches (30 cm) tall. Press the buttons to hear 10+ English phrases including \"To infinity and beyond!\", with laser lights and sounds, pop-out wings and a karate-chop action. Place him next to Woody or Jessie to unlock special interactive phrases. Ages 3+.",
-      "highlights": [
-        "12-inch (30 cm) official Disney Store Buzz Lightyear figure",
-        "10+ English phrases with the original voice",
-        "Laser lights and sounds, pop-out wings",
-        "Karate-chop action and fully articulated joints",
-        "Interacts with Woody and Jessie figures (sold separately)",
-        "Ages 3+, 3 AAA batteries included"
-      ],
-      "id": "p46",
-      "image": "https://i5.walmartimages.com/seo/Toy-Story-Power-Up-Buzz-Lightyear-Talking-Action-Figure_beed6994-7d37-43c8-8d63-a7bebafb53bb_1.07c95607745ec950d3621cdd6afd17f6.jpeg",
-      "name": "Disney Store Official Buzz Lightyear Interactive Talking Action Figure from Toy Story, Features 10+ English Phrases, Interacts with Other Figures and Toys",
-      "oldPrice": 39.95,
-      "price": 39.95,
-      "priceAsOf": "2026-11-23",
-      "pros": [
-        "Official Disney Store product, Best Seller in Action Figures",
-        "4.7 stars from 50,000+ ratings",
-        "Lights, sounds and phrases kids love"
-      ],
-      "rating": 4.7,
-      "reviews": 50265,
-      "slug": "disney-store-buzz-lightyear-interactive-talking-action-figure"
-    }
-  ],
-  "settings": {
-    "amazonApiKey": "",
-    "amazonTag": "zaypick-20",
-    "contactEmail": "hello@zaypick.com",
-    "heroBadge": "Up to 50% Off",
-    "heroSubtitle": "Big discounts on top picks across Electronics, Fashion, Home, Beauty & Sports",
-    "heroTitle": "Seasonal Savings",
-    "siteName": "ZayPick",
-    "tagline": "Hand-picked deals from Amazon"
+ "categories": [
+  {
+   "description": "Headphones, smartwatches, earbuds and gadgets.",
+   "id": "c1",
+   "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800&q=80",
+   "name": "Electronics",
+   "slug": "electronics"
   },
-  "subscribers": [
-    {
-      "date": "2026-11-23",
-      "email": "example@example.com"
-    }
-  ],
-  "visits": [],
-  "clickEvents": []
+  {
+   "description": "Shoes, clothing, bags and everyday style.",
+   "id": "c2",
+   "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800&q=80",
+   "name": "Fashion",
+   "slug": "fashion"
+  },
+  {
+   "description": "Kitchen, lighting, bedding and home essentials.",
+   "id": "c3",
+   "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
+   "name": "Home",
+   "slug": "home"
+  },
+  {
+   "description": "Skincare, hair care and beauty tools.",
+   "id": "c4",
+   "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80",
+   "name": "Beauty",
+   "slug": "beauty"
+  },
+  {
+   "description": "Running, yoga, gym and outdoor gear.",
+   "id": "c5",
+   "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80",
+   "name": "Sports",
+   "slug": "sports"
+  },
+  {
+   "description": "Action figures, dolls, games and playtime favourites.",
+   "id": "c6",
+   "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=800&q=80",
+   "name": "Toys",
+   "slug": "toys"
+  }
+ ],
+ "clicks": [
+  {
+   "count": 12,
+   "productId": "p01",
+   "productName": "Wireless Noise-Cancelling Over-Ear Headphones"
+  },
+  {
+   "count": 9,
+   "productId": "p10",
+   "productName": "Vitamin C Face Serum — Brightening & Hydrating (30ml)"
+  },
+  {
+   "count": 7,
+   "productId": "p07",
+   "productName": "5L Air Fryer with Digital Touchscreen — 8 Presets"
+  }
+ ],
+ "guides": [
+  {
+   "id": "g1",
+   "slug": "how-to-choose-wireless-earbuds",
+   "title": "How to Choose Wireless Earbuds in 2026",
+   "excerpt": "ANC, battery life, fit and price — what actually matters when buying wireless earbuds on Amazon, with our pick from the ZayPick catalog.",
+   "category": "Electronics",
+   "date": "2026-11-23",
+   "image": "https://m.media-amazon.com/images/I/218Mmzk0EaL._AC_SL1500_.jpg",
+   "content": "Wireless earbuds all look similar in photos, but four things decide whether you will actually enjoy them: noise cancellation, fit, battery life and price. This guide explains each one in plain language, using real products from the ZayPick catalog.\n\n## Noise cancellation (ANC)\n\nActive noise cancellation uses microphones to cancel low, steady sounds such as bus engines and office hum. It helps a lot on flights and commutes, but it cannot silence sudden loud sounds. If you mostly listen at home, good passive sealing from the ear tips may be enough, and you can save money.\n\n## Fit matters more than brand\n\nEarbuds that fall out are useless, whatever the brand. Look for multiple ear-tip sizes in the box and a shape that suits your ears. In-ear buds with silicone tips seal better and give stronger bass; open-ear buds feel lighter and let in more outside sound.\n\n## Battery life to check\n\n- Earbuds alone: 5 to 8 hours per charge is normal for ANC earbuds.\n- Case total: 24 to 30 hours with the charging case is good.\n- Fast charging: a 5-minute charge giving 1 hour of playback is a useful bonus, not a must-have.\n\n## What to check before you buy\n\n- Rating and review count on Amazon — a 4.4-star product with 18,000+ reviews is a safer bet than a 5-star product with 50 reviews.\n- Bluetooth version and codec support for your phone.\n- Water resistance (IPX4 or better) if you run or work out.\n- Whether the price is a real discount — compare the price with the old price shown on the product page.\n\n## Our pick\n\nThe Apple AirPods Pro 3 (ASIN B0FQFB8FMG) are our pick from this guide: $150, was $249, 4.4 stars from 18,255 reviews (price as of 2026-11-23). They offer up to 2x more noise cancellation than AirPods Pro 2, Live Translation, heart-rate sensing, up to 8 hours of listening with ANC on, IP57 sweat and rain resistance, and 5 ear-tip sizes. If you want a cheaper on-ear option, the Beats Solo 4 (ASIN B0FHLPS8ZF) is $79.99, was $199.95, 4.6 stars from 29,366 reviews, with up to 50 hours of battery life. Prices change on Amazon — check the current price before you buy.",
+   "relatedProductSlug": "apple-airpods-pro-3-wireless-earbuds-anc"
+  },
+  {
+   "id": "g2",
+   "slug": "how-to-choose-a-streaming-stick",
+   "title": "How to Choose a Streaming Stick for Your TV",
+   "excerpt": "HD vs 4K, Wi-Fi, voice remote and price — how to pick the right streaming stick for your TV without paying for features you will not use.",
+   "category": "Electronics",
+   "date": "2026-11-23",
+   "image": "https://m.media-amazon.com/images/I/31vGhsksTCL._SL500_.jpg",
+   "content": "A streaming stick turns an old TV into a smart TV for the price of a dinner out. The choice is simpler than it looks: match the stick to your TV and your internet, then pick the cheapest one that covers both.\n\n## HD or 4K?\n\n- Your TV is 1080p only: an HD stick is enough. A 4K stick will still work, but you will not see the extra resolution.\n- Your TV is 4K: buy a 4K stick with HDR (Dolby Vision or HDR10+) so films look their best.\n- You mostly watch free and live TV: any modern stick covers that.\n\n## Wi-Fi and speed\n\nStreaming sticks need stable Wi-Fi more than raw speed. Wi-Fi 6 helps in busy homes with many devices. If your TV is far from the router, a stick with long-range Wi-Fi or an Ethernet adapter option is worth it.\n\n## Voice remote and interface\n\n- A voice remote saves a lot of typing when searching for shows.\n- Check that your favourite apps (Netflix, Disney+, Prime Video, Hulu, Apple TV) are supported — most sticks support all of them.\n- Some interfaces show more ads than others; that is a fair trade for a lower price.\n\n## What to check before you buy\n\n- Resolution of your TV (1080p vs 4K).\n- Storage: 8 GB is standard and fine for streaming apps.\n- Rating and review count — the Fire TV Stick 4K Plus has 4.6 stars from 116,771 reviews, which is a strong signal.\n- Price vs old price: streaming sticks go on deep sale often, so do not pay full price if you can wait for a deal.\n\n## Our pick\n\nThe Amazon Fire TV Stick 4K Plus (ASIN B0F7Z4QZTT) is our pick from this guide: $29.99, was $49.99, 4.6 stars from 116,771 reviews (price as of 2026-11-23). It streams 4K Ultra HD with Dolby Vision, HDR10+ and Dolby Atmos, has Wi-Fi 6, AI-powered Fire TV Search, and an Alexa Voice Remote. If your TV is only 1080p, the Roku Streaming Stick HD (ASIN B0DXXYS4BJ) is $19, was $39.99, 4.6 stars from 26,566 reviews, and the Fire TV Stick HD (ASIN B0DJGDC3BD) is $15.99, was $39.99, 4.2 stars from 8,172 reviews. Prices change on Amazon — check the current price before you buy.",
+   "relatedProductSlug": "amazon-fire-tv-stick-4k-plus"
+  },
+  {
+   "id": "g3",
+   "slug": "how-to-choose-insulated-water-bottle-tumbler",
+   "title": "How to Choose an Insulated Water Bottle or Tumbler",
+   "excerpt": "Size, lid, insulation and cup-holder fit — what to check before buying an insulated bottle or tumbler on Amazon.",
+   "category": "Home",
+   "date": "2026-11-23",
+   "image": "https://m.media-amazon.com/images/I/312RAhrhXrL._SR600%2c315_PIWhiteStrip.jpg",
+   "content": "A good insulated bottle keeps drinks cold for hours and does not leak in your bag. The right size depends on where you use it most: desk, car, gym or hiking.\n\n## Size first\n\n- 24 oz is light and fits most cup holders — good for a desk or a short trip.\n- 32 oz is the sweet spot for most people: enough water for hours without being too heavy.\n- 40 oz is best for long days and workouts, but it is heavy when full and does not fit every cup holder.\n\n## Lid and leak test\n\n- A straw lid is best for sipping while driving or working.\n- A flip-straw or screw cap is better for tossing the bottle in a bag.\n- Check the reviews for leak reports — a bottle that leaks is useless, however good its insulation is.\n\n## Insulation and material\n\n- Double-wall or triple-wall vacuum insulation keeps drinks cold for 12 to 24 hours.\n- Stainless steel lasts longer than plastic and does not hold flavours.\n- BPA-free matters if you drink from it every day.\n- Dishwasher-safe saves time; hand-wash-only bottles get dirty fast.\n\n## What to check before you buy\n\n- Capacity in ounces, and whether it fits your car cup holder.\n- Rating and review count — the STANLEY Quencher has 4.7 stars from 208,034 reviews.\n- Price vs old price, and whether the price changes by color.\n- Whether a handle is included — a 32 oz or 40 oz bottle without a handle is hard to carry.\n\n## Our pick\n\nThe STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0 (ASIN B0CP9Z56SW) is our pick from this guide: $22.50, was $45.00, 4.7 stars from 208,034 reviews (price as of 2026-11-23). It keeps drinks cold for 11 hours, hot for 7 hours and iced for 2 days, has a FlowState 3-position lid with a reusable straw, a comfort handle, and fits most car cup holders. If you want something lighter, the Owala FreeSip 24 oz (ASIN B085DV8T75) is $22.79, was $29.99, 4.6 stars from 145,692 reviews, and the HydroJug Traveler 32 oz (ASIN B0H139RH5T) is $39.99, 4.6 stars from 20,828 reviews. Prices change on Amazon — check the current price before you buy.",
+   "relatedProductSlug": "stanley-quencher-h2-0-tumbler-40oz-rose-quartz"
+  }
+ ],
+ "products": [
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0CP9Z56SW",
+   "asin": "B0CP9Z56SW",
+   "badge": "50% Off",
+   "category": "home",
+   "cons": [
+    "Not leak-proof when tipped over",
+    "40 oz is heavy when full"
+   ],
+   "description": "40 oz insulated stainless steel tumbler with handle, straw and 3-position FlowState lid. Keeps drinks cold for 11 hours, hot for 7 hours and iced for 2 days. Fits most car cup holders. BPA-free, made from 90% recycled stainless steel.",
+   "highlights": [
+    "40 oz capacity — fewer refills",
+    "Double-wall vacuum insulation",
+    "FlowState 3-position lid with reusable straw",
+    "Comfort handle, cup-holder compatible",
+    "90% recycled BPA-free stainless steel"
+   ],
+   "id": "p16",
+   "image": "https://m.media-amazon.com/images/I/312RAhrhXrL._SR600%2c315_PIWhiteStrip.jpg",
+   "name": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0",
+   "oldPrice": 45.0,
+   "price": 22.5,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Keeps ice for up to 2 days",
+    "Best Seller — 200K+ reviews",
+    "Fits car cup holders"
+   ],
+   "rating": 4.7,
+   "reviews": 208034,
+   "slug": "stanley-quencher-h2-0-tumbler-40oz-rose-quartz"
+  },
+  {
+   "id": "p17",
+   "slug": "owala-freesip-insulated-water-bottle-24oz-shy-marshmallow",
+   "name": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, 24 oz, Shy Marshmallow",
+   "category": "home",
+   "price": 22.79,
+   "oldPrice": 29.99,
+   "rating": 4.6,
+   "reviews": 145692,
+   "badge": "24% Off",
+   "image": "https://www.yeswellness.com/cdn/shop/files/Owala-FreeSip-Insulated-Stainless-Steel-Water-Bottle-Blue-Oasis-32oz_46a2606c-aee8-4a10-ba85-66e99838c910.jpg?v=1715891721",
+   "asin": "B085DV8T75",
+   "description": "24 oz insulated stainless steel water bottle with the FreeSip spout — sip through the straw or swig through the wide opening. Triple-wall vacuum insulation keeps drinks cold up to 24 hours. Locking push-button lid is leak-proof, BPA-free, and fits most car cup holders.",
+   "highlights": [
+    "24 oz capacity with FreeSip 2-in-1 sip-or-swig spout",
+    "Triple-wall vacuum insulation — cold up to 24 hours",
+    "Locking push-button lid, leak-proof",
+    "BPA-free stainless steel, fits car cup holders"
+   ],
+   "pros": [
+    "Best Seller #1 in Kitchen & Dining on Amazon",
+    "4.6 stars from 145K+ ratings",
+    "Leak-proof locking lid"
+   ],
+   "cons": [
+    "Price varies by color",
+    "24 oz may be small for all-day use"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B085DV8T75",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p18",
+   "slug": "bella-fits-anywhere-2-slice-slim-toaster-oatmilk",
+   "name": "bella Fits-Anywhere 2-Slice Slim Toaster, Long Slot, Oatmilk",
+   "category": "home",
+   "price": 24.98,
+   "oldPrice": 24.98,
+   "rating": 4.2,
+   "reviews": 22779,
+   "image": "https://images.ctfassets.net/ysk73m19lyh8/7kmvFKp7vt3tC3RcBiQtOn/35b1d3799199f18899ce12b7d0c5b8e0/90231_BellaPro_2SL_Toaster_Oatmilk_11.jpg",
+   "asin": "B0CYJBB2JQ",
+   "description": "Slim 2-slice toaster with a 10-inch long slot that fits sourdough and long artisan slices. 6-setting shade control with reheat and cancel buttons, anti-jam and auto shutoff, 900 watts. Fits-anywhere slim design for small kitchens.",
+   "highlights": [
+    "10-inch long slot — fits sourdough and long slices",
+    "6-setting shade control with reheat & cancel",
+    "Anti-jam and auto shutoff, 900 watts",
+    "Slim fits-anywhere design, Oatmilk color"
+   ],
+   "pros": [
+    "Fits long sourdough slices other toasters cannot",
+    "4.2 stars from 22K+ ratings",
+    "Slim profile saves counter space"
+   ],
+   "cons": [
+    "Price changes often on Amazon",
+    "Only 2 slices at a time"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B0CYJBB2JQ",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p19",
+   "slug": "hydrojug-traveler-32oz-insulated-water-bottle-with-handle",
+   "name": "HydroJug Traveler 32oz, Insulated Water Bottle with Handle",
+   "category": "home",
+   "price": 39.99,
+   "oldPrice": 39.99,
+   "rating": 4.6,
+   "reviews": 20828,
+   "image": "https://hydrojug.myshopify.com/cdn/shop/files/TRVL32-Merlot1-WPI.png?v=1755797641&width=2048",
+   "asin": "B0H139RH5T",
+   "description": "32 oz insulated stainless steel tumbler with a comfortable handle and flip straw lid. Triple-wall insulation, leak-resistant with the straw down, cup-holder friendly, BPA-free and dishwasher safe.",
+   "highlights": [
+    "32 oz capacity with handle and flip straw lid",
+    "Leak-resistant with straw down, cup-holder friendly",
+    "Triple-wall insulated stainless steel",
+    "BPA-free, dishwasher safe"
+   ],
+   "pros": [
+    "Amazon Best Seller #3 in Kitchen & Dining",
+    "4.6 stars from 20K+ ratings",
+    "Handle and flip straw make it easy to carry"
+   ],
+   "cons": [
+    "Price varies by color",
+    "32 oz is heavy when full"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B0H139RH5T",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p20",
+   "slug": "drift-car-air-freshener-wood-teak-scent-starter-kit",
+   "name": "Drift Car Air Freshener - Wood Air Freshener, Car Odor Eliminator, Teak Scent Starter Kit",
+   "category": "home",
+   "price": 12.95,
+   "oldPrice": 12.95,
+   "rating": 3.8,
+   "reviews": 16500,
+   "image": "https://m.media-amazon.com/images/I/31i99JTYWHL._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B0C1HJV7BJ",
+   "description": "Sustainably sourced wood block infused with natural essential oils in a teak scent, with a metal visor clip. Passive, leak-free fragrance for about 30 days, with no synthetic sprays or liquids.",
+   "highlights": [
+    "Teak scent wood block with essential oils",
+    "Metal visor clip included in the starter kit",
+    "Lasts about 30 days per block",
+    "No liquids, no spills, no residue",
+    "#1 Best Seller in Automotive Air Fresheners"
+   ],
+   "pros": [
+    "Natural, cologne-like teak scent",
+    "Clean, minimal look in the car",
+    "Best Seller with 16K+ ratings"
+   ],
+   "cons": [
+    "Scent can fade faster in hot cars",
+    "3.8-star rating - scent strength divides buyers"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B0C1HJV7BJ",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p21",
+   "slug": "astroai-l7-tire-inflator-portable-air-compressor-150psi",
+   "name": "AstroAI L7 Tire Inflator Portable Air Compressor, 150 PSI Cordless Bike Pump | For Car Tires, Bikes, Motorcycles and Balls; Auto Shut-off, Digital Display Pressure Gauge, Fast Inflation, LED Light",
+   "category": "electronics",
+   "price": 21.83,
+   "oldPrice": 39.99,
+   "rating": 4.3,
+   "reviews": 20896,
+   "badge": "45% Off",
+   "image": "https://m.media-amazon.com/images/I/41LjHi8ozxL._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B0CS3B7MD8",
+   "description": "Cordless portable tire inflator with 150 PSI max, 17 L/min airflow, digital pressure gauge with auto shut-off, and LED light. Small enough for a glove box, for car and bike tires, motorcycles and balls.",
+   "highlights": [
+    "150 PSI max, 17 L/min airflow",
+    "Cordless with built-in rechargeable battery",
+    "Digital display with auto shut-off at your set pressure",
+    "LED light for night use",
+    "#1 Best Seller in Wheel & Tire Air Compressors"
+   ],
+   "pros": [
+    "Pocket-size and cordless - lives in the glove box",
+    "4.3 stars from 20K+ ratings",
+    "Fast top-ups for car and bike tires"
+   ],
+   "cons": [
+    "Not for heavy-duty truck or trailer tires",
+    "Battery drains on repeated large fills"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B0CS3B7MD8",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p22",
+   "slug": "usanooks-microfiber-cleaning-cloth-grey-12-pcs",
+   "name": "USANOOKS Microfiber Cleaning Cloth Grey - 12 Pcs (12.5\"x12.5\") - High Performance - 1200 Washes, Ultra Absorbent Microfiber Towel Weave Grime & Liquid for Streak-Free Mirror Shine - Car Washing Cloth",
+   "category": "home",
+   "price": 6.98,
+   "oldPrice": 6.98,
+   "rating": 4.6,
+   "reviews": 19827,
+   "image": "https://m.media-amazon.com/images/I/51aW21SrP3S._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B08BRJHJF9",
+   "description": "Pack of 12 grey microfiber cleaning cloths, 12.5 x 12.5 inches, with a Grip-Root weave that traps grime and liquid. Ultra absorbent, lint-free and streak-free for cars, mirrors, glass, kitchen and bathroom, and washable up to 1200 times.",
+   "highlights": [
+    "12 pcs, 12.5 x 12.5 inches, grey",
+    "Grip-Root weave - absorbs up to 8-10x its weight",
+    "300 GSM, lint-free and streak-free",
+    "Reusable - up to 1200 washes",
+    "Amazon's Choice"
+   ],
+   "pros": [
+    "4.6 stars from 19K+ ratings",
+    "Very cheap per cloth - under $0.60 each",
+    "Works on car, glass, kitchen and bathroom"
+   ],
+   "cons": [
+    "Some buyers find them thinner than expected",
+    "Size can feel small for large jobs"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B08BRJHJF9",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p23",
+   "slug": "astroai-windshield-cleaner-tool-car-interior-detailing-kit",
+   "name": "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in | Non-Magnetic, Extra-Long Extendable Handle, 4 Reusable Microfiber Pads, Streak-free, Auto Glass Wiper Brush for Car & Home",
+   "category": "home",
+   "price": 15.98,
+   "oldPrice": 22.99,
+   "rating": 4.4,
+   "reviews": 26042,
+   "badge": "30% Off",
+   "image": "https://m.media-amazon.com/images/I/51rgrLc7yjL._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B08C7K99WW",
+   "description": "Extendable windshield cleaning tool with a 21-inch handle, 180-degree pivoting head and 4 reusable microfiber pads. Reaches the bottom of the windshield without stretching, for streak-free interior and exterior glass.",
+   "highlights": [
+    "Extendable handle up to 21 inches",
+    "180-degree pivoting triangular head",
+    "4 reusable, washable microfiber pads",
+    "Streak-free on interior and exterior glass",
+    "#1 Best Seller in windshield cleaner kits"
+   ],
+   "pros": [
+    "4.4 stars from 26K+ ratings",
+    "Reaches hard-to-reach lower windshield",
+    "10K+ bought in the past month"
+   ],
+   "cons": [
+    "Handle lock can slip under heavy pressure",
+    "Replacement pads sold separately"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B08C7K99WW",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p24",
+   "slug": "valvoline-advanced-full-synthetic-5w-30-motor-oil-5qt",
+   "name": "Valvoline Advanced Full Synthetic SAE 5W-30 Motor Oil 5 QT | Proven to maximize engine life, 40% stronger wear protection, 15% better deposit defense, up to 2.5X better heat protection",
+   "category": "home",
+   "price": 26.97,
+   "oldPrice": 26.97,
+   "rating": 4.8,
+   "reviews": 24795,
+   "image": "https://m.media-amazon.com/images/I/41L0fHEOTaL._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B00GZKC6DS",
+   "description": "5-quart jug of Valvoline Advanced Full Synthetic SAE 5W-30 motor oil. Full-synthetic protection against wear, friction, heat and deposits, meeting ILSAC GF-6A, API SP and GM dexos 1 Gen 3.",
+   "highlights": [
+    "5 QT full-synthetic SAE 5W-30",
+    "40% stronger wear protection than industry standards",
+    "15% better deposit defense",
+    "Up to 2.5X better heat protection",
+    "Meets ILSAC GF-6A, API SP, dexos 1 Gen 3"
+   ],
+   "pros": [
+    "4.8 stars from 24K+ ratings",
+    "#1 Best Seller in Oils & Fluids",
+    "Trusted brand, made in the USA"
+   ],
+   "cons": [
+    "Higher price than conventional oil",
+    "Check your manual - only for cars/trucks needing 5W-30"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B00GZKC6DS",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p25",
+   "slug": "mobil-1-advanced-fuel-economy-0w-20-motor-oil-5qt",
+   "name": "Mobil 1 Advanced Fuel Economy Full Synthetic Motor Oil 0W-20, 5 Quart | Enhanced Fuel Economy | 10,000-Mile Protection | Triple Action Formula",
+   "category": "home",
+   "price": 31.97,
+   "oldPrice": 31.97,
+   "rating": 4.8,
+   "reviews": 51353,
+   "image": "https://m.media-amazon.com/images/I/41HLkXaWqSL._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B00J00X5YO",
+   "description": "5-quart jug of Mobil 1 Advanced Fuel Economy Full Synthetic 0W-20 motor oil with Triple Action Formula. Helps improve fuel economy and extend engine life, with 10,000-mile protection for gasoline and hybrid engines.",
+   "highlights": [
+    "5 QT full-synthetic 0W-20",
+    "Triple Action Formula - performance, protection, cleanliness",
+    "10,000-mile protection",
+    "Helps improve fuel economy",
+    "#1 Best Seller in Motor Oils"
+   ],
+   "pros": [
+    "4.8 stars from 51K+ ratings",
+    "#1 Best Seller in Motor Oils",
+    "10K+ bought in the past month"
+   ],
+   "cons": [
+    "Only for vehicles specifying 0W-20",
+    "Pricier than conventional oil"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B00J00X5YO",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0FQFB8FMG",
+   "asin": "B0FQFB8FMG",
+   "badge": "40% Off",
+   "category": "electronics",
+   "cons": [
+    "Durability drew mixed buyer feedback",
+    "Premium price even on sale"
+   ],
+   "description": "Apple's latest Pro earbuds with up to 2x more noise cancellation than AirPods Pro 2, Live Translation, heart-rate sensing and a hearing-aid feature. Up to 8 hours of listening with ANC on, IP57 sweat and rain resistance, and 5 ear-tip sizes for a secure fit.",
+   "highlights": [
+    "Up to 2x more noise cancellation than AirPods Pro 2",
+    "Live Translation and heart-rate sensing during workouts",
+    "Up to 8 hrs listening with ANC on (10 hrs Transparency)",
+    "IP57 sweat and rain resistant",
+    "5 ear-tip sizes; 2nd-gen Ultra Wideband chip for Precision Finding"
+   ],
+   "id": "p26",
+   "image": "https://m.media-amazon.com/images/I/218Mmzk0EaL._AC_SL1500_.jpg",
+   "name": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging",
+   "oldPrice": 249.0,
+   "price": 150.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Best-in-class ANC and sound for in-ear buds",
+    "Comfortable, secure fit with 5 tip sizes",
+    "Strong battery life"
+   ],
+   "rating": 4.4,
+   "reviews": 18255,
+   "slug": "apple-airpods-pro-3-wireless-earbuds-anc"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0FHLPS8ZF",
+   "asin": "B0FHLPS8ZF",
+   "badge": "60% Off",
+   "category": "electronics",
+   "cons": [
+    "On-ear fit can press on ears over long sessions",
+    "No active noise cancellation"
+   ],
+   "description": "On-ear headphones with up to 50 hours of battery life, Spatial Audio with dynamic head tracking and USB-C Fast Fuel charging — 5 minutes gives 5 hours of playback. Rich, bass-forward sound that works with Apple and Android.",
+   "highlights": [
+    "Up to 50 hours battery life",
+    "Spatial Audio with dynamic head tracking",
+    "USB-C Fast Fuel (5-min charge = 5 hrs playback)",
+    "Lossless audio over USB-C",
+    "Folds flat for travel; 217 g lightweight on-ear design"
+   ],
+   "id": "p27",
+   "image": "https://m.media-amazon.com/images/I/31uXWkeELxL._AC_SL1500_.jpg",
+   "name": "Beats Solo 4 On-Ear Headphones, 50 Hours Battery Life - Metallic Pink | Rich, Bass-Forward Sound Quality, Spatial Audio, USB-C Fast Fuel Charging, Compatible with Apple & Android Devices",
+   "oldPrice": 199.95,
+   "price": 79.99,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Marathon 50-hour battery",
+    "Big bass-forward sound for the price",
+    "Works with Apple & Android"
+   ],
+   "rating": 4.6,
+   "reviews": 29366,
+   "slug": "beats-solo-4-on-ear-headphones-metallic-pink"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0DXXYS4BJ",
+   "asin": "B0DXXYS4BJ",
+   "badge": "52% Off",
+   "category": "electronics",
+   "cons": [
+    "HD only — no 4K",
+    "Some buyers report occasional disconnects"
+   ],
+   "description": "Turns any HDMI TV into a smart TV with 1080p HD streaming, a Roku Voice Remote with TV controls and long-range Wi-Fi. Free and live TV plus Netflix, Disney+, Prime Video, Apple TV and Hulu in a compact stick that hides behind the TV.",
+   "highlights": [
+    "Turns any HDMI TV into a smart TV (1080p HD)",
+    "Roku Voice Remote with TV controls",
+    "Long-range Wi-Fi",
+    "Free & live TV, Netflix, Disney+, Prime Video, Apple TV, Hulu",
+    "Compact stick hides behind the TV"
+   ],
+   "id": "p28",
+   "image": "https://m.media-amazon.com/images/I/41e-agPzh7L._AC_SL1500_.jpg",
+   "name": "Roku Streaming Stick HD with Voice Remote | Compact HD Streaming Device for TV with Roku Voice Remote & Long-Range Wi-Fi - Free & Live Local News, Sports",
+   "oldPrice": 39.99,
+   "price": 19.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Cheapest way to revive an old TV",
+    "Simple, fast Roku interface",
+    "Voice remote included"
+   ],
+   "rating": 4.6,
+   "reviews": 26566,
+   "slug": "roku-streaming-stick-hd-2025-voice-remote"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B09B8V1LZ3",
+   "asin": "B09B8V1LZ3",
+   "badge": "50% Off",
+   "category": "electronics",
+   "cons": [
+    "Sound still can't match a larger speaker",
+    "Alexa+ features need a compatible setup/account"
+   ],
+   "description": "Vibrant, room-filling sound from a compact speaker with built-in Alexa+. Voice control for music, smart home, timers and routines, plus a temperature sensor, motion detection and Wi-Fi extender built in.",
+   "highlights": [
+    "Vibrant, room-filling sound from a compact speaker",
+    "Built-in Alexa+",
+    "Voice control for music, smart home, timers and routines",
+    "Temperature sensor, motion detection and Wi-Fi extender built in",
+    "Ideal for bedrooms and offices"
+   ],
+   "id": "p29",
+   "image": "https://m.media-amazon.com/images/I/315PBUzfZiL._AC_SL1500_.jpg",
+   "name": "Amazon Echo Dot - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Charcoal",
+   "oldPrice": 80.0,
+   "price": 39.99,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Excellent sound for its size",
+    "Huge Alexa smart-home ecosystem",
+    "Very cheap on sale"
+   ],
+   "rating": 4.7,
+   "reviews": 199932,
+   "slug": "amazon-echo-dot-newest-model-charcoal"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0DCH8VDXF",
+   "asin": "B0DCH8VDXF",
+   "category": "electronics",
+   "cons": [
+    "Hard one-size shape doesn't fit every ear",
+    "No noise isolation"
+   ],
+   "description": "Wired USB-C earbuds — no charging or pairing. Built-in remote for music, calls and volume, built-in microphone, and works with iPhone 15 and later, iPad and Mac with USB-C.",
+   "highlights": [
+    "Wired USB-C earbuds — no charging or pairing",
+    "Built-in remote for music, calls and volume",
+    "Built-in microphone",
+    "Works with iPhone 15 and later, iPad and Mac with USB-C"
+   ],
+   "id": "p30",
+   "image": "https://m.media-amazon.com/images/I/21irBFnTYoL._AC_SL1500_.jpg",
+   "name": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+   "oldPrice": 19.0,
+   "price": 19.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Zero latency, lossless audio",
+    "Excellent call quality",
+    "Never needs charging"
+   ],
+   "rating": 4.5,
+   "reviews": 19954,
+   "slug": "apple-earpods-headphones-usb-c-plug"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0GJTFXNRX",
+   "asin": "B0GJTFXNRX",
+   "badge": "21% Off",
+   "category": "electronics",
+   "cons": [
+    "iPhone/iPad required — no Android setup",
+    "No keyring hole, holder sold separately"
+   ],
+   "description": "2nd-generation AirTag with an Ultra Wideband chip for up to 1.5x Precision Finding range, a speaker 50% louder than the original, longer Bluetooth range and a user-replaceable CR2032 battery lasting over a year.",
+   "highlights": [
+    "2nd-gen Ultra Wideband chip, up to 1.5x Precision Finding range",
+    "Speaker 50% louder than the original",
+    "Longer Bluetooth range",
+    "User-replaceable CR2032 battery (1+ year)",
+    "IP67 water and dust resistant; one-tap setup with iPhone/iPad"
+   ],
+   "id": "p31",
+   "image": "https://m.media-amazon.com/images/I/31q7ggp%2B2rL._AC_SL1500_.jpg",
+   "name": "Apple AirTag (2nd Generation): Tracker for Keychain, Wallet, and More; Locator with Sound; Simple One-Tap Setup with iPhone or iPad; Key Finder with up to 1.5X Precision Finding Range",
+   "oldPrice": 29.0,
+   "price": 23.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Best-in-class finding via the Apple Find My network",
+    "Easy setup",
+    "Loud speaker, long battery life"
+   ],
+   "rating": 4.6,
+   "reviews": 13459,
+   "slug": "apple-airtag-2nd-generation"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0BFC7WQ6R",
+   "asin": "B0BFC7WQ6R",
+   "badge": "59% Off",
+   "category": "electronics",
+   "cons": [
+    "No video calling (no camera)",
+    "Viewing angles are weak from the side"
+   ],
+   "description": "Smart alarm clock with a 2.83-inch touchscreen — time, weather and reminders at a glance — plus vibrant sound, Alexa+ voice control and smart-home hub features, with no camera for bedroom privacy.",
+   "highlights": [
+    "Smart alarm clock with 2.83-inch touchscreen",
+    "Time, weather, reminders at a glance",
+    "Vibrant sound from a compact speaker",
+    "Alexa+ voice control and smart-home hub features",
+    "No camera (bedroom privacy); display auto-dims at night"
+   ],
+   "id": "p32",
+   "image": "https://m.media-amazon.com/images/I/31LkHmcbu6L._AC_SL1500_.jpg",
+   "name": "Amazon Echo Spot, Great for nightstands, offices and kitchens, Smart alarm clock, Designed for Alexa+, Black",
+   "oldPrice": 109.99,
+   "price": 44.99,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Perfect bedside size",
+    "Great sound for its size",
+    "No camera pointed at the bed"
+   ],
+   "rating": 4.5,
+   "reviews": 47324,
+   "slug": "amazon-echo-spot-2024-black"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0F7Z4QZTT",
+   "asin": "B0F7Z4QZTT",
+   "badge": "40% Off",
+   "category": "electronics",
+   "cons": [
+    "8GB storage is partly used by the OS",
+    "Fire TV home screen is ad-heavy"
+   ],
+   "description": "4K Ultra HD streaming stick with Dolby Vision, HDR10+ and Dolby Atmos, Wi-Fi 6 for smooth streaming, and AI-powered Fire TV Search that finds shows by actor, plot or quote. Alexa Voice Remote included.",
+   "highlights": [
+    "4K Ultra HD with Dolby Vision, HDR10+ and Dolby Atmos",
+    "Wi-Fi 6 for smooth streaming",
+    "AI-powered Fire TV Search finds shows by actor, plot or quote",
+    "Alexa Voice Remote included",
+    "8GB storage"
+   ],
+   "id": "p33",
+   "image": "https://m.media-amazon.com/images/I/31vGhsksTCL._SL500_.jpg",
+   "name": "Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search, Wi-Fi 6, stream hundreds of thousands of movies and shows, free & live TV, find shows faster with Alexa+",
+   "oldPrice": 49.99,
+   "price": 29.99,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Best-value 4K stick at Black Friday pricing",
+    "Fast app launches and responsive navigation",
+    "Huge app/content catalogue (1.8M+ titles)"
+   ],
+   "rating": 4.6,
+   "reviews": 116771,
+   "slug": "amazon-fire-tv-stick-4k-plus"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0CFPJYX7P",
+   "asin": "B0CFPJYX7P",
+   "badge": "35% Off",
+   "category": "electronics",
+   "cons": [
+    "Black-and-white screen only",
+    "No auto-brightness or wireless charging on this base model"
+   ],
+   "description": "7-inch 300 ppi glare-free display with adjustable warm light, IPX8 waterproofing and up to 12 weeks of battery life. 16GB storage and USB-C in a slim, lightweight reader.",
+   "highlights": [
+    "7-inch 300 ppi glare-free display with adjustable warm light",
+    "IPX8 waterproof (2 m fresh water, 60 min)",
+    "Up to 12 weeks of battery life",
+    "16GB storage",
+    "USB-C"
+   ],
+   "id": "p34",
+   "image": "https://m.media-amazon.com/images/I/31NUBsiULnL._SL500_.jpg",
+   "name": "Amazon Kindle Paperwhite 16GB (2024 model) – 7-inch glare-free display and weeks of battery life – Black",
+   "oldPrice": 199.99,
+   "price": 129.99,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Paper-like screen that's easy on the eyes at night",
+    "Waterproof for bath/beach",
+    "Weeks-long battery"
+   ],
+   "rating": 4.6,
+   "reviews": 23085,
+   "slug": "amazon-kindle-paperwhite-16gb-2024-black"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0DZ75TN5F",
+   "asin": "B0DZ75TN5F",
+   "badge": "11% Off",
+   "category": "electronics",
+   "cons": [
+    "128GB base storage with no expansion",
+    "Some buyers report battery life shorter than expected"
+   ],
+   "description": "11-inch iPad with the A16 chip, Liquid Retina display, 128GB storage, Wi-Fi 6, Touch ID and all-day battery life. 12MP front (Center Stage) and rear cameras for calls, photos and video.",
+   "highlights": [
+    "A16 chip for fast everyday performance",
+    "11-inch Liquid Retina display",
+    "128GB storage",
+    "Wi-Fi 6",
+    "Touch ID; 12MP front (Center Stage) and rear cameras; all-day battery life"
+   ],
+   "id": "p35",
+   "image": "https://m.media-amazon.com/images/I/31TwHPMMl-L._SL500_.jpg",
+   "name": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, All-Day Battery Life — Blue",
+   "oldPrice": 449.0,
+   "price": 399.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Great everyday tablet for school, streaming and browsing",
+    "Bright, sharp display",
+    "Easy setup and migration from an old iPad"
+   ],
+   "rating": 4.7,
+   "reviews": 24622,
+   "slug": "apple-ipad-11-inch-a16-128gb-blue"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0HJB69GJL",
+   "asin": "B0HJB69GJL",
+   "category": "electronics",
+   "cons": [
+    "Open-ear ANC can't match sealed in-ear buds in loud places",
+    "Battery life is modest with ANC on"
+   ],
+   "description": "Apple's open-ear earbuds with Active Noise Cancellation, Adaptive Audio and Transparency mode, powered by the H2 chip. Live Translation, Personalized Spatial Audio and a USB-C charging case with up to 30 hours total listening time.",
+   "highlights": [
+    "Active Noise Cancellation with Adaptive Audio and Transparency mode",
+    "Apple H2 chip",
+    "Live Translation via Apple Intelligence",
+    "Personalized Spatial Audio with dynamic head tracking",
+    "USB-C charging case; up to 5 hrs listening per charge (30 hrs total with case)"
+   ],
+   "id": "p36",
+   "image": "https://m.media-amazon.com/images/I/21t-HZ1n8UL._SL500_.jpg",
+   "name": "Apple AirPods 5 Wireless Earbuds with Active Noise Cancellation | Bluetooth Headphones, Personalized Spatial Audio, Live Translation, USB-C Charging Case, H2 Chip",
+   "oldPrice": 129.0,
+   "price": 129.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "ANC on Apple's open-ear design — no silicone tips needed",
+    "Excellent sound and call quality for the size",
+    "Seamless Apple device switching"
+   ],
+   "rating": 4.4,
+   "reviews": 246,
+   "slug": "apple-airpods-5-anc-usb-c"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0CTNWKGM2",
+   "asin": "B0CTNWKGM2",
+   "badge": "36% Off",
+   "category": "electronics",
+   "cons": [
+    "Small size limits bass and maximum volume",
+    "7-hour battery is modest next to larger speakers"
+   ],
+   "description": "Ultra-portable palm-sized Bluetooth speaker with JBL Pro Sound and punchy bass. IP67 waterproof and dustproof with up to 7 hours of playtime, Bluetooth 5.3 and USB-C charging.",
+   "highlights": [
+    "Ultra-portable palm-sized speaker with carry loop",
+    "IP67 waterproof and dustproof",
+    "Up to 7 hours playtime (Playtime Boost adds 2 more)",
+    "JBL Pro Sound with punchy bass",
+    "Bluetooth 5.3 and USB-C charging"
+   ],
+   "id": "p37",
+   "image": "https://m.media-amazon.com/images/I/41GTcsw-oFL._SL500_.jpg",
+   "name": "JBL Go 4 - Ultra-Portable, Waterproof and Dustproof Bluetooth Speaker, Big JBL Pro Sound with Punchy bass, 7-Hour Built-in Battery, Made in Part with Recycled Materials (Black)",
+   "oldPrice": 49.95,
+   "price": 31.95,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Tiny enough for a pocket or bike basket",
+    "Genuinely waterproof for pool/beach",
+    "Big sound for its size at a Black Friday low"
+   ],
+   "rating": 4.7,
+   "reviews": 18656,
+   "slug": "jbl-go-4-bluetooth-speaker-black"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0DJGDC3BD",
+   "asin": "B0DJGDC3BD",
+   "badge": "60% Off",
+   "category": "electronics",
+   "cons": [
+    "1080p only — no 4K or Dolby Vision",
+    "Modest 1GB RAM / 8GB storage"
+   ],
+   "description": "The newest Fire TV Stick HD with full HD 1080p streaming, Wi-Fi 6 and the new Vega OS with Alexa+ built in. Powered directly from the TV's USB port — no wall adapter — with an Alexa Voice Remote included.",
+   "highlights": [
+    "Full HD 1080p streaming",
+    "Wi-Fi 6",
+    "New Vega OS with redesigned Fire TV interface and Alexa+ built in",
+    "Powered directly from the TV's USB port (no wall adapter)",
+    "Alexa Voice Remote with TV power/volume controls"
+   ],
+   "id": "p38",
+   "image": "https://m.media-amazon.com/images/I/313YUMUXo8L._SL500_.jpg",
+   "name": "Amazon Fire TV Stick HD (newest model), free & live TV, Alexa Voice Remote, powered by the TV, effortless setup, find shows faster with Alexa+",
+   "oldPrice": 39.99,
+   "price": 15.99,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Cheapest way to make an old 1080p TV smart",
+    "Simple plug-in setup",
+    "Voice search and smart-home control from the remote"
+   ],
+   "rating": 4.2,
+   "reviews": 8172,
+   "slug": "amazon-fire-tv-stick-hd-2026"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0D2JGYX3F",
+   "asin": "B0D2JGYX3F",
+   "badge": "30% Off",
+   "category": "electronics",
+   "cons": [
+    "Full game catalogue needs a separate Play Pass subscription",
+    "Only 5 games included without it"
+   ],
+   "description": "AI motion-tracking console that gets kids moving indoors — no controllers, up to 4 players, with 5 starter games included (Fruit Ninja, Starri, Whac-a-Mole, Go Keeper, Party Fowl). Ages 5+, kidSAFE+ / COPPA certified with no ads or in-app purchases.",
+   "highlights": [
+    "AI motion-tracking console — no controllers, up to 4 players",
+    "5 starter games included (Fruit Ninja, Starri, Whac-a-Mole, Go Keeper, Party Fowl)",
+    "Ages 5+",
+    "kidSAFE+ / COPPA certified with no ads or in-app purchases"
+   ],
+   "id": "p39",
+   "image": "https://m.media-amazon.com/images/I/31HNx5am69L._SL500_.jpg",
+   "name": "Nex Playground - The Active Play System for Kids & Families Where Indoor Physical Activity Meets Interactive Family Fun and is Great for Gaming Nights, Parties and Playdates",
+   "oldPrice": 299.0,
+   "price": 209.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Gets kids moving indoors instead of sitting",
+    "Great for family game nights and parties",
+    "Easy plug-and-play setup"
+   ],
+   "rating": 4.2,
+   "reviews": 2245,
+   "slug": "nex-playground-active-play-system"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B00WSWRVAA",
+   "asin": "B00WSWRVAA",
+   "badge": "25% Off",
+   "category": "fashion",
+   "cons": [
+    "Sizing runs large",
+    "Black Friday price may rise after the sale"
+   ],
+   "description": "Carhartt's iconic midweight fleece sweatshirt with the K288 logo, adjustable hood and kangaroo pocket. Triple-stitched seams and rib-knit cuffs and waistband make it a durable workwear staple.",
+   "highlights": [
+    "10.5 oz cotton-poly midweight fleece",
+    "Loose fit for layering",
+    "Triple-stitched seams",
+    "Rib-knit cuffs and waistband",
+    "Adjustable hood with kangaroo pocket"
+   ],
+   "id": "p40",
+   "image": "https://m.media-amazon.com/images/I/31oFG8yJj6L.jpg",
+   "name": "Carhartt Men's Iconic K288 Logo Sweatshirt, Black, X-Small",
+   "oldPrice": 59.99,
+   "price": 44.99,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Very durable workwear staple",
+    "Holds shape after many washes",
+    "Warm and comfortable for cold mornings"
+   ],
+   "rating": 4.8,
+   "reviews": 52345,
+   "slug": "carhartt-mens-iconic-k288-logo-sweatshirt-black-xs"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B00JUM2V5G",
+   "asin": "B00JUM2V5G",
+   "badge": "39% Off",
+   "category": "fashion",
+   "cons": [
+    "Runs slightly small through the neck — reviewers advise sizing up",
+    "Price varies a lot by color/size"
+   ],
+   "description": "Midweight 7.8 oz EcoSmart fleece hoodie with a kangaroo pocket, ribbed cuffs and hem, and cotton sourced from American farms with up to 5% recycled polyester. One of Amazon's most-reviewed hoodies.",
+   "highlights": [
+    "Midweight 7.8 oz EcoSmart fleece",
+    "Cotton sourced from American farms, up to 5% recycled polyester",
+    "Kangaroo pocket",
+    "Ribbed cuffs and hem",
+    "30+ colors, XS–6XL"
+   ],
+   "id": "p41",
+   "image": "https://m.media-amazon.com/images/I/31ymtc9vu4L.jpg",
+   "name": "Hanes Men's Pullover EcoSmart Hooded Sweatshirt, Black, Small",
+   "oldPrice": 27.0,
+   "price": 16.56,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "One of Amazon's most-reviewed hoodies (170k+ reviews)",
+    "Very cheap",
+    "Holds its shape through washes"
+   ],
+   "rating": 4.5,
+   "reviews": 172878,
+   "slug": "hanes-mens-ecosmart-hooded-sweatshirt-black-small"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B078HHDSDJ",
+   "asin": "B078HHDSDJ",
+   "badge": "64% Off",
+   "category": "fashion",
+   "cons": [
+    "Logo is printed, not embroidered",
+    "Price varies sharply by size/color"
+   ],
+   "description": "Midweight 9 oz Powerblend fleece hoodie (50% cotton / 50% polyester) with a brushed interior, jersey-lined hood, kangaroo pocket and classic script logo. Soft, durable everyday hoodie at a deep Black Friday discount.",
+   "highlights": [
+    "Midweight 9 oz Powerblend fleece (50% cotton / 50% polyester)",
+    "Brushed interior",
+    "Jersey-lined hood",
+    "Kangaroo pocket",
+    "Classic script logo"
+   ],
+   "id": "p42",
+   "image": "https://m.media-amazon.com/images/I/31hXiDby2SL.jpg",
+   "name": "Champion Men's Powerblend Fleece Pullover Hoodie, Classic Script Logo — New Manhattan Mist Heather, Large",
+   "oldPrice": 50.0,
+   "price": 18.04,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Soft, durable everyday hoodie",
+    "67k+ reviews at 4.7 stars",
+    "Deep Black Friday discount"
+   ],
+   "rating": 4.7,
+   "reviews": 67000,
+   "slug": "champion-mens-powerblend-fleece-hoodie-classic-script-manhattan-mist-heather-large"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B01HIUTE1U",
+   "asin": "B01HIUTE1U",
+   "badge": "49% Off",
+   "category": "fashion",
+   "cons": [
+    "Price varies by size/color (XXL often costs more)"
+   ],
+   "description": "Midweight 9 oz Powerblend fleece hoodie with a brushed interior, embroidered C logo on the chest, double-lined drawcord hood and kangaroo pocket. Regular and Big & Tall sizing available.",
+   "highlights": [
+    "Midweight 9 oz Powerblend fleece",
+    "Brushed interior for warmth without bulk",
+    "Embroidered C logo on chest",
+    "Double-lined drawcord hood",
+    "Kangaroo pocket"
+   ],
+   "id": "p43",
+   "image": "https://m.media-amazon.com/images/I/41roYdxr29L.jpg",
+   "name": "Champion Men's Powerblend Fleece Pullover Hoodie, C Logo — Original Black, XX-Large",
+   "oldPrice": 50.0,
+   "price": 25.66,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Embroidered (not printed) logo",
+    "35k+ reviews",
+    "Regular and Big & Tall sizing available"
+   ],
+   "rating": 4.7,
+   "reviews": 35862,
+   "slug": "champion-mens-powerblend-fleece-hoodie-c-logo-black-xxl"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B08HZHVPKV",
+   "asin": "B08HZHVPKV",
+   "badge": "39% Off",
+   "category": "fashion",
+   "cons": [
+    "Some reviewers report shrinkage and a scratchy feel",
+    "Price fluctuates ($14–$22 range seen in Nov 2026)"
+   ],
+   "description": "Heavyweight 9.7 oz cotton-rich fleece hoodie (90% cotton / 10% polyester) with a jersey-lined hood, drawcord, roomy kangaroo pocket and ribbed cuffs and hem. Hanes' warmest fleece hoodie.",
+   "highlights": [
+    "Heavyweight 9.7 oz cotton-rich fleece (90% cotton / 10% polyester)",
+    "Jersey-lined hood with drawcord",
+    "Roomy kangaroo pocket",
+    "Ribbed cuffs and hem"
+   ],
+   "id": "p44",
+   "image": "https://m.media-amazon.com/images/I/41Xu41FiK3L.jpg",
+   "name": "Hanes Men's Ultimate Cotton Heavyweight Pullover Hoodie Sweatshirt, Black, Large",
+   "oldPrice": 33.0,
+   "price": 20.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Hanes' warmest fleece hoodie",
+    "51k+ reviews",
+    "Good winter layering piece"
+   ],
+   "rating": 4.5,
+   "reviews": 51509,
+   "slug": "hanes-mens-ultimate-cotton-heavyweight-hoodie-black-large"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B0B2RM68G2",
+   "asin": "B0B2RM68G2",
+   "category": "beauty",
+   "cons": [
+    "Can slide off the face overnight",
+    "Some users report breakouts"
+   ],
+   "description": "Overnight hydrogel mask with ultra-low molecular collagen and oligo-hyaluronic acid for hydration, plumping and pore tightening. Each sheet holds 34 g of essence that turns transparent as it absorbs — wear 3–4+ hours or overnight.",
+   "highlights": [
+    "Overnight hydrogel mask — 34 g essence solidified per sheet",
+    "Ultra-low molecular collagen + oligo-hyaluronic acid",
+    "Pore tightening and elasticity",
+    "Turns transparent as it absorbs (wear 3–4+ hours or overnight)"
+   ],
+   "id": "p45",
+   "image": "https://m.media-amazon.com/images/I/41tWrXK7Z8L.jpg",
+   "name": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Hydrating Face Masks, Glass Skin, Korean Skin Care",
+   "oldPrice": 19.0,
+   "price": 19.0,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "#1 in Facial Masks on Amazon",
+    "52k+ reviews at 4.5 stars",
+    "Viral glass skin product, strong gift angle"
+   ],
+   "rating": 4.5,
+   "reviews": 52317,
+   "slug": "biodance-bio-collagen-real-deep-mask-4ea"
+  },
+  {
+   "amazonUrl": "https://www.amazon.com/dp/B07PQFT83F",
+   "asin": "B07PQFT83F",
+   "category": "toys",
+   "cons": [
+    "Some buyers report durability issues with the laser and lights",
+    "Batteries included, but replacements are AAA"
+   ],
+   "description": "Official Disney Store Buzz Lightyear talking action figure from Toy Story, 12 inches (30 cm) tall. Press the buttons to hear 10+ English phrases including \"To infinity and beyond!\", with laser lights and sounds, pop-out wings and a karate-chop action. Place him next to Woody or Jessie to unlock special interactive phrases. Ages 3+.",
+   "highlights": [
+    "12-inch (30 cm) official Disney Store Buzz Lightyear figure",
+    "10+ English phrases with the original voice",
+    "Laser lights and sounds, pop-out wings",
+    "Karate-chop action and fully articulated joints",
+    "Interacts with Woody and Jessie figures (sold separately)",
+    "Ages 3+, 3 AAA batteries included"
+   ],
+   "id": "p46",
+   "image": "https://i5.walmartimages.com/seo/Toy-Story-Power-Up-Buzz-Lightyear-Talking-Action-Figure_beed6994-7d37-43c8-8d63-a7bebafb53bb_1.07c95607745ec950d3621cdd6afd17f6.jpeg",
+   "name": "Disney Store Official Buzz Lightyear Interactive Talking Action Figure from Toy Story, Features 10+ English Phrases, Interacts with Other Figures and Toys",
+   "oldPrice": 39.95,
+   "price": 39.95,
+   "priceAsOf": "2026-11-23",
+   "pros": [
+    "Official Disney Store product, Best Seller in Action Figures",
+    "4.7 stars from 50,000+ ratings",
+    "Lights, sounds and phrases kids love"
+   ],
+   "rating": 4.7,
+   "reviews": 50265,
+   "slug": "disney-store-buzz-lightyear-interactive-talking-action-figure"
+  },
+  {
+   "id": "p47",
+   "slug": "queen-size-4-piece-sheet-set-white",
+   "name": "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Sheets, White",
+   "category": "home",
+   "price": 17.49,
+   "oldPrice": 17.49,
+   "rating": 4.5,
+   "reviews": 465393,
+   "image": "https://m.media-amazon.com/images/I/41A6tjpc2qL._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B01M16WBW1",
+   "description": "4-piece queen sheet set (flat sheet, fitted sheet with deep pockets and 2 pillowcases) in double-brushed microfiber. Breathable, cooling, extra soft and wrinkle-free, Oeko-Tex certified.",
+   "highlights": [
+    "4-piece set: flat + fitted sheet + 2 pillowcases",
+    "Double-brushed microfiber, breathable and cooling",
+    "Deep pockets fit thick mattresses",
+    "Wrinkle-free, Oeko-Tex certified"
+   ],
+   "pros": [
+    "Best Seller in Sheet & Pillowcase Sets",
+    "465K+ reviews at 4.5 stars",
+    "Very low price for a queen set"
+   ],
+   "cons": [
+    "Microfiber, not cotton — some buyers prefer cotton feel",
+    "White shows stains easily"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B01M16WBW1",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p48",
+   "slug": "amazon-basics-slim-velvet-hangers-30-pack",
+   "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, Black/Silver, 30-Pack",
+   "category": "home",
+   "price": 12.88,
+   "oldPrice": 12.88,
+   "rating": 4.8,
+   "reviews": 239835,
+   "image": "https://m.media-amazon.com/images/I/41L0BgQ84ML._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B00FXNABPI",
+   "description": "30-pack of slim velvet non-slip hangers with 360-degree swivel chrome hooks. Ultra-thin, space-saving design holds shirts, suits and dresses without slipping; notched shoulders keep straps in place.",
+   "highlights": [
+    "30-pack, slim space-saving profile",
+    "Non-slip velvet keeps clothes in place",
+    "360-degree swivel chrome hooks",
+    "Notched shoulders for straps"
+   ],
+   "pros": [
+    "239K+ reviews at 4.8 stars",
+    "Best Seller in clothes hangers",
+    "Frees up closet space"
+   ],
+   "cons": [
+    "Velvet can shed slightly at first",
+    "Not ideal for very heavy coats"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B00FXNABPI",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p49",
+   "slug": "amazon-echo-show-5-newest-model-charcoal",
+   "name": "Amazon Echo Show 5 (newest model), Smart Display, Designed for Alexa+, 2x the Bass and Clearer Sound, Charcoal",
+   "category": "electronics",
+   "price": 54.99,
+   "oldPrice": 99.99,
+   "badge": "45% Off",
+   "rating": 4.2,
+   "reviews": 74393,
+   "image": "https://m.media-amazon.com/images/I/31qOIWagKNL._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B09B2SBHQK",
+   "description": "Amazon's most compact smart display with a 5.5-inch screen, designed for Alexa+. 2x the bass of the previous model, clearer sound, video calling, smart home control and a built-in camera shutter for privacy.",
+   "highlights": [
+    "5.5-inch smart display with Alexa+",
+    "2x the bass, clearer sound",
+    "Video calls, timers, smart home control",
+    "Built-in camera shutter for privacy"
+   ],
+   "pros": [
+    "45% off the $99.99 list price",
+    "Compact bedside / desk size",
+    "74K+ reviews"
+   ],
+   "cons": [
+    "Small screen limits video watching",
+    "Some buyers report sluggish responses and ads"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B09B2SBHQK",
+   "priceAsOf": "2026-11-23"
+  },
+  {
+   "id": "p50",
+   "slug": "zober-black-velvet-hangers-50-pack",
+   "name": "Zober Black Velvet Hangers 50 Pack, Slim Non Slip Clothes Hangers",
+   "category": "home",
+   "price": 28.99,
+   "oldPrice": 28.99,
+   "rating": 4.8,
+   "reviews": 93948,
+   "image": "https://m.media-amazon.com/images/I/51lqJshaWQL._SR600%2c315_PIWhiteStrip.jpg",
+   "asin": "B01IRHUV6A",
+   "description": "50-pack of ultra-thin black velvet hangers with 360-degree chrome swivel hooks and a pants bar. Non-slip flocked surface holds up to 10 lbs per hanger; slim profile saves closet space.",
+   "highlights": [
+    "50-pack, ultra-thin space-saving design",
+    "Non-slip velvet, holds up to 10 lbs",
+    "360-degree chrome swivel hooks",
+    "Built-in pants bar"
+   ],
+   "pros": [
+    "93K+ reviews at 4.8 stars",
+    "Strong 10 lb capacity for a velvet hanger",
+    "Good value for a 50-pack"
+   ],
+   "cons": [
+    "Velvet may shed on first use",
+    "Hook spacing is tight for bulky items"
+   ],
+   "amazonUrl": "https://www.amazon.com/dp/B01IRHUV6A",
+   "priceAsOf": "2026-11-23"
+  }
+ ],
+ "settings": {
+  "amazonApiKey": "",
+  "amazonTag": "zaypick-20",
+  "contactEmail": "hello@zaypick.com",
+  "heroBadge": "Up to 50% Off",
+  "heroSubtitle": "Big discounts on top picks across Electronics, Fashion, Home, Beauty & Sports",
+  "heroTitle": "Seasonal Savings",
+  "siteName": "ZayPick",
+  "tagline": "Hand-picked deals from Amazon"
+ },
+ "subscribers": [
+  {
+   "date": "2026-11-23",
+   "email": "example@example.com"
+  }
+ ],
+ "visits": [],
+ "clickEvents": []
 }
