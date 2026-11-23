@@ -177,6 +177,194 @@
       ],
       "amazonUrl": "https://www.amazon.com/dp/B0H139RH5T",
       "priceAsOf": "2026-11-23"
+    },
+    {
+      "id": "p20",
+      "slug": "drift-car-air-freshener-wood-teak-scent-starter-kit",
+      "name": "Drift Car Air Freshener - Wood Air Freshener, Car Odor Eliminator, Teak Scent Starter Kit",
+      "category": "home",
+      "price": 12.95,
+      "oldPrice": 12.95,
+      "rating": 3.8,
+      "reviews": 16500,
+      "image": "https://m.media-amazon.com/images/I/31i99JTYWHL._SR600%2c315_PIWhiteStrip.jpg",
+      "asin": "B0C1HJV7BJ",
+      "description": "Sustainably sourced wood block infused with natural essential oils in a teak scent, with a metal visor clip. Passive, leak-free fragrance for about 30 days, with no synthetic sprays or liquids.",
+      "highlights": [
+        "Teak scent wood block with essential oils",
+        "Metal visor clip included in the starter kit",
+        "Lasts about 30 days per block",
+        "No liquids, no spills, no residue",
+        "#1 Best Seller in Automotive Air Fresheners"
+      ],
+      "pros": [
+        "Natural, cologne-like teak scent",
+        "Clean, minimal look in the car",
+        "Best Seller with 16K+ ratings"
+      ],
+      "cons": [
+        "Scent can fade faster in hot cars",
+        "3.8-star rating - scent strength divides buyers"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0C1HJV7BJ",
+      "priceAsOf": "2026-11-23"
+    },
+    {
+      "id": "p21",
+      "slug": "astroai-l7-tire-inflator-portable-air-compressor-150psi",
+      "name": "AstroAI L7 Tire Inflator Portable Air Compressor, 150 PSI Cordless Bike Pump | For Car Tires, Bikes, Motorcycles and Balls; Auto Shut-off, Digital Display Pressure Gauge, Fast Inflation, LED Light",
+      "category": "electronics",
+      "price": 21.83,
+      "oldPrice": 39.99,
+      "rating": 4.3,
+      "reviews": 20896,
+      "badge": "45% Off",
+      "image": "https://m.media-amazon.com/images/I/41LjHi8ozxL._SR600%2c315_PIWhiteStrip.jpg",
+      "asin": "B0CS3B7MD8",
+      "description": "Cordless portable tire inflator with 150 PSI max, 17 L/min airflow, digital pressure gauge with auto shut-off, and LED light. Small enough for a glove box, for car and bike tires, motorcycles and balls.",
+      "highlights": [
+        "150 PSI max, 17 L/min airflow",
+        "Cordless with built-in rechargeable battery",
+        "Digital display with auto shut-off at your set pressure",
+        "LED light for night use",
+        "#1 Best Seller in Wheel & Tire Air Compressors"
+      ],
+      "pros": [
+        "Pocket-size and cordless - lives in the glove box",
+        "4.3 stars from 20K+ ratings",
+        "Fast top-ups for car and bike tires"
+      ],
+      "cons": [
+        "Not for heavy-duty truck or trailer tires",
+        "Battery drains on repeated large fills"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0CS3B7MD8",
+      "priceAsOf": "2026-11-23"
+    },
+    {
+      "id": "p22",
+      "slug": "usanooks-microfiber-cleaning-cloth-grey-12-pcs",
+      "name": "USANOOKS Microfiber Cleaning Cloth Grey - 12 Pcs (12.5\"x12.5\") - High Performance - 1200 Washes, Ultra Absorbent Microfiber Towel Weave Grime & Liquid for Streak-Free Mirror Shine - Car Washing Cloth",
+      "category": "home",
+      "price": 6.98,
+      "oldPrice": 6.98,
+      "rating": 4.6,
+      "reviews": 19827,
+      "image": "https://m.media-amazon.com/images/I/51aW21SrP3S._SR600%2c315_PIWhiteStrip.jpg",
+      "asin": "B08BRJHJF9",
+      "description": "Pack of 12 grey microfiber cleaning cloths, 12.5 x 12.5 inches, with a Grip-Root weave that traps grime and liquid. Ultra absorbent, lint-free and streak-free for cars, mirrors, glass, kitchen and bathroom, and washable up to 1200 times.",
+      "highlights": [
+        "12 pcs, 12.5 x 12.5 inches, grey",
+        "Grip-Root weave - absorbs up to 8-10x its weight",
+        "300 GSM, lint-free and streak-free",
+        "Reusable - up to 1200 washes",
+        "Amazon's Choice"
+      ],
+      "pros": [
+        "4.6 stars from 19K+ ratings",
+        "Very cheap per cloth - under $0.60 each",
+        "Works on car, glass, kitchen and bathroom"
+      ],
+      "cons": [
+        "Some buyers find them thinner than expected",
+        "Size can feel small for large jobs"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B08BRJHJF9",
+      "priceAsOf": "2026-11-23"
+    },
+    {
+      "id": "p23",
+      "slug": "astroai-windshield-cleaner-tool-car-interior-detailing-kit",
+      "name": "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in | Non-Magnetic, Extra-Long Extendable Handle, 4 Reusable Microfiber Pads, Streak-free, Auto Glass Wiper Brush for Car & Home",
+      "category": "home",
+      "price": 15.98,
+      "oldPrice": 22.99,
+      "rating": 4.4,
+      "reviews": 26042,
+      "badge": "30% Off",
+      "image": "https://m.media-amazon.com/images/I/51rgrLc7yjL._SR600%2c315_PIWhiteStrip.jpg",
+      "asin": "B08C7K99WW",
+      "description": "Extendable windshield cleaning tool with a 21-inch handle, 180-degree pivoting head and 4 reusable microfiber pads. Reaches the bottom of the windshield without stretching, for streak-free interior and exterior glass.",
+      "highlights": [
+        "Extendable handle up to 21 inches",
+        "180-degree pivoting triangular head",
+        "4 reusable, washable microfiber pads",
+        "Streak-free on interior and exterior glass",
+        "#1 Best Seller in windshield cleaner kits"
+      ],
+      "pros": [
+        "4.4 stars from 26K+ ratings",
+        "Reaches hard-to-reach lower windshield",
+        "10K+ bought in the past month"
+      ],
+      "cons": [
+        "Handle lock can slip under heavy pressure",
+        "Replacement pads sold separately"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B08C7K99WW",
+      "priceAsOf": "2026-11-23"
+    },
+    {
+      "id": "p24",
+      "slug": "valvoline-advanced-full-synthetic-5w-30-motor-oil-5qt",
+      "name": "Valvoline Advanced Full Synthetic SAE 5W-30 Motor Oil 5 QT | Proven to maximize engine life, 40% stronger wear protection, 15% better deposit defense, up to 2.5X better heat protection",
+      "category": "home",
+      "price": 26.97,
+      "oldPrice": 26.97,
+      "rating": 4.8,
+      "reviews": 24795,
+      "image": "https://m.media-amazon.com/images/I/41L0fHEOTaL._SR600%2c315_PIWhiteStrip.jpg",
+      "asin": "B00GZKC6DS",
+      "description": "5-quart jug of Valvoline Advanced Full Synthetic SAE 5W-30 motor oil. Full-synthetic protection against wear, friction, heat and deposits, meeting ILSAC GF-6A, API SP and GM dexos 1 Gen 3.",
+      "highlights": [
+        "5 QT full-synthetic SAE 5W-30",
+        "40% stronger wear protection than industry standards",
+        "15% better deposit defense",
+        "Up to 2.5X better heat protection",
+        "Meets ILSAC GF-6A, API SP, dexos 1 Gen 3"
+      ],
+      "pros": [
+        "4.8 stars from 24K+ ratings",
+        "#1 Best Seller in Oils & Fluids",
+        "Trusted brand, made in the USA"
+      ],
+      "cons": [
+        "Higher price than conventional oil",
+        "Check your manual - only for cars/trucks needing 5W-30"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B00GZKC6DS",
+      "priceAsOf": "2026-11-23"
+    },
+    {
+      "id": "p25",
+      "slug": "mobil-1-advanced-fuel-economy-0w-20-motor-oil-5qt",
+      "name": "Mobil 1 Advanced Fuel Economy Full Synthetic Motor Oil 0W-20, 5 Quart | Enhanced Fuel Economy | 10,000-Mile Protection | Triple Action Formula",
+      "category": "home",
+      "price": 31.97,
+      "oldPrice": 31.97,
+      "rating": 4.8,
+      "reviews": 51353,
+      "image": "https://m.media-amazon.com/images/I/41HLkXaWqSL._SR600%2c315_PIWhiteStrip.jpg",
+      "asin": "B00J00X5YO",
+      "description": "5-quart jug of Mobil 1 Advanced Fuel Economy Full Synthetic 0W-20 motor oil with Triple Action Formula. Helps improve fuel economy and extend engine life, with 10,000-mile protection for gasoline and hybrid engines.",
+      "highlights": [
+        "5 QT full-synthetic 0W-20",
+        "Triple Action Formula - performance, protection, cleanliness",
+        "10,000-mile protection",
+        "Helps improve fuel economy",
+        "#1 Best Seller in Motor Oils"
+      ],
+      "pros": [
+        "4.8 stars from 51K+ ratings",
+        "#1 Best Seller in Motor Oils",
+        "10K+ bought in the past month"
+      ],
+      "cons": [
+        "Only for vehicles specifying 0W-20",
+        "Pricier than conventional oil"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B00J00X5YO",
+      "priceAsOf": "2026-11-23"
     }
   ],
   "settings": {
