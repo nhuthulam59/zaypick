@@ -365,6 +365,638 @@
       ],
       "amazonUrl": "https://www.amazon.com/dp/B00J00X5YO",
       "priceAsOf": "2026-11-23"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0FQFB8FMG",
+      "asin": "B0FQFB8FMG",
+      "badge": "40% Off",
+      "category": "electronics",
+      "cons": [
+        "Durability drew mixed buyer feedback",
+        "Premium price even on sale"
+      ],
+      "description": "Apple's latest Pro earbuds with up to 2x more noise cancellation than AirPods Pro 2, Live Translation, heart-rate sensing and a hearing-aid feature. Up to 8 hours of listening with ANC on, IP57 sweat and rain resistance, and 5 ear-tip sizes for a secure fit.",
+      "highlights": [
+        "Up to 2x more noise cancellation than AirPods Pro 2",
+        "Live Translation and heart-rate sensing during workouts",
+        "Up to 8 hrs listening with ANC on (10 hrs Transparency)",
+        "IP57 sweat and rain resistant",
+        "5 ear-tip sizes; 2nd-gen Ultra Wideband chip for Precision Finding"
+      ],
+      "id": "p26",
+      "image": "https://m.media-amazon.com/images/I/218Mmzk0EaL._AC_SL1500_.jpg",
+      "name": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging",
+      "oldPrice": 249.0,
+      "price": 150.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Best-in-class ANC and sound for in-ear buds",
+        "Comfortable, secure fit with 5 tip sizes",
+        "Strong battery life"
+      ],
+      "rating": 4.4,
+      "reviews": 18255,
+      "slug": "apple-airpods-pro-3-wireless-earbuds-anc"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0FHLPS8ZF",
+      "asin": "B0FHLPS8ZF",
+      "badge": "60% Off",
+      "category": "electronics",
+      "cons": [
+        "On-ear fit can press on ears over long sessions",
+        "No active noise cancellation"
+      ],
+      "description": "On-ear headphones with up to 50 hours of battery life, Spatial Audio with dynamic head tracking and USB-C Fast Fuel charging — 5 minutes gives 5 hours of playback. Rich, bass-forward sound that works with Apple and Android.",
+      "highlights": [
+        "Up to 50 hours battery life",
+        "Spatial Audio with dynamic head tracking",
+        "USB-C Fast Fuel (5-min charge = 5 hrs playback)",
+        "Lossless audio over USB-C",
+        "Folds flat for travel; 217 g lightweight on-ear design"
+      ],
+      "id": "p27",
+      "image": "https://m.media-amazon.com/images/I/31uXWkeELxL._AC_SL1500_.jpg",
+      "name": "Beats Solo 4 On-Ear Headphones, 50 Hours Battery Life - Metallic Pink | Rich, Bass-Forward Sound Quality, Spatial Audio, USB-C Fast Fuel Charging, Compatible with Apple & Android Devices",
+      "oldPrice": 199.95,
+      "price": 79.99,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Marathon 50-hour battery",
+        "Big bass-forward sound for the price",
+        "Works with Apple & Android"
+      ],
+      "rating": 4.6,
+      "reviews": 29366,
+      "slug": "beats-solo-4-on-ear-headphones-metallic-pink"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0DXXYS4BJ",
+      "asin": "B0DXXYS4BJ",
+      "badge": "52% Off",
+      "category": "electronics",
+      "cons": [
+        "HD only — no 4K",
+        "Some buyers report occasional disconnects"
+      ],
+      "description": "Turns any HDMI TV into a smart TV with 1080p HD streaming, a Roku Voice Remote with TV controls and long-range Wi-Fi. Free and live TV plus Netflix, Disney+, Prime Video, Apple TV and Hulu in a compact stick that hides behind the TV.",
+      "highlights": [
+        "Turns any HDMI TV into a smart TV (1080p HD)",
+        "Roku Voice Remote with TV controls",
+        "Long-range Wi-Fi",
+        "Free & live TV, Netflix, Disney+, Prime Video, Apple TV, Hulu",
+        "Compact stick hides behind the TV"
+      ],
+      "id": "p28",
+      "image": "https://m.media-amazon.com/images/I/41e-agPzh7L._AC_SL1500_.jpg",
+      "name": "Roku Streaming Stick HD with Voice Remote | Compact HD Streaming Device for TV with Roku Voice Remote & Long-Range Wi-Fi - Free & Live Local News, Sports",
+      "oldPrice": 39.99,
+      "price": 19.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Cheapest way to revive an old TV",
+        "Simple, fast Roku interface",
+        "Voice remote included"
+      ],
+      "rating": 4.6,
+      "reviews": 26566,
+      "slug": "roku-streaming-stick-hd-2025-voice-remote"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B09B8V1LZ3",
+      "asin": "B09B8V1LZ3",
+      "badge": "50% Off",
+      "category": "electronics",
+      "cons": [
+        "Sound still can't match a larger speaker",
+        "Alexa+ features need a compatible setup/account"
+      ],
+      "description": "Vibrant, room-filling sound from a compact speaker with built-in Alexa+. Voice control for music, smart home, timers and routines, plus a temperature sensor, motion detection and Wi-Fi extender built in.",
+      "highlights": [
+        "Vibrant, room-filling sound from a compact speaker",
+        "Built-in Alexa+",
+        "Voice control for music, smart home, timers and routines",
+        "Temperature sensor, motion detection and Wi-Fi extender built in",
+        "Ideal for bedrooms and offices"
+      ],
+      "id": "p29",
+      "image": "https://m.media-amazon.com/images/I/315PBUzfZiL._AC_SL1500_.jpg",
+      "name": "Amazon Echo Dot - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Charcoal",
+      "oldPrice": 80.0,
+      "price": 39.99,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Excellent sound for its size",
+        "Huge Alexa smart-home ecosystem",
+        "Very cheap on sale"
+      ],
+      "rating": 4.7,
+      "reviews": 199932,
+      "slug": "amazon-echo-dot-newest-model-charcoal"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0DCH8VDXF",
+      "asin": "B0DCH8VDXF",
+      "category": "electronics",
+      "cons": [
+        "Hard one-size shape doesn't fit every ear",
+        "No noise isolation"
+      ],
+      "description": "Wired USB-C earbuds — no charging or pairing. Built-in remote for music, calls and volume, built-in microphone, and works with iPhone 15 and later, iPad and Mac with USB-C.",
+      "highlights": [
+        "Wired USB-C earbuds — no charging or pairing",
+        "Built-in remote for music, calls and volume",
+        "Built-in microphone",
+        "Works with iPhone 15 and later, iPad and Mac with USB-C"
+      ],
+      "id": "p30",
+      "image": "https://m.media-amazon.com/images/I/21irBFnTYoL._AC_SL1500_.jpg",
+      "name": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+      "oldPrice": 19.0,
+      "price": 19.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Zero latency, lossless audio",
+        "Excellent call quality",
+        "Never needs charging"
+      ],
+      "rating": 4.5,
+      "reviews": 19954,
+      "slug": "apple-earpods-headphones-usb-c-plug"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0GJTFXNRX",
+      "asin": "B0GJTFXNRX",
+      "badge": "21% Off",
+      "category": "electronics",
+      "cons": [
+        "iPhone/iPad required — no Android setup",
+        "No keyring hole, holder sold separately"
+      ],
+      "description": "2nd-generation AirTag with an Ultra Wideband chip for up to 1.5x Precision Finding range, a speaker 50% louder than the original, longer Bluetooth range and a user-replaceable CR2032 battery lasting over a year.",
+      "highlights": [
+        "2nd-gen Ultra Wideband chip, up to 1.5x Precision Finding range",
+        "Speaker 50% louder than the original",
+        "Longer Bluetooth range",
+        "User-replaceable CR2032 battery (1+ year)",
+        "IP67 water and dust resistant; one-tap setup with iPhone/iPad"
+      ],
+      "id": "p31",
+      "image": "https://m.media-amazon.com/images/I/31q7ggp%2B2rL._AC_SL1500_.jpg",
+      "name": "Apple AirTag (2nd Generation): Tracker for Keychain, Wallet, and More; Locator with Sound; Simple One-Tap Setup with iPhone or iPad; Key Finder with up to 1.5X Precision Finding Range",
+      "oldPrice": 29.0,
+      "price": 23.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Best-in-class finding via the Apple Find My network",
+        "Easy setup",
+        "Loud speaker, long battery life"
+      ],
+      "rating": 4.6,
+      "reviews": 13459,
+      "slug": "apple-airtag-2nd-generation"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0BFC7WQ6R",
+      "asin": "B0BFC7WQ6R",
+      "badge": "59% Off",
+      "category": "electronics",
+      "cons": [
+        "No video calling (no camera)",
+        "Viewing angles are weak from the side"
+      ],
+      "description": "Smart alarm clock with a 2.83-inch touchscreen — time, weather and reminders at a glance — plus vibrant sound, Alexa+ voice control and smart-home hub features, with no camera for bedroom privacy.",
+      "highlights": [
+        "Smart alarm clock with 2.83-inch touchscreen",
+        "Time, weather, reminders at a glance",
+        "Vibrant sound from a compact speaker",
+        "Alexa+ voice control and smart-home hub features",
+        "No camera (bedroom privacy); display auto-dims at night"
+      ],
+      "id": "p32",
+      "image": "https://m.media-amazon.com/images/I/31LkHmcbu6L._AC_SL1500_.jpg",
+      "name": "Amazon Echo Spot, Great for nightstands, offices and kitchens, Smart alarm clock, Designed for Alexa+, Black",
+      "oldPrice": 109.99,
+      "price": 44.99,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Perfect bedside size",
+        "Great sound for its size",
+        "No camera pointed at the bed"
+      ],
+      "rating": 4.5,
+      "reviews": 47324,
+      "slug": "amazon-echo-spot-2024-black"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0F7Z4QZTT",
+      "asin": "B0F7Z4QZTT",
+      "badge": "40% Off",
+      "category": "electronics",
+      "cons": [
+        "8GB storage is partly used by the OS",
+        "Fire TV home screen is ad-heavy"
+      ],
+      "description": "4K Ultra HD streaming stick with Dolby Vision, HDR10+ and Dolby Atmos, Wi-Fi 6 for smooth streaming, and AI-powered Fire TV Search that finds shows by actor, plot or quote. Alexa Voice Remote included.",
+      "highlights": [
+        "4K Ultra HD with Dolby Vision, HDR10+ and Dolby Atmos",
+        "Wi-Fi 6 for smooth streaming",
+        "AI-powered Fire TV Search finds shows by actor, plot or quote",
+        "Alexa Voice Remote included",
+        "8GB storage"
+      ],
+      "id": "p33",
+      "image": "https://m.media-amazon.com/images/I/31vGhsksTCL._SL500_.jpg",
+      "name": "Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search, Wi-Fi 6, stream hundreds of thousands of movies and shows, free & live TV, find shows faster with Alexa+",
+      "oldPrice": 49.99,
+      "price": 29.99,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Best-value 4K stick at Black Friday pricing",
+        "Fast app launches and responsive navigation",
+        "Huge app/content catalogue (1.8M+ titles)"
+      ],
+      "rating": 4.6,
+      "reviews": 116771,
+      "slug": "amazon-fire-tv-stick-4k-plus"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0CFPJYX7P",
+      "asin": "B0CFPJYX7P",
+      "badge": "35% Off",
+      "category": "electronics",
+      "cons": [
+        "Black-and-white screen only",
+        "No auto-brightness or wireless charging on this base model"
+      ],
+      "description": "7-inch 300 ppi glare-free display with adjustable warm light, IPX8 waterproofing and up to 12 weeks of battery life. 16GB storage and USB-C in a slim, lightweight reader.",
+      "highlights": [
+        "7-inch 300 ppi glare-free display with adjustable warm light",
+        "IPX8 waterproof (2 m fresh water, 60 min)",
+        "Up to 12 weeks of battery life",
+        "16GB storage",
+        "USB-C"
+      ],
+      "id": "p34",
+      "image": "https://m.media-amazon.com/images/I/31NUBsiULnL._SL500_.jpg",
+      "name": "Amazon Kindle Paperwhite 16GB (2024 model) – 7-inch glare-free display and weeks of battery life – Black",
+      "oldPrice": 199.99,
+      "price": 129.99,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Paper-like screen that's easy on the eyes at night",
+        "Waterproof for bath/beach",
+        "Weeks-long battery"
+      ],
+      "rating": 4.6,
+      "reviews": 23085,
+      "slug": "amazon-kindle-paperwhite-16gb-2024-black"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0DZ75TN5F",
+      "asin": "B0DZ75TN5F",
+      "badge": "11% Off",
+      "category": "electronics",
+      "cons": [
+        "128GB base storage with no expansion",
+        "Some buyers report battery life shorter than expected"
+      ],
+      "description": "11-inch iPad with the A16 chip, Liquid Retina display, 128GB storage, Wi-Fi 6, Touch ID and all-day battery life. 12MP front (Center Stage) and rear cameras for calls, photos and video.",
+      "highlights": [
+        "A16 chip for fast everyday performance",
+        "11-inch Liquid Retina display",
+        "128GB storage",
+        "Wi-Fi 6",
+        "Touch ID; 12MP front (Center Stage) and rear cameras; all-day battery life"
+      ],
+      "id": "p35",
+      "image": "https://m.media-amazon.com/images/I/31TwHPMMl-L._SL500_.jpg",
+      "name": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, All-Day Battery Life — Blue",
+      "oldPrice": 449.0,
+      "price": 399.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Great everyday tablet for school, streaming and browsing",
+        "Bright, sharp display",
+        "Easy setup and migration from an old iPad"
+      ],
+      "rating": 4.7,
+      "reviews": 24622,
+      "slug": "apple-ipad-11-inch-a16-128gb-blue"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0HJB69GJL",
+      "asin": "B0HJB69GJL",
+      "category": "electronics",
+      "cons": [
+        "Open-ear ANC can't match sealed in-ear buds in loud places",
+        "Battery life is modest with ANC on"
+      ],
+      "description": "Apple's open-ear earbuds with Active Noise Cancellation, Adaptive Audio and Transparency mode, powered by the H2 chip. Live Translation, Personalized Spatial Audio and a USB-C charging case with up to 30 hours total listening time.",
+      "highlights": [
+        "Active Noise Cancellation with Adaptive Audio and Transparency mode",
+        "Apple H2 chip",
+        "Live Translation via Apple Intelligence",
+        "Personalized Spatial Audio with dynamic head tracking",
+        "USB-C charging case; up to 5 hrs listening per charge (30 hrs total with case)"
+      ],
+      "id": "p36",
+      "image": "https://m.media-amazon.com/images/I/21t-HZ1n8UL._SL500_.jpg",
+      "name": "Apple AirPods 5 Wireless Earbuds with Active Noise Cancellation | Bluetooth Headphones, Personalized Spatial Audio, Live Translation, USB-C Charging Case, H2 Chip",
+      "oldPrice": 129.0,
+      "price": 129.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "ANC on Apple's open-ear design — no silicone tips needed",
+        "Excellent sound and call quality for the size",
+        "Seamless Apple device switching"
+      ],
+      "rating": 4.4,
+      "reviews": 246,
+      "slug": "apple-airpods-5-anc-usb-c"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0CTNWKGM2",
+      "asin": "B0CTNWKGM2",
+      "badge": "36% Off",
+      "category": "electronics",
+      "cons": [
+        "Small size limits bass and maximum volume",
+        "7-hour battery is modest next to larger speakers"
+      ],
+      "description": "Ultra-portable palm-sized Bluetooth speaker with JBL Pro Sound and punchy bass. IP67 waterproof and dustproof with up to 7 hours of playtime, Bluetooth 5.3 and USB-C charging.",
+      "highlights": [
+        "Ultra-portable palm-sized speaker with carry loop",
+        "IP67 waterproof and dustproof",
+        "Up to 7 hours playtime (Playtime Boost adds 2 more)",
+        "JBL Pro Sound with punchy bass",
+        "Bluetooth 5.3 and USB-C charging"
+      ],
+      "id": "p37",
+      "image": "https://m.media-amazon.com/images/I/41GTcsw-oFL._SL500_.jpg",
+      "name": "JBL Go 4 - Ultra-Portable, Waterproof and Dustproof Bluetooth Speaker, Big JBL Pro Sound with Punchy bass, 7-Hour Built-in Battery, Made in Part with Recycled Materials (Black)",
+      "oldPrice": 49.95,
+      "price": 31.95,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Tiny enough for a pocket or bike basket",
+        "Genuinely waterproof for pool/beach",
+        "Big sound for its size at a Black Friday low"
+      ],
+      "rating": 4.7,
+      "reviews": 18656,
+      "slug": "jbl-go-4-bluetooth-speaker-black"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0DJGDC3BD",
+      "asin": "B0DJGDC3BD",
+      "badge": "60% Off",
+      "category": "electronics",
+      "cons": [
+        "1080p only — no 4K or Dolby Vision",
+        "Modest 1GB RAM / 8GB storage"
+      ],
+      "description": "The newest Fire TV Stick HD with full HD 1080p streaming, Wi-Fi 6 and the new Vega OS with Alexa+ built in. Powered directly from the TV's USB port — no wall adapter — with an Alexa Voice Remote included.",
+      "highlights": [
+        "Full HD 1080p streaming",
+        "Wi-Fi 6",
+        "New Vega OS with redesigned Fire TV interface and Alexa+ built in",
+        "Powered directly from the TV's USB port (no wall adapter)",
+        "Alexa Voice Remote with TV power/volume controls"
+      ],
+      "id": "p38",
+      "image": "https://m.media-amazon.com/images/I/313YUMUXo8L._SL500_.jpg",
+      "name": "Amazon Fire TV Stick HD (newest model), free & live TV, Alexa Voice Remote, powered by the TV, effortless setup, find shows faster with Alexa+",
+      "oldPrice": 39.99,
+      "price": 15.99,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Cheapest way to make an old 1080p TV smart",
+        "Simple plug-in setup",
+        "Voice search and smart-home control from the remote"
+      ],
+      "rating": 4.2,
+      "reviews": 8172,
+      "slug": "amazon-fire-tv-stick-hd-2026"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0D2JGYX3F",
+      "asin": "B0D2JGYX3F",
+      "badge": "30% Off",
+      "category": "electronics",
+      "cons": [
+        "Full game catalogue needs a separate Play Pass subscription",
+        "Only 5 games included without it"
+      ],
+      "description": "AI motion-tracking console that gets kids moving indoors — no controllers, up to 4 players, with 5 starter games included (Fruit Ninja, Starri, Whac-a-Mole, Go Keeper, Party Fowl). Ages 5+, kidSAFE+ / COPPA certified with no ads or in-app purchases.",
+      "highlights": [
+        "AI motion-tracking console — no controllers, up to 4 players",
+        "5 starter games included (Fruit Ninja, Starri, Whac-a-Mole, Go Keeper, Party Fowl)",
+        "Ages 5+",
+        "kidSAFE+ / COPPA certified with no ads or in-app purchases"
+      ],
+      "id": "p39",
+      "image": "https://m.media-amazon.com/images/I/31HNx5am69L._SL500_.jpg",
+      "name": "Nex Playground - The Active Play System for Kids & Families Where Indoor Physical Activity Meets Interactive Family Fun and is Great for Gaming Nights, Parties and Playdates",
+      "oldPrice": 299.0,
+      "price": 209.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Gets kids moving indoors instead of sitting",
+        "Great for family game nights and parties",
+        "Easy plug-and-play setup"
+      ],
+      "rating": 4.2,
+      "reviews": 2245,
+      "slug": "nex-playground-active-play-system"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B00WSWRVAA",
+      "asin": "B00WSWRVAA",
+      "badge": "25% Off",
+      "category": "fashion",
+      "cons": [
+        "Sizing runs large",
+        "Black Friday price may rise after the sale"
+      ],
+      "description": "Carhartt's iconic midweight fleece sweatshirt with the K288 logo, adjustable hood and kangaroo pocket. Triple-stitched seams and rib-knit cuffs and waistband make it a durable workwear staple.",
+      "highlights": [
+        "10.5 oz cotton-poly midweight fleece",
+        "Loose fit for layering",
+        "Triple-stitched seams",
+        "Rib-knit cuffs and waistband",
+        "Adjustable hood with kangaroo pocket"
+      ],
+      "id": "p40",
+      "image": "https://m.media-amazon.com/images/I/31oFG8yJj6L.jpg",
+      "name": "Carhartt Men's Iconic K288 Logo Sweatshirt, Black, X-Small",
+      "oldPrice": 59.99,
+      "price": 44.99,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Very durable workwear staple",
+        "Holds shape after many washes",
+        "Warm and comfortable for cold mornings"
+      ],
+      "rating": 4.8,
+      "reviews": 52345,
+      "slug": "carhartt-mens-iconic-k288-logo-sweatshirt-black-xs"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B00JUM2V5G",
+      "asin": "B00JUM2V5G",
+      "badge": "39% Off",
+      "category": "fashion",
+      "cons": [
+        "Runs slightly small through the neck — reviewers advise sizing up",
+        "Price varies a lot by color/size"
+      ],
+      "description": "Midweight 7.8 oz EcoSmart fleece hoodie with a kangaroo pocket, ribbed cuffs and hem, and cotton sourced from American farms with up to 5% recycled polyester. One of Amazon's most-reviewed hoodies.",
+      "highlights": [
+        "Midweight 7.8 oz EcoSmart fleece",
+        "Cotton sourced from American farms, up to 5% recycled polyester",
+        "Kangaroo pocket",
+        "Ribbed cuffs and hem",
+        "30+ colors, XS–6XL"
+      ],
+      "id": "p41",
+      "image": "https://m.media-amazon.com/images/I/31ymtc9vu4L.jpg",
+      "name": "Hanes Men's Pullover EcoSmart Hooded Sweatshirt, Black, Small",
+      "oldPrice": 27.0,
+      "price": 16.56,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "One of Amazon's most-reviewed hoodies (170k+ reviews)",
+        "Very cheap",
+        "Holds its shape through washes"
+      ],
+      "rating": 4.5,
+      "reviews": 172878,
+      "slug": "hanes-mens-ecosmart-hooded-sweatshirt-black-small"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B078HHDSDJ",
+      "asin": "B078HHDSDJ",
+      "badge": "64% Off",
+      "category": "fashion",
+      "cons": [
+        "Logo is printed, not embroidered",
+        "Price varies sharply by size/color"
+      ],
+      "description": "Midweight 9 oz Powerblend fleece hoodie (50% cotton / 50% polyester) with a brushed interior, jersey-lined hood, kangaroo pocket and classic script logo. Soft, durable everyday hoodie at a deep Black Friday discount.",
+      "highlights": [
+        "Midweight 9 oz Powerblend fleece (50% cotton / 50% polyester)",
+        "Brushed interior",
+        "Jersey-lined hood",
+        "Kangaroo pocket",
+        "Classic script logo"
+      ],
+      "id": "p42",
+      "image": "https://m.media-amazon.com/images/I/31hXiDby2SL.jpg",
+      "name": "Champion Men's Powerblend Fleece Pullover Hoodie, Classic Script Logo — New Manhattan Mist Heather, Large",
+      "oldPrice": 50.0,
+      "price": 18.04,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Soft, durable everyday hoodie",
+        "67k+ reviews at 4.7 stars",
+        "Deep Black Friday discount"
+      ],
+      "rating": 4.7,
+      "reviews": 67000,
+      "slug": "champion-mens-powerblend-fleece-hoodie-classic-script-manhattan-mist-heather-large"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B01HIUTE1U",
+      "asin": "B01HIUTE1U",
+      "badge": "49% Off",
+      "category": "fashion",
+      "cons": [
+        "Price varies by size/color (XXL often costs more)"
+      ],
+      "description": "Midweight 9 oz Powerblend fleece hoodie with a brushed interior, embroidered C logo on the chest, double-lined drawcord hood and kangaroo pocket. Regular and Big & Tall sizing available.",
+      "highlights": [
+        "Midweight 9 oz Powerblend fleece",
+        "Brushed interior for warmth without bulk",
+        "Embroidered C logo on chest",
+        "Double-lined drawcord hood",
+        "Kangaroo pocket"
+      ],
+      "id": "p43",
+      "image": "https://m.media-amazon.com/images/I/41roYdxr29L.jpg",
+      "name": "Champion Men's Powerblend Fleece Pullover Hoodie, C Logo — Original Black, XX-Large",
+      "oldPrice": 50.0,
+      "price": 25.66,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Embroidered (not printed) logo",
+        "35k+ reviews",
+        "Regular and Big & Tall sizing available"
+      ],
+      "rating": 4.7,
+      "reviews": 35862,
+      "slug": "champion-mens-powerblend-fleece-hoodie-c-logo-black-xxl"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B08HZHVPKV",
+      "asin": "B08HZHVPKV",
+      "badge": "39% Off",
+      "category": "fashion",
+      "cons": [
+        "Some reviewers report shrinkage and a scratchy feel",
+        "Price fluctuates ($14–$22 range seen in Nov 2026)"
+      ],
+      "description": "Heavyweight 9.7 oz cotton-rich fleece hoodie (90% cotton / 10% polyester) with a jersey-lined hood, drawcord, roomy kangaroo pocket and ribbed cuffs and hem. Hanes' warmest fleece hoodie.",
+      "highlights": [
+        "Heavyweight 9.7 oz cotton-rich fleece (90% cotton / 10% polyester)",
+        "Jersey-lined hood with drawcord",
+        "Roomy kangaroo pocket",
+        "Ribbed cuffs and hem"
+      ],
+      "id": "p44",
+      "image": "https://m.media-amazon.com/images/I/41Xu41FiK3L.jpg",
+      "name": "Hanes Men's Ultimate Cotton Heavyweight Pullover Hoodie Sweatshirt, Black, Large",
+      "oldPrice": 33.0,
+      "price": 20.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Hanes' warmest fleece hoodie",
+        "51k+ reviews",
+        "Good winter layering piece"
+      ],
+      "rating": 4.5,
+      "reviews": 51509,
+      "slug": "hanes-mens-ultimate-cotton-heavyweight-hoodie-black-large"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0B2RM68G2",
+      "asin": "B0B2RM68G2",
+      "category": "beauty",
+      "cons": [
+        "Can slide off the face overnight",
+        "Some users report breakouts"
+      ],
+      "description": "Overnight hydrogel mask with ultra-low molecular collagen and oligo-hyaluronic acid for hydration, plumping and pore tightening. Each sheet holds 34 g of essence that turns transparent as it absorbs — wear 3–4+ hours or overnight.",
+      "highlights": [
+        "Overnight hydrogel mask — 34 g essence solidified per sheet",
+        "Ultra-low molecular collagen + oligo-hyaluronic acid",
+        "Pore tightening and elasticity",
+        "Turns transparent as it absorbs (wear 3–4+ hours or overnight)"
+      ],
+      "id": "p45",
+      "image": "https://m.media-amazon.com/images/I/41tWrXK7Z8L.jpg",
+      "name": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Hydrating Face Masks, Glass Skin, Korean Skin Care",
+      "oldPrice": 19.0,
+      "price": 19.0,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "#1 in Facial Masks on Amazon",
+        "52k+ reviews at 4.5 stars",
+        "Viral glass skin product, strong gift angle"
+      ],
+      "rating": 4.5,
+      "reviews": 52317,
+      "slug": "biodance-bio-collagen-real-deep-mask-4ea"
     }
   ],
   "settings": {
