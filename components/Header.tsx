@@ -9,11 +9,11 @@ export default function Header() {
         <Link href="/" className="shrink-0 text-2xl font-black tracking-tight">
           {db.settings.siteName}<span className="text-brand">.</span>
         </Link>
-        <form action="/shop" method="get" className="flex w-56 shrink-0 items-center overflow-hidden rounded-full bg-white shadow-inner md:w-72">
-          <input name="q" placeholder="Search products..." className="w-full px-3 py-1.5 text-sm text-slate-800 outline-none" />
-          <button type="submit" className="shrink-0 bg-brand px-3 py-1.5 text-sm font-bold text-white transition hover:bg-brand-dark">Search</button>
+        <form action="/shop" method="get" className="mx-2 flex min-w-[220px] max-w-xl flex-1 items-center overflow-hidden rounded-full bg-white shadow-inner">
+          <input name="q" placeholder="Search for products, brands and more..." className="w-full px-4 py-1.5 text-sm text-slate-800 outline-none" />
+          <button type="submit" className="shrink-0 bg-brand px-4 py-1.5 text-sm font-bold text-white transition hover:bg-brand-dark">Search</button>
         </form>
-        <nav className="ml-auto flex shrink-0 flex-wrap items-center gap-1 text-[13px] font-semibold">
+        <nav className="flex shrink-0 flex-wrap items-center gap-1 text-[13px] font-semibold">
           <Link href="/" className="rounded-full px-3 py-1.5 transition hover:bg-brand hover:text-white">Home</Link>
           <Link href="/shop" className="rounded-full px-3 py-1.5 transition hover:bg-brand hover:text-white">Shop</Link>
           <Link href="/guides" className="rounded-full px-3 py-1.5 transition hover:bg-brand hover:text-white">Buying Guides</Link>
