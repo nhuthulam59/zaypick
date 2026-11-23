@@ -26,14 +26,44 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="flex items-end justify-between"><h2 className="text-2xl font-black text-navy">Shop by Category</h2><Link href="/shop" className="text-sm font-bold text-brand">View all →</Link></div>
-        <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-5">
-          {db.categories.map((c) => (
-            <Link key={c.id} href={`/category/${c.slug}`} className="group overflow-hidden rounded-2xl border shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
-              <div className="relative h-32 overflow-hidden"><Image src={c.image} alt={c.name} fill className="object-cover transition group-hover:scale-105" /></div>
-              <div className="p-3 text-center"><p className="font-bold">{c.name}</p><p className="text-xs text-slate-500">{db.products.filter((p) => p.category === c.slug).length} products</p></div>
-            </Link>
-          ))}
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-brand">✦ Find your favourite</p>
+            <h2 className="mt-1 text-3xl font-black text-navy">Shop by Category</h2>
+            <p className="mt-1 text-sm text-slate-500">Five worlds, one place — tap a category and jump straight to its best Amazon deals.</p>
+          </div>
+          <Link href="/shop" className="rounded-full bg-navy px-5 py-2 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-navy-light">View all →</Link>
+        </div>
+        <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-5">
+          {db.categories.map((c) => {
+            const items = db.products.filter((p) => p.category === c.slug);
+            const from = items.length ? Math.min(...items.map((p) => p.price)) : 0;
+            const bestOff = items.length ? Math.max(...items.map((p) => Math.round((1 - p.price / p.oldPrice) * 100))) : 0;
+            const style: Record<string, { icon: string; grad: string; chip: string }> = {
+              electronics: { icon: '🎧', grad: 'from-blue-600/90 via-navy/70 to-transparent', chip: 'bg-blue-600' },
+              fashion: { icon: '👗', grad: 'from-pink-600/90 via-purple-700/70 to-transparent', chip: 'bg-pink-600' },
+              home: { icon: '🏠', grad: 'from-amber-500/90 via-orange-600/70 to-transparent', chip: 'bg-amber-500' },
+              beauty: { icon: '💄', grad: 'from-rose-500/90 via-fuchsia-600/70 to-transparent', chip: 'bg-rose-500' },
+              sports: { icon: '🏃', grad: 'from-emerald-500/90 via-teal-600/70 to-transparent', chip: 'bg-emerald-500' },
+            };
+            const s = style[c.slug] || { icon: '🛍️', grad: 'from-navy/90 via-navy/70 to-transparent', chip: 'bg-navy' };
+            return (
+              <Link key={c.id} href={`/category/${c.slug}`} className="group relative overflow-hidden rounded-3xl shadow-md ring-1 ring-black/5 transition duration-300 hover:-translate-y-2 hover:shadow-2xl hover:ring-brand/40">
+                <div className="relative h-56 overflow-hidden">
+                  <Image src={c.image} alt={c.name} fill className="object-cover transition duration-500 group-hover:scale-110 group-hover:rotate-1" />
+                  <div className={`absolute inset-0 bg-gradient-to-t ${s.grad}`} />
+                  {bestOff > 0 && <span className="absolute right-3 top-3 rounded-full bg-brand px-3 py-1 text-xs font-black text-white shadow-lg">Up to {bestOff}% OFF</span>}
+                  <span className="absolute left-3 top-3 flex h-11 w-11 items-center justify-center rounded-2xl bg-white/95 text-2xl shadow-lg transition group-hover:scale-110 group-hover:-rotate-6">{s.icon}</span>
+                </div>
+                <div className="absolute inset-x-0 bottom-0 p-4 text-white">
+                  <p className="text-xl font-black drop-shadow">{c.name}</p>
+                  <p className="mt-0.5 line-clamp-2 text-xs leading-snug text-white/90">{c.description}</p>
+                  <p className="mt-2 text-xs font-bold text-white/90">{items.length} products{from > 0 ? ` · From $${from.toFixed(2)}` : ''}</p>
+                  <span className={`mt-3 inline-flex items-center gap-1 rounded-full ${s.chip} px-4 py-1.5 text-xs font-black text-white shadow transition group-hover:gap-2`}>Shop now →</span>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
