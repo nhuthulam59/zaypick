@@ -40,21 +40,20 @@ export default function Home() {
             const items = db.products.filter((p) => p.category === c.slug);
             const from = items.length ? Math.min(...items.map((p) => p.price)) : 0;
             const bestOff = items.length ? Math.max(...items.map((p) => Math.round((1 - p.price / p.oldPrice) * 100))) : 0;
-            const style: Record<string, { icon: string; grad: string; chip: string }> = {
-              electronics: { icon: '🎧', grad: 'from-blue-600/90 via-navy/70 to-transparent', chip: 'bg-blue-600' },
-              fashion: { icon: '👗', grad: 'from-pink-600/90 via-purple-700/70 to-transparent', chip: 'bg-pink-600' },
-              home: { icon: '🏠', grad: 'from-amber-500/90 via-orange-600/70 to-transparent', chip: 'bg-amber-500' },
-              beauty: { icon: '💄', grad: 'from-rose-500/90 via-fuchsia-600/70 to-transparent', chip: 'bg-rose-500' },
-              sports: { icon: '🏃', grad: 'from-emerald-500/90 via-teal-600/70 to-transparent', chip: 'bg-emerald-500' },
+            const style: Record<string, { grad: string; chip: string }> = {
+              electronics: { grad: 'from-blue-600/90 via-navy/70 to-transparent', chip: 'bg-blue-600' },
+              fashion: { grad: 'from-pink-600/90 via-purple-700/70 to-transparent', chip: 'bg-pink-600' },
+              home: { grad: 'from-amber-500/90 via-orange-600/70 to-transparent', chip: 'bg-amber-500' },
+              beauty: { grad: 'from-rose-500/90 via-fuchsia-600/70 to-transparent', chip: 'bg-rose-500' },
+              sports: { grad: 'from-emerald-500/90 via-teal-600/70 to-transparent', chip: 'bg-emerald-500' },
             };
-            const s = style[c.slug] || { icon: '🛍️', grad: 'from-navy/90 via-navy/70 to-transparent', chip: 'bg-navy' };
+            const s = style[c.slug] || { grad: 'from-navy/90 via-navy/70 to-transparent', chip: 'bg-navy' };
             return (
               <Link key={c.id} href={`/category/${c.slug}`} className="group relative overflow-hidden rounded-3xl shadow-md ring-1 ring-black/5 transition duration-300 hover:-translate-y-2 hover:shadow-2xl hover:ring-brand/40">
                 <div className="relative h-44 overflow-hidden sm:h-52 lg:h-56">
                   <Image src={c.image} alt={c.name} fill className="object-cover transition duration-500 group-hover:scale-110 group-hover:rotate-1" />
                   <div className={`absolute inset-0 bg-gradient-to-t ${s.grad}`} />
                   {bestOff > 0 && <span className="absolute right-2 top-2 rounded-full bg-brand px-2 py-1 text-[11px] font-black text-white shadow-lg sm:right-3 sm:top-3 sm:px-3 sm:text-xs">Up to {bestOff}% OFF</span>}
-                  <span className="absolute left-2 top-2 flex h-9 w-9 items-center justify-center rounded-xl bg-white/95 text-xl shadow-lg transition group-hover:scale-110 group-hover:-rotate-6 sm:left-3 sm:top-3 sm:h-11 sm:w-11 sm:rounded-2xl sm:text-2xl">{s.icon}</span>
                 </div>
                 <div className="absolute inset-x-0 bottom-0 p-4 text-white">
                   <p className="text-lg font-black drop-shadow sm:text-xl">{c.name}</p>
