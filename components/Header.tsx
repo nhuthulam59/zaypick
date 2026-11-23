@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { readDb } from '@/lib/db';
 import MobileMenu from '@/components/MobileMenu';
 import SearchBox from '@/components/SearchBox';
@@ -14,8 +15,11 @@ export default function Header() {
 
       {/* Desktop: logo, search bar, All Departments, nav — unchanged */}
       <div className="mx-auto hidden w-full max-w-7xl flex-wrap items-center gap-x-3 gap-y-2 px-3 py-3 sm:px-4 md:flex">
-        <Link href="/" className="order-1 shrink-0 text-xl font-black tracking-tight sm:text-2xl">
-          {db.settings.siteName}<span className="text-brand">.</span>
+        <Link href="/" className="order-1 flex shrink-0 items-center gap-2">
+          <Image src="/zaypick-logo.webp" alt="ZayPick" width={1600} height={1600} className="h-9 w-9 rounded-lg object-cover" priority />
+          <span className="text-xl font-black tracking-tight sm:text-2xl">
+            {db.settings.siteName}<span className="text-brand">.</span>
+          </span>
         </Link>
         <SearchBox products={searchProducts} categories={db.categories} guides={searchGuides} inputClassName="px-4 py-1.5" className="order-4 w-full min-w-0 md:order-2 md:mx-2 md:w-auto md:max-w-xl md:flex-1" />
         <div className="group relative order-2 shrink-0 md:order-3">

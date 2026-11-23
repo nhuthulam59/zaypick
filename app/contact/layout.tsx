@@ -12,15 +12,14 @@ export const metadata: Metadata = {
     siteName: 'ZayPick',
     type: 'website',
     locale: 'en_US',
-    // Fallback share image (see app/layout.tsx): the brand banner webp is
-    // not in the GitHub repo, so this hero photo is used instead.
-    images: [{ url: 'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80', alt: 'ZayPick — Hand-picked Amazon deals' }],
+    // Share image: the real brand banner at /zaypick-banner.webp (see app/layout.tsx).
+    images: [{ url: '/zaypick-banner.webp', alt: 'ZayPick — Hand-picked Amazon deals' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Contact — ZayPick',
     description: 'Have a question about a product, a deal, or a product you would like us to feature? Send ZayPick a message.',
-    images: ['https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80'],
+    images: ['/zaypick-banner.webp'],
   },
 };
 

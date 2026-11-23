@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Category } from '@/lib/types';
 import SearchBox, { type SearchProduct, type SearchGuide } from '@/components/SearchBox';
 
@@ -31,8 +32,11 @@ export default function MobileMenu({ siteName, categories, products, guides }: {
           <span className={`block h-[2px] w-5 bg-white transition-opacity ${menuOpen ? 'opacity-0' : ''}`} />
           <span className={`block h-[2px] w-5 bg-white transition-transform ${menuOpen ? '-translate-y-[7px] -rotate-45' : ''}`} />
         </button>
-        <Link href="/" onClick={() => setMenuOpen(false)} className="min-w-0 flex-1 truncate text-xl font-black tracking-tight">
-          {siteName}<span className="text-brand">.</span>
+        <Link href="/" onClick={() => setMenuOpen(false)} className="flex min-w-0 flex-1 items-center gap-2">
+          <Image src="/zaypick-logo.webp" alt="ZayPick" width={1600} height={1600} className="h-8 w-8 shrink-0 rounded-lg object-cover" />
+          <span className="min-w-0 truncate text-xl font-black tracking-tight">
+            {siteName}<span className="text-brand">.</span>
+          </span>
         </Link>
         <button
           type="button"

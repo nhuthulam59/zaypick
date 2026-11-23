@@ -8,14 +8,10 @@ import { readDb } from '@/lib/db';
 
 export const viewport = { width: 'device-width', initialScale: 1 };
 
-// Fallback share image: the hero photo already used on the homepage.
-// The original brand banner (/brand/zaypick-banner.webp) is NOT in the
-// GitHub repo (it was never uploaded — binary files cannot go through the
-// push tool), so pointing OG/Twitter at it gave a 404 share preview.
-// To restore the original banner, upload the 3 webp files to
-// public/brand/ in GitHub and point these images back at
-// /brand/zaypick-banner.webp.
-const OG_IMAGE = 'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80';
+// Share image: the real brand banner, uploaded to public/zaypick-banner.webp
+// (public/ root, not public/brand/). metadataBase resolves the relative
+// path to https://zaypick.vercel.app/zaypick-banner.webp.
+const OG_IMAGE = '/zaypick-banner.webp';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://zaypick.vercel.app'),
