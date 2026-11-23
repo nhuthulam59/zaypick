@@ -1,7 +1,7 @@
 # ZayPick
 
 > ZayPick is a hand-picked Amazon deals site. It lists the best Amazon deals
-> across Electronics, Fashion, Home, Beauty and Sports, with real prices,
+> across Electronics, Fashion, Home, Beauty, Sports and Toys, with real prices,
 > ratings and review counts. ZayPick does NOT sell or ship anything — every
 > "Buy on Amazon" button goes to Amazon, where the purchase, shipping and
 > returns are handled by Amazon.
@@ -19,17 +19,19 @@
   https://zaypick.vercel.app/category/home
   https://zaypick.vercel.app/category/beauty
   https://zaypick.vercel.app/category/sports
+  https://zaypick.vercel.app/category/toys
 - Single product: https://zaypick.vercel.app/product/<product-slug>
 - Buying guides: https://zaypick.vercel.app/guides
 - Sitemap: https://zaypick.vercel.app/sitemap.xml
 
-## Categories (30 products as of 2026-11-23)
+## Categories (31 products as of 2026-11-23)
 
 - Electronics (15 products): earbuds, headphones, streaming sticks, smart speakers, tablets, e-readers, trackers, smart home
 - Fashion (5 products): sweatshirts and hoodies
 - Home (9 products): tumblers, water bottles, kitchen, car care, motor oil
 - Beauty (1 product): face masks / skin care
 - Sports (0 products yet)
+- Toys (1 product): action figures
 
 ## Top deals (prices as of 2026-11-23)
 

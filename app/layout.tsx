@@ -16,10 +16,10 @@ const OG_IMAGE = '/zaypick-banner.webp';
 export const metadata: Metadata = {
   metadataBase: new URL('https://zaypick.vercel.app'),
   title: 'ZayPick — Hand-picked Amazon Deals',
-  description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+  description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty, Sports & Toys. As an Amazon Associate I earn from qualifying purchases.',
   openGraph: {
     title: 'ZayPick — Hand-picked Amazon Deals',
-    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty, Sports & Toys. As an Amazon Associate I earn from qualifying purchases.',
     url: 'https://zaypick.vercel.app',
     siteName: 'ZayPick',
     type: 'website',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'ZayPick — Hand-picked Amazon Deals',
-    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty, Sports & Toys. As an Amazon Associate I earn from qualifying purchases.',
     images: [OG_IMAGE],
   },
 };

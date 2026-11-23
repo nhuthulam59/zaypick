@@ -1,8 +1,8 @@
 # ZayPick — Full Site Reference for AI Assistants
 
 > ZayPick (https://zaypick.vercel.app/) is a hand-picked Amazon deals site.
-> It lists the best Amazon deals across Electronics, Fashion, Home, Beauty
-> and Sports, with real prices, ratings and review counts. ZayPick does NOT
+> It lists the best Amazon deals across Electronics, Fashion, Home, Beauty,
+> Sports and Toys, with real prices, ratings and review counts. ZayPick does NOT
 > sell or ship anything — every "Buy on Amazon" button goes to Amazon, where
 > the purchase, shipping and returns are handled by Amazon.
 > Contact: hello@zaypick.com
@@ -19,7 +19,8 @@
   https://zaypick.vercel.app/category/fashion,
   https://zaypick.vercel.app/category/home,
   https://zaypick.vercel.app/category/beauty,
-  https://zaypick.vercel.app/category/sports
+  https://zaypick.vercel.app/category/sports,
+  https://zaypick.vercel.app/category/toys
 - Buying guides: https://zaypick.vercel.app/guides
 - About: https://zaypick.vercel.app/about
 - Contact: https://zaypick.vercel.app/contact
@@ -55,7 +56,7 @@
   https://zaypick.vercel.app/guides/how-to-choose-insulated-water-bottle-tumbler
   Our pick: STANLEY Quencher H2.0 Tumbler 40 oz, $22.50 (was $45.00), ASIN B0CP9Z56SW.
 
-## All products (30, prices as of 2026-11-23)
+## All products (31, prices as of 2026-11-23)
 
 ### Electronics (15)
 
@@ -102,3 +103,7 @@
 ### Sports (0)
 
 - No products in this category yet.
+
+### Toys (1)
+
+- Disney Store Official Buzz Lightyear Interactive Talking Action Figure from Toy Story — $39.95, 4.7 stars, 50,265 reviews, ASIN B07PQFT83F — https://zaypick.vercel.app/product/disney-store-buzz-lightyear-interactive-talking-action-figure

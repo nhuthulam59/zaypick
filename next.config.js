@@ -26,6 +26,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'www.yeswellness.com' },
       { protocol: 'https', hostname: 'hydrojug.myshopify.com' },
       { protocol: 'https', hostname: 'images.ctfassets.net' },
+      { protocol: 'https', hostname: 'i5.walmartimages.com' },
     ],
   },
   eslint: { ignoreDuringBuilds: true },

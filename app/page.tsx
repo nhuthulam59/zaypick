@@ -9,11 +9,11 @@ export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
   title: 'ZayPick — Hand-picked Amazon Deals',
-  description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+  description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty, Sports & Toys. As an Amazon Associate I earn from qualifying purchases.',
   alternates: { canonical: 'https://zaypick.vercel.app' },
   openGraph: {
     title: 'ZayPick — Hand-picked Amazon Deals',
-    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty, Sports & Toys. As an Amazon Associate I earn from qualifying purchases.',
     url: 'https://zaypick.vercel.app',
     siteName: 'ZayPick',
     type: 'website',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'ZayPick — Hand-picked Amazon Deals',
-    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports. As an Amazon Associate I earn from qualifying purchases.',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty, Sports & Toys. As an Amazon Associate I earn from qualifying purchases.',
     images: ['/zaypick-banner.webp'],
   },
 };
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: 'What is ZayPick?',
-    a: 'ZayPick is a hand-picked Amazon deals site. The ZayPick team finds well-reviewed Amazon products with real discounts across Electronics, Fashion, Home, Beauty and Sports, and lists them in one place.',
+    a: 'ZayPick is a hand-picked Amazon deals site. The ZayPick team finds well-reviewed Amazon products with real discounts across Electronics, Fashion, Home, Beauty, Sports and Toys, and lists them in one place.',
   },
   {
     q: 'Does ZayPick sell products?',
@@ -65,7 +65,7 @@ export default function Home() {
     '@type': 'WebSite',
     name: 'ZayPick',
     url: 'https://zaypick.vercel.app',
-    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty & Sports.',
+    description: 'ZayPick finds the best Amazon deals across Electronics, Fashion, Home, Beauty, Sports & Toys.',
     potentialAction: {
       '@type': 'SearchAction',
       target: 'https://zaypick.vercel.app/shop?q={search_term_string}',
@@ -104,7 +104,7 @@ export default function Home() {
           <div>
             <p className="text-xs font-black uppercase tracking-[0.2em] text-brand">✦ Find your favourite</p>
             <h2 className="mt-1 text-2xl font-black text-navy sm:text-3xl">Shop by Category</h2>
-            <p className="mt-1 text-sm text-slate-500">Five worlds, one place — tap a category and jump straight to its best Amazon deals.</p>
+            <p className="mt-1 text-sm text-slate-500">Six worlds, one place — tap a category and jump straight to its best Amazon deals.</p>
           </div>
           <Link href="/shop" className="rounded-full bg-navy px-5 py-2 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-navy-light">View all →</Link>
         </div>
@@ -119,6 +119,7 @@ export default function Home() {
               home: { grad: 'from-amber-500/90 via-orange-600/70 to-transparent', chip: 'bg-amber-500' },
               beauty: { grad: 'from-rose-500/90 via-fuchsia-600/70 to-transparent', chip: 'bg-rose-500' },
               sports: { grad: 'from-emerald-500/90 via-teal-600/70 to-transparent', chip: 'bg-emerald-500' },
+              toys: { grad: 'from-violet-500/90 via-purple-600/70 to-transparent', chip: 'bg-violet-500' },
             };
             const s = style[c.slug] || { grad: 'from-navy/90 via-navy/70 to-transparent', chip: 'bg-navy' };
             return (

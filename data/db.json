@@ -34,6 +34,13 @@
       "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80",
       "name": "Sports",
       "slug": "sports"
+    },
+    {
+      "description": "Action figures, dolls, games and playtime favourites.",
+      "id": "c6",
+      "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=800&q=80",
+      "name": "Toys",
+      "slug": "toys"
     }
   ],
   "clicks": [
@@ -1031,6 +1038,38 @@
       "rating": 4.5,
       "reviews": 52317,
       "slug": "biodance-bio-collagen-real-deep-mask-4ea"
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B07PQFT83F",
+      "asin": "B07PQFT83F",
+      "category": "toys",
+      "cons": [
+        "Some buyers report durability issues with the laser and lights",
+        "Batteries included, but replacements are AAA"
+      ],
+      "description": "Official Disney Store Buzz Lightyear talking action figure from Toy Story, 12 inches (30 cm) tall. Press the buttons to hear 10+ English phrases including \"To infinity and beyond!\", with laser lights and sounds, pop-out wings and a karate-chop action. Place him next to Woody or Jessie to unlock special interactive phrases. Ages 3+.",
+      "highlights": [
+        "12-inch (30 cm) official Disney Store Buzz Lightyear figure",
+        "10+ English phrases with the original voice",
+        "Laser lights and sounds, pop-out wings",
+        "Karate-chop action and fully articulated joints",
+        "Interacts with Woody and Jessie figures (sold separately)",
+        "Ages 3+, 3 AAA batteries included"
+      ],
+      "id": "p46",
+      "image": "https://i5.walmartimages.com/seo/Toy-Story-Power-Up-Buzz-Lightyear-Talking-Action-Figure_beed6994-7d37-43c8-8d63-a7bebafb53bb_1.07c95607745ec950d3621cdd6afd17f6.jpeg",
+      "name": "Disney Store Official Buzz Lightyear Interactive Talking Action Figure from Toy Story, Features 10+ English Phrases, Interacts with Other Figures and Toys",
+      "oldPrice": 39.95,
+      "price": 39.95,
+      "priceAsOf": "2026-11-23",
+      "pros": [
+        "Official Disney Store product, Best Seller in Action Figures",
+        "4.7 stars from 50,000+ ratings",
+        "Lights, sounds and phrases kids love"
+      ],
+      "rating": 4.7,
+      "reviews": 50265,
+      "slug": "disney-store-buzz-lightyear-interactive-talking-action-figure"
     }
   ],
   "settings": {
