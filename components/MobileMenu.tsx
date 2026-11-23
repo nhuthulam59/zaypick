@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import type { Category } from '@/lib/types';
+import SearchBox, { type SearchProduct, type SearchGuide } from '@/components/SearchBox';
 
 const NAV_LINKS = [
   { href: '/', label: 'Home' },
@@ -11,7 +12,7 @@ const NAV_LINKS = [
   { href: '/about', label: 'About' },
 ];
 
-export default function MobileMenu({ siteName, categories }: { siteName: string; categories: Category[] }) {
+export default function MobileMenu({ siteName, categories, products, guides }: { siteName: string; categories: Category[]; products: SearchProduct[]; guides: SearchGuide[] }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 
@@ -46,10 +47,7 @@ export default function MobileMenu({ siteName, categories }: { siteName: string;
 
       {/* Mobile search row — shown only when the search button is tapped */}
       {searchOpen && (
-        <form action="/shop" method="get" className="flex items-center overflow-hidden rounded-full bg-white shadow-inner mx-3 mb-3">
-          <input name="q" autoFocus placeholder="Search products, brands..." className="w-full px-4 py-2.5 text-sm text-slate-800 outline-none" />
-          <button type="submit" className="shrink-0 bg-brand px-4 py-2.5 text-sm font-bold text-white">Search</button>
-        </form>
+        <SearchBox products={products} categories={categories} guides={guides} autoFocus inputClassName="px-4 py-2.5" className="mx-3 mb-3" />
       )}
 
       {/* Mobile slide-down menu — Home / Shop / Buying Guides / About, All Departments, Admin */}
