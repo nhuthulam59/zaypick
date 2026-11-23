@@ -41,6 +41,90 @@
    "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=800&q=80",
    "name": "Toys",
    "slug": "toys"
+  },
+  {
+   "description": "Games, apps and play for every device.",
+   "id": "c7",
+   "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=800&q=80",
+   "name": "Apps & Games",
+   "slug": "apps-games"
+  },
+  {
+   "description": "Craft supplies, art materials and sewing essentials.",
+   "id": "c8",
+   "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+   "name": "Arts, Crafts & Sewing",
+   "slug": "arts-crafts"
+  },
+  {
+   "description": "Car care, accessories and automotive essentials.",
+   "id": "c9",
+   "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",
+   "name": "Automotive",
+   "slug": "automotive"
+  },
+  {
+   "description": "Cameras, lenses and photography gear.",
+   "id": "c10",
+   "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80",
+   "name": "Camera & Photo Products",
+   "slug": "camera-photo"
+  },
+  {
+   "description": "Phones, cases, chargers and accessories.",
+   "id": "c11",
+   "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+   "name": "Cell Phones & Accessories",
+   "slug": "cell-phones"
+  },
+  {
+   "description": "Laptops, accessories and computer gear.",
+   "id": "c12",
+   "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+   "name": "Computers & Accessories",
+   "slug": "computers"
+  },
+  {
+   "description": "Pantry staples and gourmet food finds.",
+   "id": "c13",
+   "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+   "name": "Grocery & Gourmet Food",
+   "slug": "grocery"
+  },
+  {
+   "description": "Unique handmade goods from independent makers.",
+   "id": "c14",
+   "image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
+   "name": "Handmade Products",
+   "slug": "handmade"
+  },
+  {
+   "description": "Health, wellness and household essentials.",
+   "id": "c15",
+   "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+   "name": "Health & Household",
+   "slug": "health-household"
+  },
+  {
+   "description": "Garden tools, patio furniture and outdoor living.",
+   "id": "c16",
+   "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+   "name": "Patio, Lawn & Garden",
+   "slug": "patio-lawn-garden"
+  },
+  {
+   "description": "Food, toys and care for your pets.",
+   "id": "c17",
+   "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+   "name": "Pet Supplies",
+   "slug": "pet-supplies"
+  },
+  {
+   "description": "Software, subscriptions and digital tools.",
+   "id": "c18",
+   "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
+   "name": "Software",
+   "slug": "software"
   }
  ],
  "clicks": [
