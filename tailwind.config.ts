@@ -5,8 +5,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["'Times New Roman'", 'Times', 'serif'],
-        serif: ["'Times New Roman'", 'Times', 'serif'],
+        sans: ["'Noto Sans JP'", "'Noto Sans'", 'sans-serif'],
+        serif: ["'Noto Sans JP'", "'Noto Sans'", 'sans-serif'],
       },
       colors: {
         navy: { DEFAULT: '#0B2A6B', dark: '#081F4F', light: '#16409A' },

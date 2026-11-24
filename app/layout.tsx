@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { Noto_Sans_JP } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -7,6 +8,15 @@ import VisitTracker from '@/components/VisitTracker';
 import { readDb } from '@/lib/db';
 
 export const viewport = { width: 'device-width', initialScale: 1 };
+
+// Public-site font: Noto Sans JP (loaded via next/font, weights 400-700).
+// The admin panel is NOT affected: app/admin/layout.tsx wraps admin pages
+// in its own div with the Anek Bangla font class, which overrides this.
+const notoSansJP = Noto_Sans_JP({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+});
 
 // Share image: the real brand banner, uploaded to public/zaypick-banner.webp
 // (public/ root, not public/brand/). metadataBase resolves the relative
@@ -60,7 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body>
+      <body className={notoSansJP.className}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
