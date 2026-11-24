@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 html, body { overflow-x: clip; }
-body { @apply bg-white text-slate-800 antialiased; }
+body { @apply bg-white text-slate-800 antialiased; font-family: 'Times New Roman', Times, serif; }
 img, video { max-width: 100%; height: auto; }
